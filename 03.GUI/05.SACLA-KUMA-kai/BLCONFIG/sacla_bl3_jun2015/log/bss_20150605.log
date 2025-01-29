@@ -1,0 +1,231 @@
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2015/06/05 [Fri] 20:11:34:896.
+     [  Last modified at 19:50, Jun/04/2015 (Thu)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2015/06/05 [Fri] 20:11:34:897
+
+--- successfully loaded attenuator configurations --- 2015/06/05 [Fri] 20:11:34:897
+    Load bss.config Success.
+   Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/sacla_bl3_jun2015//htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+     ( bss's pid = 25681, videosrv's pid = ??? )
+
+    Making a connection to Message Server... 2015/06/05 [Fri] 20:13:03:041
+
+ 2015/06/05 [Fri] 20:13:03:047  Connecting to Message Server...
+ 2015/06/05 [Fri] 20:13:03:047  Successfully connect to Message Server.
+
+=================================================================
+
+   Set axis driving parameters default. 2015/06/05 [Fri] 20:13:03:047
+
+=================================================================
+Disconnect Message Server.
+
+Beamline Scheduling Software Exit at 2015/06/05 [Fri] 20:41:52:782.
+
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2015/06/05 [Fri] 21:16:02:666.
+     [  Last modified at 19:50, Jun/04/2015 (Thu)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2015/06/05 [Fri] 21:16:02:667
+
+--- successfully loaded attenuator configurations --- 2015/06/05 [Fri] 21:16:02:668
+    Load bss.config Success.
+   Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/sacla_bl3_jun2015//htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+     ( bss's pid = 29402, videosrv's pid = ??? )
+
+    Making a connection to Message Server... 2015/06/05 [Fri] 21:16:04:260
+
+ 2015/06/05 [Fri] 21:16:04:273  Connecting to Message Server...
+ 2015/06/05 [Fri] 21:16:04:273  Successfully connect to Message Server.
+
+=================================================================
+
+   Set axis driving parameters default. 2015/06/05 [Fri] 21:16:04:274
+
+=================================================================
+
+---------- Move cryo-nozzle at measurement position ---------- 2015/06/05 [Fri] 21:16:17:719
+
+--------- success -------- 2015/06/05 [Fri] 21:16:17:722
+
+--------- Insert beam stop -------- 2015/06/05 [Fri] 21:16:17:722
+
+--------- success -------- 2015/06/05 [Fri] 21:16:17:723
+
+--------- Insert collimator -------- 2015/06/05 [Fri] 21:16:17:723
+
+--------- success -------- 2015/06/05 [Fri] 21:16:17:723
+ 2015/06/05 [Fri] 21:16:17:723  BLMASTER --> MS : CMOS camera length is being set to 180.0mm.
+ 2015/06/05 [Fri] 21:16:17:723  MS --> BLMASTER : CMOS camera length is successfully set.
+
+*****************************************************************
+    Goniometer goes to start position ... 2015/06/05 [Fri] 21:16:17:723
+*****************************************************************
+
+    Connecting to CMOS server... 2015/06/05 [Fri] 21:16:17:724
+
+    Successfully connected to 2015/06/05 [Fri] 21:16:17:724 server. CMOS
+ 2015/06/05 [Fri] 21:16:18:724  BLMASTER --> CMOS : set framerate 1.000000000000
+ 2015/06/05 [Fri] 21:16:18:724  BLMASTER --> CMOS : start nimg 5 ndum 0 kind 0
+ 2015/06/05 [Fri] 21:16:18:825  BLMASTER --> USER : cmos_scan_dark started.
+ 2015/06/05 [Fri] 21:16:24:830  BLMASTER --> USER : cmos_scan_dark  finished.
+ 2015/06/05 [Fri] 21:16:24:831  BLMASTER --> CMOS : start nimg 5 ndum 0 kind 1
+ 2015/06/05 [Fri] 21:16:24:832  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/05 [Fri] 21:16:24:832  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/05 [Fri] 21:16:24:833  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/05 [Fri] 21:16:24:834  BLMASTER --> CMOS : start nimg 5 ndum 0 kind 1
+ 2015/06/05 [Fri] 21:16:24:834  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/05 [Fri] 21:16:24:835  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/05 [Fri] 21:16:24:835  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/05 [Fri] 21:16:24:836  BLMASTER --> CMOS : start nimg 5 ndum 0 kind 1
+ 2015/06/05 [Fri] 21:16:24:836  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/05 [Fri] 21:16:24:836  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/05 [Fri] 21:16:24:836  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/05 [Fri] 21:16:24:837  BLMASTER --> CMOS : start nimg 5 ndum 0 kind 1
+ 2015/06/05 [Fri] 21:16:24:837  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/05 [Fri] 21:16:24:838  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/05 [Fri] 21:16:24:838  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/05 [Fri] 21:16:24:845  BLMASTER --> CMOS : start nimg 5 ndum 0 kind 1
+ 2015/06/05 [Fri] 21:16:24:845  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/05 [Fri] 21:16:24:846  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/05 [Fri] 21:16:24:846  BLMASTER --> USER : restore gonio x, y, z parematers.
+
+--------- Remove collimator -------- 2015/06/05 [Fri] 21:16:24:847
+
+--------- success -------- 2015/06/05 [Fri] 21:16:24:852
+
+--------- Move beam stop to sample mount position -------- 2015/06/05 [Fri] 21:16:24:852
+
+--------- success -------- 2015/06/05 [Fri] 21:16:24:852
+Disconnect Message Server.
+Disconnect CMOS server.
+ 2015/06/05 [Fri] 21:16:48:768  Successfully closed CMOS server.
+
+Beamline Scheduling Software Exit at 2015/06/05 [Fri] 21:16:48:768.
+
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2015/06/05 [Fri] 21:43:05:201.
+     [  Last modified at 19:50, Jun/04/2015 (Thu)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2015/06/05 [Fri] 21:43:05:201
+
+--- successfully loaded attenuator configurations --- 2015/06/05 [Fri] 21:43:05:202
+    Load bss.config Success.
+   Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/sacla_bl3_jun2015//htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+     ( bss's pid = 30793, videosrv's pid = ??? )
+
+    Making a connection to Message Server... 2015/06/05 [Fri] 21:43:08:813
+
+ 2015/06/05 [Fri] 21:43:08:819  Connecting to Message Server...
+ 2015/06/05 [Fri] 21:43:08:819  Successfully connect to Message Server.
+
+=================================================================
+
+   Set axis driving parameters default. 2015/06/05 [Fri] 21:43:08:819
+
+=================================================================
+Disconnect Message Server.
+
+Beamline Scheduling Software Exit at 2015/06/05 [Fri] 21:43:20:344.
+
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2015/06/05 [Fri] 21:45:26:560.
+     [  Last modified at 19:50, Jun/04/2015 (Thu)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2015/06/05 [Fri] 21:45:26:561
+
+--- successfully loaded attenuator configurations --- 2015/06/05 [Fri] 21:45:26:561
+    Load bss.config Success.
+   Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/sacla_bl3_jun2015//htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+     ( bss's pid = 30906, videosrv's pid = ??? )
+
+    Making a connection to Message Server... 2015/06/05 [Fri] 21:45:28:188
+
+ 2015/06/05 [Fri] 21:45:28:194  Connecting to Message Server...
+ 2015/06/05 [Fri] 21:45:28:194  Successfully connect to Message Server.
+
+=================================================================
+
+   Set axis driving parameters default. 2015/06/05 [Fri] 21:45:28:194
+
+=================================================================
+Disconnect Message Server.
+
+Beamline Scheduling Software Exit at 2015/06/05 [Fri] 21:45:35:340.
+
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2015/06/05 [Fri] 21:47:09:440.
+     [  Last modified at 19:50, Jun/04/2015 (Thu)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2015/06/05 [Fri] 21:47:09:441
+
+--- successfully loaded attenuator configurations --- 2015/06/05 [Fri] 21:47:09:441
+    Load bss.config Success.
+   Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/sacla_bl3_jun2015//htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+     ( bss's pid = 31041, videosrv's pid = ??? )
+
+    Making a connection to Message Server... 2015/06/05 [Fri] 21:47:11:290
+
+ 2015/06/05 [Fri] 21:47:11:296  Connecting to Message Server...
+ 2015/06/05 [Fri] 21:47:11:296  Successfully connect to Message Server.
+
+=================================================================
+
+   Set axis driving parameters default. 2015/06/05 [Fri] 21:47:11:296
+
+=================================================================
+Disconnect Message Server.
+
+Beamline Scheduling Software Exit at 2015/06/05 [Fri] 21:47:16:144.
+

@@ -1,0 +1,88 @@
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 00:37:57:156
+ 2015/06/13 [Sat] 00:37:57:164 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 00:56:43:372
+ 2015/06/13 [Sat] 00:56:43:388 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 00:58:16:103
+ 2015/06/13 [Sat] 00:58:16:119 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 01:00:31:346
+ 2015/06/13 [Sat] 01:00:31:351 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 01:02:17:350
+ 2015/06/13 [Sat] 01:02:17:357 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 01:02:40:189
+ 2015/06/13 [Sat] 01:02:40:195 Failed to get  attenuator unit1 position
+ 2015/06/13 [Sat] 01:06:55:456  Error : Failed to set CMOS frame rate.
+ 2015/06/13 [Sat] 01:08:13:752  Error : receive No message from CMOS server.
+ 2015/06/13 [Sat] 01:08:13:752  Error : failed to receive response frorm CMOS.
+ 2015/06/13 [Sat] 01:08:13:752  Error : Failed to set CMOS frame rate.
+ 2015/06/13 [Sat] 01:08:53:832  Error : Failed to set CMOS frame rate.
+ 2015/06/13 [Sat] 01:13:34:078  Error : receive No message from CMOS server.
+ 2015/06/13 [Sat] 01:13:34:079  Error : failed to receive response frorm CMOS.
+ 2015/06/13 [Sat] 01:13:34:079  Error : Failed to set CMOS frame rate.
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 01:33:58:049
+ 2015/06/13 [Sat] 01:33:58:070 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 01:35:08:554
+ 2015/06/13 [Sat] 01:35:08:561 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 01:53:25:183
+ 2015/06/13 [Sat] 01:53:25:198 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 01:57:12:268
+ 2015/06/13 [Sat] 01:57:12:284 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 02:06:18:771
+ 2015/06/13 [Sat] 02:06:18:776 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 02:06:48:593
+ 2015/06/13 [Sat] 02:06:48:600 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 02:08:30:835
+ 2015/06/13 [Sat] 02:08:30:842 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 02:08:58:508
+ 2015/06/13 [Sat] 02:08:58:514 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 02:09:42:661
+ 2015/06/13 [Sat] 02:09:42:667 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 02:13:48:258
+ 2015/06/13 [Sat] 02:13:48:274 Failed to get  attenuator unit1 position
+Error!: (limit check) axis=st_4_motor_47, set value=192.670000, errcode=-110
+Error!: (limit check) axis=st_4_motor_47, set value=194.670000, errcode=-110
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 02:15:23:798
+ 2015/06/13 [Sat] 02:15:23:804 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 02:26:41:338
+ 2015/06/13 [Sat] 02:26:41:352 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 02:27:00:396
+ 2015/06/13 [Sat] 02:27:00:411 Failed to get  attenuator unit1 position
+2015/06/13 [Sat] 02:29:53:309 Error!: (limit check) axis=st_4_motor_47, set value=200.000000,errcode=-1102015/06/13 [Sat] 02:30:06:966 Error!: (limit check) axis=st_4_motor_47, set value=215.000000,errcode=-1102015/06/13 [Sat] 02:30:16:757 Error!: (limit check) axis=st_4_motor_47, set value=185.000000,errcode=-110MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 02:30:38:249
+ 2015/06/13 [Sat] 02:30:38:255 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 02:30:39:112
+ 2015/06/13 [Sat] 02:30:39:118 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 02:30:39:760
+ 2015/06/13 [Sat] 02:30:39:766 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 02:31:38:865
+ 2015/06/13 [Sat] 02:31:38:881 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 02:32:37:722
+ 2015/06/13 [Sat] 02:32:37:728 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 02:32:38:618
+ 2015/06/13 [Sat] 02:32:38:625 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 02:32:39:410
+ 2015/06/13 [Sat] 02:32:39:416 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 02:32:40:290
+ 2015/06/13 [Sat] 02:32:40:296 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 02:34:10:349
+ 2015/06/13 [Sat] 02:34:10:356 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 02:34:11:286
+ 2015/06/13 [Sat] 02:34:11:293 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 02:34:12:044
+ 2015/06/13 [Sat] 02:34:12:051 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 02:34:31:117
+ 2015/06/13 [Sat] 02:34:31:124 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 02:34:31:893
+ 2015/06/13 [Sat] 02:34:31:899 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 02:48:50:163
+ 2015/06/13 [Sat] 02:48:50:180 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/13 [Sat] 02:53:25:935
+ 2015/06/13 [Sat] 02:53:25:951 Failed to get  attenuator unit1 position
+2015/06/13 [Sat] 04:35:20:825  Error: Collision care for backlight failed.
+
+Error: sample light on failed. 2015/06/13 [Sat] 04:35:20:825
+MS (get st_4_motor_50 status) : Error (CODE -301130003) 2015/06/13 [Sat] 04:35:55:839
+ 2015/06/13 [Sat] 07:33:49:563  Error : receive No message from CMOS server.
+ 2015/06/13 [Sat] 07:33:49:583  Error : failed to receive response frorm CMOS.
+ 2015/06/13 [Sat] 07:33:49:584  Error : Failed to set CMOS frame rate.
+ 2015/06/13 [Sat] 14:10:32:549  Error : Timeout, Can not receive message from Sample Changer Server (within 10 sec).
+ 2015/06/13 [Sat] 14:10:54:877  Error : Cannot receive message! Sample Changer Server maybe down ... 
+MS(put st_4_motor_58 relative position): Error(CODE -301130004) 2015/06/13 [Sat] 14:31:40:789

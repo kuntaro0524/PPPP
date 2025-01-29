@@ -1,0 +1,9 @@
+#RUN command
+yamtbx.python /isilon/users/target/target/AutoUsers/190122/Toma/_kamoproc/find_mtz_reindex_mr_refine_common_freer.py
+
+#RUN Directory
+/isilon/users/target/target/AutoUsers/190122/Toma/_kamoproc/merge_cc_pattern2_apo/cc_3.12A_final/
+/isilon/users/target/target/AutoUsers/190122/Toma/_kamoproc/merge_cc_pattern2_ligand2/cc_3.00A_final
+
+# modified python script
+

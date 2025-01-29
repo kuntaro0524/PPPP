@@ -1,0 +1,38 @@
+h1 {color: red;
+font-size:18px;
+font-family: "Courier New";
+}
+h2 {color: blue;
+font-size:18px;
+font-family: "Courier New";
+}
+
+div {background: #FFFACD; 
+width:1000px; 
+border: 1px solid #D3D3D3; height:100px; padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px;}
+
+pre {background: #FFFACD;
+font-size:18px;
+width:1500px; 
+font-family: "Courier New";
+}
+
+p1 {background: blue;
+border: 2px solid white; 
+color:white;
+font-weight: bolder;
+height:100px;
+padding-left:5px; 
+padding-right:5px; 
+padding-top:5px; 
+padding-bottom:5px;
+}
+
+p2 {
+border: 1px solid #D3D3D3; 
+height:10px; 
+padding-left:10px; 
+padding-right:10px; 
+padding-top:10px; 
+padding-bottom:10px;
+}

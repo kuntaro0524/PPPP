@@ -1,0 +1,892 @@
+#
+#  -----------------------------------------------
+#     BL26B1 BSS Config File  2006/12/08 (ueno)
+#  -----------------------------------------------
+#
+#
+BL_Name:BL26B1
+BL_Object:26b1
+BL_Global_Path:/isilon/BL26B1
+BL_IC1Range:10000.0
+#
+#  -----------------------------------------------
+#    _/_/_/ Message Server (BL-WS) _/_/_/
+#  -----------------------------------------------
+#
+#Ms_IP:172.24.38.24
+Ms_IP:172.24.242.33
+Ms_Port:10101
+#
+_axis_begin:
+_axis_comment: st slit1 hall blade, used in scantool
+_axis_name:st1_slit_1_hall
+_cunit: pulse
+_sense:1
+_datum_mode:11010
+_home_shift:0
+_home_value:0.0
+_val2pulse:1000
+_speed0:500
+_rise0:20
+_fall0:20
+_backlash0:0
+_cw_limit0:10000000
+_ccw_limit0:-10000000
+_speed1:500
+_speed2:50
+_upper_limit:9999.9
+_lower_limit:-9999.9
+_axis_end:
+#
+_axis_begin:
+_axis_comment: st slit1 ring blade, used in scantool
+_axis_name:st1_slit_1_ring
+_cunit: pulse
+_sense:1
+_datum_mode:01011
+_home_shift:0
+_home_value:0.0
+_val2pulse:1000
+_speed0:500
+_rise0:20
+_fall0:20
+_backlash0:0
+_cw_limit0:10000000
+_ccw_limit0:-10000000
+_speed1:500
+_speed2:50
+_upper_limit:9999.9
+_lower_limit:-9999.9
+_axis_end:
+#
+_axis_begin:
+_axis_comment: st slit1 upper blade, used in scantool
+_axis_name:st1_slit_1_upper
+_cunit: pulse
+_sense:1
+_datum_mode:11010
+_home_shift:0
+_home_value:0.0
+_val2pulse:1000
+_speed0:500
+_rise0:20
+_fall0:20
+_backlash0:0
+_cw_limit0:10000000
+_ccw_limit0:-10000000
+_speed1:500
+_speed2:50
+_upper_limit:9999.9
+_lower_limit:-9999.9
+_axis_end:
+#
+_axis_begin:
+_axis_comment: st slit1 lower blade, used in scantool
+_axis_name:st1_slit_1_lower
+_cunit: pulse
+_sense:1
+_datum_mode:01011
+_home_shift:0
+_home_value:0.0
+_val2pulse:1000
+_speed0:500
+_rise0:20
+_fall0:20
+_backlash0:0
+_cw_limit0:10000000
+_ccw_limit0:-10000000
+_speed1:500
+_speed2:50
+_upper_limit:9999.9
+_lower_limit:-9999.9
+_axis_end:
+#
+_axis_begin:
+_axis_comment: st slit2 hall blade, used in scantool
+_axis_name:st1_slit_2_hall
+_cunit: pulse
+_sense:1
+_datum_mode:11010
+_home_shift:0
+_home_value:0.0
+_val2pulse:1000
+_speed0:500
+_rise0:20
+_fall0:20
+_backlash0:0
+_cw_limit0:10000000
+_ccw_limit0:-10000000
+_speed1:500
+_speed2:50
+_upper_limit:9999.9
+_lower_limit:-9999.9
+_axis_end:
+#
+_axis_begin:
+_axis_comment: st slit2 ring blade, used in scantool
+_axis_name:st1_slit_2_ring
+_cunit:pulse
+_sense:1
+_datum_mode:01011
+_home_shift:0
+_home_value:0.0
+_val2pulse:1000
+_speed0:500
+_rise0:20
+_fall0:20
+_backlash0:0
+_cw_limit0:10000000
+_ccw_limit0:-10000000
+_speed1:500
+_speed2:50
+_upper_limit:9999.9
+_lower_limit:-9999.9
+_axis_end:
+#
+_axis_begin:
+_axis_comment: st slit2 upper blade, used in scantool
+_axis_name:st1_slit_2_upper
+_cunit:pulse
+_sense:1
+_datum_mode:11010
+_home_shift:0
+_home_value:0.0
+_val2pulse:1000
+_speed0:500
+_rise0:20
+_fall0:20
+_backlash0:0
+_cw_limit0:10000000
+_ccw_limit0:-10000000
+_speed1:500
+_speed2:50
+_upper_limit:9999.9
+_lower_limit:-9999.9
+_axis_end:
+#
+_axis_begin:
+_axis_comment: st slit2 lower blade, used in scantool
+_axis_name:st1_slit_2_lower
+_cunit:pulse
+_sense:1
+_datum_mode:01011
+_home_shift:0
+_home_value:0.0
+_val2pulse:1000
+_speed0:500
+_rise0:20
+_fall0:20
+_backlash0:0
+_cw_limit0:10000000
+_ccw_limit0:-10000000
+_speed1:500
+_speed2:50
+_upper_limit:9999.9
+_lower_limit:-9999.9
+_axis_end:
+#
+_axis_begin:
+_axis_comment: gonio x axis
+_axis_name:st1_gonio_1_x
+_cunit:pulse
+_sense:-1
+_datum_mode:01100
+#_home_shift:912
+_home_shift:915
+#_home_value: 0.03541
+_home_value: 0.0
+_val2pulse:1767
+_speed0:500
+_rise0:20
+_fall0:20
+_backlash0:0
+_cw_limit0:10000000
+_ccw_limit0:-10000000
+_speed1:500
+_speed2:5
+_upper_limit:5.0
+_lower_limit:-5.0
+_axis_end:
+#
+_axis_begin:
+_axis_comment: gonio y axis
+_axis_name:st1_gonio_1_y
+_cunit: pulse
+_sense:-1
+_datum_mode:00110
+#_home_shift:600
+_home_shift:610
+#_home_value: -0.09900
+_home_value: 0.0
+_val2pulse:1000
+_speed0:500
+_rise0:20
+_fall0:20
+_backlash0:0
+_cw_limit0:10000000
+_ccw_limit0:-10000000
+_speed1:500
+_speed2:5
+_upper_limit:2.0
+_lower_limit:-15.0
+_axis_end:
+#
+_axis_begin:
+_axis_comment: gonio z axis
+_axis_name:st1_gonio_1_z
+_cunit:pulse
+_sense:1
+_datum_mode:00110
+#_home_shift:394
+_home_shift:397
+#_home_value: 0.27714
+_home_value: 0.0
+_val2pulse:1000
+_speed0:500
+_rise0:20
+_fall0:20
+_backlash0:0
+_cw_limit0:10000000
+_ccw_limit0:-10000000
+_speed1:500
+_speed2:5
+_upper_limit:5.0
+_lower_limit:-5.0
+_axis_end:
+#
+_axis_begin:
+_axis_comment: gonio spindle axis
+_axis_name:st1_gonio_1_omega
+_cunit: pulse
+_sense:1
+_datum_mode:00110
+_home_shift:199
+_home_value:0.0
+_val2pulse:2000
+_speed0:20000
+_rise0:50
+_fall0:50
+_backlash0:0
+_cw_limit0:10000000
+_ccw_limit0:-10000000
+_speed1:5000
+_speed2:100
+_upper_limit:172.0
+_lower_limit:-172.0
+_axis_end:
+#
+_axis_begin:
+_axis_comment:gonio kappa axis
+_axis_name:st1_gonio_1_kappa
+_cunit:pulse
+_sense:-1
+_datum_mode:00110
+_home_shift:-478
+_home_value:0.0
+_val2pulse:100
+_speed0:500
+_rise0:20
+_fall0:20
+_backlash0:0
+_cw_limit0:6000
+_ccw_limit0:-6000
+_speed1:500
+_speed2:5
+_upper_limit:52.0
+_lower_limit:-52.0
+_axis_end:
+#
+_axis_begin:
+_axis_comment:gonio phi axis
+_axis_name:st1_gonio_1_phi
+_cunit:pulse
+_sense:1
+_datum_mode:01010
+_home_shift:0
+_home_value:0.0
+_val2pulse:278
+_speed0:10000
+_rise0:200
+_fall0:200
+_backlash0:0
+_cw_limit0:10000000
+_ccw_limit0:-10000000
+_speed1:8000
+_speed2:5
+_upper_limit:3600.0
+_lower_limit:-3600.0
+_axis_end:
+#
+_axis_begin:
+_axis_comment: cameralength1
+_axis_name:st1_ccd_1_x
+_cunit:pulse
+_sense:1
+_datum_mode:01100
+_home_shift:100
+_home_value:169.23
+_val2pulse:100
+_speed0:500
+_rise0:20
+_fall0:20
+_backlash0:0
+_cw_limit0:10000000
+_ccw_limit0:-10000000
+_speed1:500
+_speed2:2
+_upper_limit:340.5
+_lower_limit:100.0
+_axis_end:
+#
+_axis_begin:
+_axis_comment: camera height1
+_axis_name:st1_ccd_1_z
+_cunit:pulse
+_sense:1
+_datum_mode:01100
+_home_shift:0
+_home_value:0.0
+_val2pulse:1738
+_speed0:10000
+_rise0:200
+_fall0:200
+_backlash0:0
+_cw_limit0:10000000
+_ccw_limit0:-10000000
+_speed1:5000
+_speed2:500
+_upper_limit:99990.9
+_lower_limit:-99999.9
+_axis_end:
+#
+_axis_begin:
+_axis_comment: camera 2theta1
+_axis_name:st1_ccd_1_twotheta
+_cunit: pulse
+_sense:-1
+_datum_mode:00110
+_home_shift:-5874
+_home_value:0.0
+#_val2pulse:22489
+_val2pulse:21555
+_speed0:10000
+_rise0:200
+_fall0:200
+_backlash0:0
+_cw_limit0:10000000
+_ccw_limit0:-10000000
+_speed1:5000
+_speed2:50
+_upper_limit:1.0
+_lower_limit:-31.0
+_axis_end:
+#
+_axis_begin:
+_axis_comment: cameralength2
+_axis_name:st1_ip_1_x
+_cunit: pulse
+_sense:1
+_datum_mode:00110
+_home_shift:0
+_home_value:948.29
+_val2pulse:200
+_speed0:1000
+_rise0:20
+_fall0:20
+_backlash0:0
+_cw_limit0:10000000
+_ccw_limit0:-10000000
+_speed1:1000
+_speed2:50
+_upper_limit:1000.0
+_lower_limit:169.0
+_axis_end:
+#
+_axis_begin:
+_axis_comment: attenuator unit1
+_axis_name:st1_att_1_rx
+_cunit:pulse
+_sense:1
+_datum_mode:00100
+_home_shift:0
+_home_value:0.0
+_val2pulse:100
+_speed0:100
+_rise0:20
+_fall0:20
+_backlash0:0
+_cw_limit0:10000000
+_ccw_limit0:-10000000
+_speed1:100
+_speed2:50
+_upper_limit:9999.9
+_lower_limit:-9999.9
+_axis_end:
+#
+_axis_begin:
+_axis_comment: stage horizontal, used in scantool
+_axis_name:st1_stage_1_y
+_cunit:pulse
+_sense:-1
+_datum_mode:00110
+_home_shift:3589
+_home_value:0.0
+_val2pulse:2000
+_speed0:500
+_rise0:20
+_fall0:20
+_backlash0:-1000
+_cw_limit0:10000000
+_ccw_limit0:-10000000
+_speed1:500
+_speed2:50
+_upper_limit:9999.9
+_lower_limit:-9999.9
+_axis_end:
+#
+_axis_begin:
+_axis_comment: stage direction
+_axis_name:st1_stage_1_rz
+_cunit: pulse
+_sense:-1
+_datum_mode:00110
+_home_shift:0
+_home_value:0.0
+_val2pulse:20000
+_speed0:500
+_rise0:20
+_fall0:20
+_backlash0:-2000
+_cw_limit0:10000000
+_ccw_limit0:-10000000
+_speed1:500
+_speed2:50
+_upper_limit:9999.9
+_lower_limit:-9999.9
+_axis_end:
+#
+_axis_begin:
+_axis_comment: stage others
+_axis_name:st1_stage_1_z1
+_cunit:pulse
+_sense:1
+_datum_mode:00110
+_home_shift:0
+_home_value:0.0
+_val2pulse:12104
+_speed0:6000
+_rise0:200
+_fall0:200
+_backlash0:-1000
+_cw_limit0:10000000
+_ccw_limit0:-10000000
+_speed1:6000
+_speed2:500
+_upper_limit:9999.9
+_lower_limit:-9999.9
+_axis_end:
+#
+_axis_begin:
+_axis_comment: stage others
+_axis_name:st1_stage_1_z2
+_cunit:pulse
+_sense:-1
+_datum_mode:00110
+_home_shift:0
+_home_value:0.0
+_val2pulse:12104
+_speed0:6000
+_rise0:200
+_fall0:200
+_backlash0:-1000
+_cw_limit0:10000000
+_ccw_limit0:-10000000
+_speed1:6000
+_speed2:500
+_upper_limit:9999.9
+_lower_limit:-9999.9
+_axis_end:
+#
+_axis_begin:
+_axis_comment: st shutter control axis
+_axis_name:st1_shutter_1
+_cunit: digital
+_axis_end:
+#
+_axis_begin:
+_axis_comment: ccd trigger
+_axis_name:st1_ccd_1
+_cunit: digital
+_axis_end:
+#
+_axis_begin:
+_axis_comment: beam stop control
+_cunit: digital
+_axis_name:st1_bs_1
+_axis_end:
+#
+_axis_begin:
+_axis_comment: oscillation control axis
+_axis_name:st1_control_1
+_axis_end:
+#
+_axis_begin:
+_axis_comment: stage tune axis
+_axis_name:st1_stage_1
+_counter_channel:0
+_axis_end:
+#
+_axis_begin:
+_axis_comment: tc slit1 width
+_axis_name:tc1_slit_1_width
+_cunit: mm
+_axis_end:
+#
+_axis_begin:
+_axis_comment: tc slit1 height
+_axis_name:tc1_slit_1_height
+_cunit: mm
+_axis_end:
+#
+_axis_begin:
+_axis_comment: tc slit1 horizontal, used in scantool
+_axis_name:tc1_slit_1_horizontal
+_cunit: mm
+_axis_end:
+#
+_axis_begin:
+_axis_comment: tc slit1 vertical, used in scantool
+_axis_name:tc1_slit_1_vertical
+_cunit: mm
+_axis_end:
+#
+_axis_begin:
+_axis_comment: tc slit2 width
+_axis_name:tc1_slit_2_width
+_cunit: mm
+_axis_end:
+#
+_axis_begin:
+_axis_comment: tc slit2 height
+_axis_name:tc1_slit_2_height
+_cunit: mm
+_axis_end:
+#
+_axis_begin:
+_axis_comment: tc slit2 horizontal, used in scantool
+_axis_name:tc1_slit_2_horizontal
+_cunit: mm
+_axis_end:
+#
+_axis_begin:
+_axis_comment: tc slit2 vertical, used in scantool
+_axis_name:tc1_slit_2_vertical
+_cunit: mm
+_axis_end:
+#
+_axis_begin:
+_axis_comment: st slit1 width
+_axis_name:st1_slit_1_width
+_cunit: mm
+_axis_end:
+#
+_axis_begin:
+_axis_comment:st slit1 height
+_axis_name:st1_slit_1_height
+_cunit: mm
+_axis_end:
+#
+_axis_begin:
+_axis_comment: st slit1 horizontal, used in scantool
+_axis_name:st1_slit_1_horizontal
+_cunit: mm
+_axis_end:
+#
+_axis_begin:
+_axis_comment: st slit1 vertical, used in scantool
+_axis_name:st1_slit_1_vertical
+_cunit: mm
+_axis_end:
+#
+_axis_begin:
+_axis_comment: st slit2 width
+_axis_name:st1_slit_2_width
+_cunit: mm
+_axis_end:
+#
+_axis_begin:
+_axis_comment: st slit2 height
+_axis_name:st1_slit_2_height
+_cunit: mm
+_axis_end:
+#
+_axis_begin:
+_axis_comment: st slit2 horizontal, used in scantool
+_axis_name:st1_slit_2_horizontal
+_cunit: mm
+_axis_end:
+#
+_axis_begin:
+_axis_comment: st slit2 vertical, used in scantool
+_axis_name:st1_slit_2_vertical
+_cunit: mm
+_axis_end:
+#
+_axis_begin:
+_axis_comment: stage height, used in scantool
+_axis_name:st1_stage_1_z
+_cunit: mm
+_axis_end:
+#
+_axis_begin:
+_axis_comment: stage inclination
+_axis_name:st1_stage_1_ry
+_cunit: mrad
+_axis_end:
+#
+_axis_begin:
+_axis_comment:4monochro tune axis
+_axis_name:st1_dtheta1
+_scan_width0:1200
+_scan_step0:50
+_scan_width1:90
+_scan_step1:10
+_axis_end:
+#
+_axis_begin:
+_axis_comment: monochro control object
+_axis_name:tc1_stmono_1
+_cunit: angstrome
+_axis_end:
+#
+_axis_begin:
+_axis_comment: monochro dtheta1, used in scantool
+_axis_name:tc1_stmono_1_dtheta1
+_cunit: pulse
+_val2pulse: 100
+_axis_end:
+#
+_axis_begin:
+_axis_comment: counter board control axis
+_axis_name:st1_counter_1
+_axis_end:
+#
+_axis_begin:
+_axis_comment: sca1 voltage control
+_axis_name:st1_sca_1
+_axis_end:
+#
+_axis_begin:
+_axis_comment: sca2 voltage control
+_axis_name:st1_sca_2
+_axis_end:
+#
+_axis_begin:
+_axis_comment: sample light
+_axis_name:st1_light_1_rx
+_cunit: pulse
+_sense:1
+_datum_mode:11010
+_home_shift:0
+_home_value:351.23
+_val2pulse:400
+_speed0:5000
+_rise0:200
+_fall0:200
+_backlash0:0
+_cw_limit0:10000000
+_ccw_limit0:-10000000
+_speed1:5000
+_speed2:500
+_upper_limit:355.0
+_lower_limit:-10.0
+_axis_end:
+#
+_axis_begin:
+_axis_comment: used in scantool
+_axis_name: tc1_m100v_1_y
+_cunit: mm
+_axis_end:
+#
+_axis_begin:
+_axis_comment: used in scantool
+_axis_name: tc1_m100v_1_z
+_cunit: mm
+_axis_end:
+#
+_axis_begin:
+_axis_comment: used in scantool
+_axis_name: tc1_m100v_1_ty
+_cunit: mrad
+_axis_end:
+#
+_axis_begin:
+_axis_comment: used in scantool
+_axis_name: tc1_m100v_1_tz
+_cunit: mrad
+_axis_end:
+#
+#
+#
+#  -----------------------------------------------
+#    _/_/_/ Equipment stage _/_/_/
+#  -----------------------------------------------
+#
+_stage_begin:
+_stage_comment: RIGAKU HTP STAGE
+_stage_end:
+#
+#
+#
+#  -----------------------------------------------
+#    _/_/_/ IP (R-AXIS V) _/_/_/
+#  -----------------------------------------------
+#
+_detector_begin:
+_detector_comment: ip detector on stage2
+_IP:192.168.131.102
+_Port:9999
+_Name:R-AXISV
+_Read_Mode_Selectable: yes
+#_Read_Mode_Selectable: no
+_detector_end:
+#
+#  -----------------------------------------------
+#    _/_/_/ CCD (Jupiter 210) _/_/_/
+#  -----------------------------------------------
+#
+_detector_begin:
+_detector_comment: ccd detector on stage1
+_IP:192.168.0.104
+_Port:8000
+_Name: Jupiter210
+_Parallel_Process: y
+_Process_Directory: /isilon/BL26B1/.jhead
+_Dark_Update_Interval: 600
+_detector_end:
+#
+#  ------------------------------------------------
+#    _/_/_/ Crystal Centering Server _/_/_/
+#  ------------------------------------------------
+#
+Ccenter_IP:127.0.0.1
+Ccenter_Port:10101
+Ccenter_Brightness: 32767
+Ccenter_Hue: 32767
+Ccenter_Color: 32767
+#Ccenter_Contrast: 49151
+Ccenter_Contrast: 65535
+#
+#  ------------------------------------------------
+#    _/_/_/ Crystal Mount Server _/_/_/
+#  ------------------------------------------------
+#
+#Cmount_IP:192.168.0.106
+Cmount_IP: this_is_not_used
+Cmount_Port:3665
+Cmount_Gonio_Phi:0.0
+Cmount_Gonio_Kappa:0.0
+Cmount_Gonio_X:0.150
+Cmount_Gonio_Y:0.160
+Cmount_Gonio_Z:-0.18
+Cmount_Gonio_Omega:0.0
+#
+#  ------------------------------------------------
+#    _/_/_/ Attenuator Setting _/_/_/
+#  ------------------------------------------------
+#
+_attenuator_begin:
+#
+_attenuator_unit_begin:
+_attenuator_unit_comment: attenuator unit1
+Attenuator1_0: None
+Attenuator1_1: Al 200um
+Attenuator1_2: Al 400um
+Attenuator1_3: Al 600um
+Attenuator1_4: Al 1000um
+Attenuator1_5: Fe 20um
+Attenuator1_6: Ni 8um
+Attenuator1_7: Zn 25um
+Attenuator1_8: Pt 10um
+Attenuator1_9: Au 10um
+Attenuator1_10: Auto
+_attenuator_unit_end:
+#
+Attenuator_Menu_Label_0: [None] { 0}
+Attenuator_Menu_Label_1: [Al 200um] { 1}
+Attenuator_Menu_Label_2: [Al 400um] { 2}
+Attenuator_Menu_Label_3: [Al 600um] { 3}
+Attenuator_Menu_Label_4: [Al 1mm] { 4}
+Attenuator_Menu_Label_5: [Fe 20um] { 5}
+Attenuator_Menu_Label_6: [Ni 8um] { 6}
+Attenuator_Menu_Label_7: [Zn 25um] { 7}
+Attenuator_Menu_Label_8: [Pt 10um] { 8}
+Attenuator_Menu_Label_9: [Au 10um] { 9}
+Attenuator_Menu_Label_10: [Auto] {10}
+#
+_attenuator_end:
+#
+#
+#  ------------------------------------------------
+#    _/_/_/ Remote PLC Control _/_/_/
+#  ------------------------------------------------
+#
+Remote_PLC_Control: Yes
+Close_Shutters_After_Experiment: yes
+#
+#
+#  ------------------------------------------------
+#    _/_/_/ Printer Name _/_/_/
+#  ------------------------------------------------
+#
+Printer_Name: lp
+#
+#
+#  ------------------------------------------------
+#    _/_/_/ Light1 _/_/_/
+#  ------------------------------------------------
+#
+Light_1_On_Position: 320.00
+Light_1_Off_Position: 270
+#
+#  ------------------------------------------------
+#    _/_/_/ Debug mode flag  _/_/_/
+#  ------------------------------------------------
+#
+Debug_Mode: no
+#
+#
+#  ------------------------------------------------
+#    _/_/_/ Databse Server _/_/_/
+#  ------------------------------------------------
+#
+Database_IP:dcha.spring8.or.jp
+#
+#image1, MI4C
+#Database_IP:192.168.131.210
+#BL38
+###Database_IP:dcha02.spring8.or.jp
+
+Database_Port: 80
+Database_Name: D-Cha
+
+Database_Check_Directory:/isilon/BL26B1/DChaST
+Database_Data_Directory:/isilon/BL26B1/DChaST
+# MI4C
+#Database_Check_Directory:/image1/DChaST
+#Database_Data_Directory:/image1/DChaST
+                                                                                
+#
+
+Tray_ID_For_Simulation1:99999500001
+Tray_ID_For_Simulation2:Not-Mounted
+
+Osc_Initial_Speed: 1
+Osc_Speed_Lower_Limit: 100
+Osc_Speed_Upper_Limit: 16000
+
+Osc_Turnover_Time:50.0
+
+
+
+

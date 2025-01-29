@@ -1,0 +1,164 @@
+def DTSCAN_NORMAL:
+ch1=0 
+ch2=3
+start=-3000
+end= 1000
+step=20
+time=0.1
+tcsv=0.1
+tcsh=0.1
+detune=-50
+fed
+
+def DTSCAN_AUTOTUNE:
+ch1=0
+ch2=3
+start=-3000
+end=1000
+step=20
+time=0.2
+tcsv=0.295
+tcsh=0.376
+detune=-50
+fed
+
+def DTSCAN_FULLOPEN:
+ch1=0
+ch2=3
+start=-3000
+end=1000
+step=20
+time=0.2
+tcsv=5.0
+tcsh=5.0
+detune=-50
+fed
+
+def DTSCAN_FULLOPEN_LE:
+ch1=0
+ch2=3
+start=-3000
+end=1000
+step=20
+time=0.2
+tcsv=3.0
+tcsh=3.0
+detune=-200
+fed
+
+def DTSCAN_LOWENERGY:
+ch1=0 
+ch2=3 
+start=-3000
+end=1000
+step=20
+time=0.2
+tcsv=0.1
+tcsh=0.1
+detune=-200
+fed
+
+def DTSCAN_LOWE_FO:
+ch1=0 
+ch2=3 
+start=-3000
+end=1000
+step=20
+time=0.2
+tcsv=5.0
+tcsh=5.0
+detune=-200
+fed
+
+def DTSCAN_TCSSCAN:
+ch1=0 
+ch2=3 
+start=-3000
+end=1000
+step=10
+time=0.2
+tcsv=5.0
+tcsh=5.0
+detune=-50
+fed
+
+def DTSCAN_IDDETUNE:
+ch1=0
+ch2=3
+start=-3000
+end=1000
+step=20
+time=0.2
+tcsv=0.1
+tcsh=0.1
+detune=600
+fed
+
+def DTSCAN:
+ch1=0
+ch2=3
+start=-3000
+end=1000
+time=0.2
+tcsv=0.1
+tcsh=0.1
+fed
+
+def TCS_SCAN:
+vstart=-1.5
+vend=1.5
+hstart=-1.5
+hend=1.5
+step=0.05
+fed
+
+def COUNTER1:
+channel1=0
+channel2=1
+cnt_time=0.2
+fed
+
+def TCS_SCAN:
+tcsv=0.026
+tcsh=0.040
+ch1=0 
+ch2=3
+step=20
+start=-95000
+end=-90000
+time=0.2
+fed
+
+def SLIT2:
+ch1=0
+ch2=2
+blade_upper_start=-3000
+blade_upper_end=3000
+blade_lower_start=-3000
+blade_lower_end=3000
+blade_ring_start=-3000
+blade_ring_end=-3000
+blade_hall_start=-3000
+blade_hall_end=-3000
+step=10
+time=0.2
+fed
+
+def FIXED_POINT:
+ch1=3
+ch2=0
+block_time=3600
+time=1.0
+total_num=5
+fed
+
+def COAX:
+x34_zoom= 0
+x34_pint= 20089
+x16.5_zoom= -16000
+x16.5_pint=  20075
+x8_zoom= -32000
+x8_pint=  20045
+x4_zoom= -48000
+x4_pint=  19865
+fed

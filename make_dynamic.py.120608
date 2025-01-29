@@ -1,0 +1,92 @@
+import sys,os
+import numpy as np
+from Stage import *
+
+def average(en_list,param):
+	tmp_lower=[]
+        for en in en_list:
+                if en < 10.0:
+                        tmp_lower.append(param[idx])
+                elif en >= 10.0:
+                        tmp_upper.append(param[idx])
+
+                idx+=1
+
+        low_list =np.array(tmp_lower)
+        high_list=np.array(tmp_upper)
+
+	ave_low=low_list.mean()
+	ave_high=high_list.mean()
+
+	return ave_low,ave_high
+
+if __name__=="__main__":
+        host = '172.24.242.41'
+        port = 10101
+        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        s.connect((host,port))
+
+	stage=Stage(s)
+
+	if len(sys.argv)!=2:
+		print "Usage: python make_dynamic.py TABLEFILE"
+	
+	filename="/blconfig/bl41xu/bl41xu.config.template"
+	
+	ifile=open(filename,"r")
+	lines=ifile.readlines()
+	
+	tblfile=sys.argv[1]
+	tfile=open(tblfile,"r")
+	
+	
+	data=np.loadtxt(tblfile)
+	
+	#print data[1,:],data[:,1]
+	en_list=data[:,0]
+	stz_list=data[:,2]
+	col_list=data[:,4]
+
+	print col_list
+	
+	idx=0
+	stz_upper=[]
+	stz_lower=[]
+	
+	for en in en_list:
+		#print en_list[idx],stz_list[idx]
+		if en < 10.0:
+			#print stz_list[idx]
+			stz_lower.append(stz_list[idx])
+		elif en >= 10.0:
+			#print stz_list[idx]
+			stz_upper.append(stz_list[idx])
+	
+		idx+=1
+	
+	z_low=np.array(stz_lower)
+	z_upp=np.array(stz_upper)
+	
+	stz_LE=z_low.mean()
+	stz_HE=z_upp.mean()
+
+	diff = stz_HE - stz_LE
+	#print diff
+	
+	#print z_low.mean(),z_upp.mean()
+	# stz_LE=-(diff-stz_HE)
+	# stz_LE=stz_HE-diff
+	
+	sty_curr=stage.getYmm()
+	stz_curr=stage.getZmm()
+	
+	alllines=""
+	for en in np.arange(8.0,25.0,0.1):
+		if en < 10.0:
+			line="%8.4f %8.5f %8.5f\n"%( en,stz_curr-diff,sty_curr)
+			alllines+=line
+		else:
+			line="%8.4f %8.5f %8.5f\n"%( en,stz_curr,sty_curr)
+			alllines+=line
+
+	print alllines

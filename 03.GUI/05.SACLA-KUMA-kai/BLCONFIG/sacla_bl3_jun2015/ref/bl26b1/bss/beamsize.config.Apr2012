@@ -1,0 +1,40 @@
+_beam_size_begin:
+_label: [w120 x h120 um]
+_outline: [circle 0.120 0.120 0. 0.]
+_object_parameter: st1_slit_1_width  0.450 mm
+_object_parameter: st1_slit_1_height 0.200 mm
+_object_parameter: st1_slit_2_width  0.400 mm
+_object_parameter: st1_slit_2_height 0.400 mm
+_flux_factor: 1.0
+_beam_size_end:
+
+_beam_size_begin:
+_label: [w100 x h100 um]
+_outline: [circle 0.100 0.100 0. 0.]
+_object_parameter: st1_slit_1_width  0.380 mm
+_object_parameter: st1_slit_1_height 0.170 mm
+_object_parameter: st1_slit_2_width  0.330 mm
+_object_parameter: st1_slit_2_height 0.330 mm
+_flux_factor: 1.0
+_beam_size_end:
+
+_beam_size_begin:
+_label: [w80 x h80 um]
+_outline: [circle 0.08 0.08 0. 0.]
+_object_parameter: st1_slit_1_width  0.300 mm
+_object_parameter: st1_slit_1_height 0.130 mm
+_object_parameter: st1_slit_2_width  0.27 mm
+_object_parameter: st1_slit_2_height 0.27 mm
+_flux_factor: 1.0
+_beam_size_end:
+
+
+_beam_size_begin:
+_label: [w60 x h60 um]
+_outline: [circle 0.060 0.060 0. 0.]
+_object_parameter: st1_slit_1_width  0.23 mm
+_object_parameter: st1_slit_1_height 0.1 mm
+_object_parameter: st1_slit_2_width  0.2 mm
+_object_parameter: st1_slit_2_height 0.2 mm
+_flux_factor: 1.0
+_beam_size_end:

@@ -1,0 +1,21 @@
+User account = ueno
+
+
+ JOB_ID#   = 1
+ Beamline  = SACLABL3
+ Sample  = Tray:Not-Mounted, Well:1
+ FILE_NAME = /data/test_??????.img
+ JOB_MODE  = Crystal Check
+ DETECTOR  = CCD (MX225HE) :
+  2theta = 0.0, binning = 2, fastadc = 1, dezinger = 0, transform = 1
+ DATA COLLECTION_PARAMETERS :
+  scan_from = 0.000[deg], scan_to = 3.000[deg], scan_step = 1.000[deg]
+  sampling_interval = 1, number_of_images = 3 x 1
+  delay_time = 100.0[msec], cameralength = 150.0[mm], attenuator = None
+  ver. offset = 0.0[mm], hor. offset = 0.0[mm]
+  wavelength = 1.24040, expose_time = 1.000[sec]
+
+               DataSet, ImageNum, Wavelength, ExposeTime, StartAngle, OscAngle, FileName, RingCurrent, I0, Time ,Date
+ IMAGE_STATUS000001 = 1,  1,  1.24040,  1.000,  0.000,  1.000,  test_000001.img, 100.00, -10.00, 20:38:33, 2015/06/10
+ IMAGE_STATUS000002 = 1,  2,  1.24040,  1.000,  1.000,  1.000,  test_000002.img, 100.00, -10.00, 20:38:36, 2015/06/10
+ IMAGE_STATUS000003 = 1,  3,  1.24040,  1.000,  2.000,  1.000,  test_000003.img, 100.00, -10.00, 20:38:40, 2015/06/10

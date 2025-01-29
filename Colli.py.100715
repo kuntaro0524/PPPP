@@ -1,0 +1,63 @@
+#!/bin/env python 
+import sys
+import socket
+import time
+
+# My library
+from Received import *
+from Motor import *
+
+#
+class Colli:
+	def __init__(self,server):
+		self.s=server
+    		self.coly=Motor(self.s,"bl_32in_st2_collimator_1_y","pulse")
+    		self.colz=Motor(self.s,"bl_32in_st2_collimator_1_z","pulse")
+		
+		self.off_pos=-60000 # pulse
+		self.on_pos=0 # pulse
+		
+		self.y_v2p=500 # pulse/mm
+		self.z_v2p=2000 # pulse/mm
+	
+	def on(self):
+		self.colz.move(self.on_pos)
+
+	def off(self):
+		self.colz.move(self.off_pos)
+
+	def scanY(self,prefix,ch):
+		print "ScanY"
+
+	def scan(self,prefix,ch):
+		ofile="%s_colliz.scn"%prefix
+
+		self.current_z=self.colz.getPosition()
+		print "Current value=%8d\n"%self.current_z
+
+		scan_start=-500
+		scan_end=500
+		scan_step=20
+		cnt_ch=ch
+		cnt_ch2=1
+		cnt_time=0
+		unit="pulse"
+
+        	self.colz.axisScan(self,ofile,scan_start,scan_end,scan_step,cnt_ch,cnt_ch2,cnt_time,unit)
+
+if __name__=="__main__":
+	host = '172.24.242.41'
+	port = 10101
+
+	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+	s.connect((host,port))
+
+	#bm=BM(s)
+	#bm.on()
+	#bm.off()
+
+	coli=Colli(s)
+	#coli.on()
+	coli.off()
+
+	s.close()

@@ -1,0 +1,144 @@
+_beam_size_begin:
+_label: [h  1.0 x v  1.0 um]
+_outline: [rectangle 0.0010 0.0010 0.0 0.0 ]
+_object_parameter: tc1_slit_1_width 0.032 mm
+_object_parameter: tc1_slit_1_height 0.033 mm
+_flux_factor:   0.1027
+_beam_size_end:
+
+_beam_size_begin:
+_label: [h  1.0 x v  5.0 um]
+_outline: [rectangle 0.0010 0.0050 0.0 0.0 ]
+_object_parameter: tc1_slit_1_width 0.032 mm
+_object_parameter: tc1_slit_1_height 0.157 mm
+_flux_factor:   0.4905
+_beam_size_end:
+
+_beam_size_begin:
+_label: [h  1.0 x v 10.0 um]
+_outline: [rectangle 0.0010 0.0100 0.0 0.0 ]
+_object_parameter: tc1_slit_1_width 0.032 mm
+_object_parameter: tc1_slit_1_height 0.311 mm
+_flux_factor:   0.9979
+_beam_size_end:
+
+_beam_size_begin:
+_label: [h  1.0 x v 13.0 um]
+_outline: [rectangle 0.0010 0.0130 0.0 0.0 ]
+_object_parameter: tc1_slit_1_width 0.032 mm
+_object_parameter: tc1_slit_1_height 0.404 mm
+_flux_factor:   1.2422
+_beam_size_end:
+
+_beam_size_begin:
+_label: [h  2.0 x v  2.0 um]
+_outline: [rectangle 0.0020 0.0020 0.0 0.0 ]
+_object_parameter: tc1_slit_1_width 0.070 mm
+_object_parameter: tc1_slit_1_height 0.064 mm
+_flux_factor:   0.4414
+_beam_size_end:
+
+_beam_size_begin:
+_label: [h  3.0 x v  3.0 um]
+_outline: [rectangle 0.0030 0.0030 0.0 0.0 ]
+_object_parameter: tc1_slit_1_width 0.109 mm
+_object_parameter: tc1_slit_1_height 0.095 mm
+_flux_factor:   1.0308
+_beam_size_end:
+
+_beam_size_begin:
+_label: [h  4.0 x v  4.0 um]
+_outline: [rectangle 0.0040 0.0040 0.0 0.0 ]
+_object_parameter: tc1_slit_1_width 0.148 mm
+_object_parameter: tc1_slit_1_height 0.126 mm
+_flux_factor:   1.8518
+_beam_size_end:
+
+_beam_size_begin:
+_label: [h  2.0 x v  5.0 um]
+_outline: [rectangle 0.0020 0.0050 0.0 0.0 ]
+_object_parameter: tc1_slit_1_width 0.070 mm
+_object_parameter: tc1_slit_1_height 0.157 mm
+_flux_factor:   1.1011
+_beam_size_end:
+
+_beam_size_begin:
+_label: [h  2.0 x v 10.0 um]
+_outline: [rectangle 0.0020 0.0100 0.0 0.0 ]
+_object_parameter: tc1_slit_1_width 0.070 mm
+_object_parameter: tc1_slit_1_height 0.311 mm
+_flux_factor:   2.2437
+_beam_size_end:
+
+_beam_size_begin:
+_label: [h  2.0 x v 13.0 um]
+_outline: [rectangle 0.0020 0.0130 0.0 0.0 ]
+_object_parameter: tc1_slit_1_width 0.070 mm
+_object_parameter: tc1_slit_1_height 0.404 mm
+_flux_factor:   2.7898
+_beam_size_end:
+
+_beam_size_begin:
+_label: [h  5.0 x v  5.0 um]
+_outline: [rectangle 0.0050 0.0050 0.0 0.0 ]
+_object_parameter: tc1_slit_1_width 0.186 mm
+_object_parameter: tc1_slit_1_height 0.157 mm
+_flux_factor:   2.8664
+_beam_size_end:
+
+_beam_size_begin:
+_label: [h  5.0 x v 10.0 um]
+_outline: [rectangle 0.0050 0.0100 0.0 0.0 ]
+_object_parameter: tc1_slit_1_width 0.186 mm
+_object_parameter: tc1_slit_1_height 0.311 mm
+_flux_factor:   5.8349
+_beam_size_end:
+
+_beam_size_begin:
+_label: [h  5.0 x v 13.0 um]
+_outline: [rectangle 0.0050 0.0130 0.0 0.0 ]
+_object_parameter: tc1_slit_1_width 0.186 mm
+_object_parameter: tc1_slit_1_height 0.404 mm
+_flux_factor:   7.2137
+_beam_size_end:
+
+_beam_size_begin:
+_label: [h 10.0 x v 10.0 um]
+_outline: [rectangle 0.0100 0.0100 0.0 0.0 ]
+_object_parameter: tc1_slit_1_width 0.379 mm
+_object_parameter: tc1_slit_1_height 0.311 mm
+_flux_factor:  10.5469
+_beam_size_end:
+
+_beam_size_begin:
+_label: [h 10.0 x v 13.0 um]
+_outline: [rectangle 0.0100 0.0130 0.0 0.0 ]
+_object_parameter: tc1_slit_1_width 0.379 mm
+_object_parameter: tc1_slit_1_height 0.404 mm
+_flux_factor:  12.9803
+_beam_size_end:
+
+_beam_size_begin:
+_label: [h 10.1 x v 13.1 um]
+_outline: [rectangle 0.0101 0.0131 0.0 0.0 ]
+_object_parameter: tc1_slit_1_width 0.500 mm
+_object_parameter: tc1_slit_1_height 0.500 mm
+_flux_factor:  16.8924
+_beam_size_end:
+
+_beam_size_begin:
+_label: [h  3.1 x v  3.2 um]
+_outline: [rectangle 0.0031 0.0032 0.0 0.0 ]
+_object_parameter: tc1_slit_1_width 0.100 mm
+_object_parameter: tc1_slit_1_height 0.100 mm
+_flux_factor:   1.0000
+_beam_size_end:
+
+_beam_size_begin:
+_label: [h  1.0 x v  0.7 um]
+_outline: [rectangle 0.0010 0.0007 0.0 0.0 ]
+_object_parameter: tc1_slit_1_width 0.040 mm
+_object_parameter: tc1_slit_1_height 0.026 mm
+_flux_factor:   0.1016
+_beam_size_end:
+

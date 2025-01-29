@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="527ed954-11ec-49db-b50c-051825221cf7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/AxesInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/AxesInfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Device.py" beforeDir="false" afterPath="$PROJECT_DIR$/Device.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mirror.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mirror.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WireScan.py" beforeDir="false" afterPath="$PROJECT_DIR$/WireScan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zoom.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zoom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyze_wire_scan.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyze_wire_scan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_add.com" beforeDir="false" afterPath="$PROJECT_DIR$/git_add.com" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyper_focus.py" beforeDir="false" afterPath="$PROJECT_DIR$/hyper_focus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyper_wire_scan.py" beforeDir="false" afterPath="$PROJECT_DIR$/hyper_wire_scan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="PPPP" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="hyper_focus.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hyper_focus.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hyper_focus_recover.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hyper_focus_recover.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Device.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Device.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="868">
+              <caret line="156" selection-start-line="156" selection-end-line="156" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WireScan.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WireScan.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="184" column="27" lean-forward="true" selection-start-line="184" selection-end-line="185" />
+              <folding>
+                <element signature="e#43#69#0" expanded="true" />
+                <marker date="1607393535270" expanded="true" signature="4830:4837" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tune_hfmtz.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tune_hfmtz.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mirror.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mirror.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2340">
+              <caret line="89" column="25" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gonio.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gonio.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18840">
+              <caret line="641" column="25" selection-start-line="641" selection-start-column="25" selection-end-line="641" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Date.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Date.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AxesInfo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AxesInfo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4440">
+              <caret line="154" selection-start-line="154" selection-end-line="157" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>doVscan</find>
+      <find>setCondition</find>
+      <find>tcsh</find>
+      <find>cnt_ch1</find>
+      <find>cnt_ch2</find>
+      <find>sefl</find>
+      <find>calcFlux</find>
+      <find>doSimpleScan</find>
+      <find>self.logger.in</find>
+      <find>hyperFocus</find>
+      <find>AxesInfo</find>
+      <find>axesInfo</find>
+      <find>self.f</find>
+      <find>File.File</find>
+      <find>prefix</find>
+      <find>prefix_y</find>
+      <find>setHy</find>
+      <find>scanYenc</find>
+      <find>hyperFocux</find>
+      <find>measure</find>
+      <find>VFM_z</find>
+      <find>VFM_Z</find>
+      <find>vfm</find>
+      <find>getVFM_z</find>
+      <find>prepScan</find>
+      <find>HFMin</find>
+      <find>tuneHoriGlancing</find>
+      <find>def measureFlux</find>
+      <find>measureFlux</find>
+      <find>vfm_ty</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>hfm_tz</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/28.XDS_XSCALE/choose_and_xscale.py" />
+        <option value="$PROJECT_DIR$/NeedlePicture.py" />
+        <option value="$PROJECT_DIR$/TEST/gonio_capture.py" />
+        <option value="$PROJECT_DIR$/slit1_scan.py" />
+        <option value="$PROJECT_DIR$/fixexit_quick.py" />
+        <option value="$PROJECT_DIR$/Mirror.py" />
+        <option value="$PROJECT_DIR$/mirror_half_and_stage.py" />
+        <option value="$PROJECT_DIR$/needle_x_cen.py" />
+        <option value="$PROJECT_DIR$/tune_sty_by_beammonitor.py" />
+        <option value="$PROJECT_DIR$/18.Report/XDSReporter.py" />
+        <option value="$PROJECT_DIR$/18.Report/make_archive_for_merged_final.py" />
+        <option value="$PROJECT_DIR$/DirectoryProc.py" />
+        <option value="$PROJECT_DIR$/18.Report/make_report_for_merge.py" />
+        <option value="$PROJECT_DIR$/18.Report/XSCALEReporter.py" />
+        <option value="$PROJECT_DIR$/18.Report/XSCALEcomparator.py" />
+        <option value="$PROJECT_DIR$/18.Report/CheckKAMO.py" />
+        <option value="$PROJECT_DIR$/10.Zoo/Libs/quick_report.py" />
+        <option value="$PROJECT_DIR$/10.Zoo/Libs/ZOOreporter.py" />
+        <option value="$PROJECT_DIR$/15.MergedCBF/merge_cbf_in_hd5.py" />
+        <option value="$PROJECT_DIR$/15.MergedCBF/merge_dose_phi_slicing.py" />
+        <option value="$PROJECT_DIR$/30.RD11/check_data.py" />
+        <option value="$PROJECT_DIR$/15.MergedCBF/merge_dose_slicing.py" />
+        <option value="$PROJECT_DIR$/15.MergedCBF/MergeCBF.py" />
+        <option value="$PROJECT_DIR$/30.RD11/sumup_cbf_rotation_doseslice.py" />
+        <option value="$PROJECT_DIR$/Libs/DirectoryProc.py" />
+        <option value="$PROJECT_DIR$/27.Backup/make_backup_com.py" />
+        <option value="$PROJECT_DIR$/15.MergedCBF/SumupImages.py" />
+        <option value="$PROJECT_DIR$/15.MergedCBF/MergeH5.py" />
+        <option value="$PROJECT_DIR$/Libs/MergeH5.py" />
+        <option value="$PROJECT_DIR$/33.MergeDoseSlice/sum_h5_sameimgnum_on_different_masterfiles.py" />
+        <option value="$PROJECT_DIR$/determine_att_thick_yk.py" />
+        <option value="$PROJECT_DIR$/determine_att_thick.py" />
+        <option value="$PROJECT_DIR$/18.Report/Toilet.py" />
+        <option value="$PROJECT_DIR$/Capture.py" />
+        <option value="$PROJECT_DIR$/BeamCenter.py" />
+        <option value="$PROJECT_DIR$/Morning.py" />
+        <option value="$PROJECT_DIR$/Libs/ComRefine.py" />
+        <option value="$PROJECT_DIR$/Zoom.py" />
+        <option value="$PROJECT_DIR$/Colli.py" />
+        <option value="$PROJECT_DIR$/wire_scan.201127.py" />
+        <option value="$PROJECT_DIR$/AxesInfo.py" />
+        <option value="$PROJECT_DIR$/Date.py" />
+        <option value="$PROJECT_DIR$/hyper_focus.py" />
+        <option value="$PROJECT_DIR$/hyper_wire_scan.py" />
+        <option value="$PROJECT_DIR$/Gonio.py" />
+        <option value="$PROJECT_DIR$/Flux.py" />
+        <option value="$PROJECT_DIR$/hyper_focus_recover.py" />
+        <option value="$PROJECT_DIR$/analyze_wire_scan.py" />
+        <option value="$PROJECT_DIR$/Device.py" />
+        <option value="$PROJECT_DIR$/WireScan.py" />
+        <option value="$PROJECT_DIR$/tune_hfmtz.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="189" />
+    <option name="y" value="522" />
+    <option name="width" value="2729" />
+    <option name="height" value="1787" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PPPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PPPP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PPPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/10.Zoo/Libs/Date.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/10.Zoo/Libs/Date.py" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/30.RD11" />
+      <recent name="$PROJECT_DIR$/15.MergedCBF" />
+      <recent name="$PROJECT_DIR$/10.Zoo/Libs" />
+      <recent name="$PROJECT_DIR$/18.Report" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="527ed954-11ec-49db-b50c-051825221cf7" name="Default" comment="" />
+      <created>1523026868731</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523026868731</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="189" y="522" width="2729" height="1787" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1358898" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.23667711" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.06162876" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Morning.py</url>
+          <line>36</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Libs/ComRefine.py</url>
+          <line>239</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/18.Report/make_xds_summary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18.Report/XSCALEReporter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1729">
+          <caret line="91" column="57" selection-start-line="91" selection-start-column="57" selection-end-line="91" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XSCALEinp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnaCORRECT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5263">
+          <caret line="278" column="27" selection-start-line="221" selection-end-line="278" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18.Report/XSCALEcomparator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="67" column="32" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18.Report/make_report_for_merge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1063">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18.Report/make_archive_for_merged_final.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1063">
+          <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DirectoryProc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1063">
+          <caret line="104" column="19" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18.Report/XDSReporter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="894">
+          <caret line="173" column="19" selection-start-line="173" selection-start-column="12" selection-end-line="173" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18.Report/CheckKAMO.py" />
+    <entry file="file://$PROJECT_DIR$/10.Zoo/Libs/quick_report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1805">
+          <caret line="97" column="12" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10.Zoo/Libs/ZOOreporter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="192" selection-start-line="192" selection-end-line="192" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/30.RD11/check_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15.MergedCBF/merge_dose_slicing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15.MergedCBF/merge_dose_phi_slicing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libs/DirectoryProc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3046">
+          <caret line="324" column="31" lean-forward="true" selection-start-line="324" selection-start-column="31" selection-end-line="324" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/27.Backup/make_backup_com.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/30.RD11/auto_sum_rot_dose_slicing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/30.RD11/sumup_cbf_rotation_doseslice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15.MergedCBF/conv_cbf_from_master.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15.MergedCBF/ConvertHD5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1583">
+          <caret line="99" column="30" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15.MergedCBF/MergeH5.py" />
+    <entry file="file://$PROJECT_DIR$/15.MergedCBF/merge_cbf_in_hd5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15.MergedCBF/merge_hd5_to_cbf_rotation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15.MergedCBF/MergeCBF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15.MergedCBF/SumupImages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libs/MergeH5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5287">
+          <caret line="319" column="33" selection-start-line="319" selection-start-column="33" selection-end-line="319" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/determine_att_thick_yk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/determine_att_thick.tmp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/18.Report/Toilet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="60" column="46" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/33.MergeDoseSlice/sum_h5_sameimgnum_on_different_masterfiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="23" selection-start-line="15" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/determine_att_thick.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Morning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6851">
+          <caret line="441" column="21" selection-start-line="441" selection-start-column="21" selection-end-line="441" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libs/ComRefine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3247">
+          <caret line="191" column="22" selection-start-line="191" selection-start-column="22" selection-end-line="191" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Colli.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="454" column="26" selection-start-line="454" selection-start-column="26" selection-end-line="454" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BeamCenter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="140" column="41" selection-start-line="140" selection-start-column="41" selection-end-line="140" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zoom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wire_scan.201127.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AxesInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4440">
+          <caret line="154" selection-start-line="154" selection-end-line="157" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Capture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gonio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18840">
+          <caret line="641" column="25" selection-start-line="641" selection-start-column="25" selection-end-line="641" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flux.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyper_wire_scan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mirror.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2340">
+          <caret line="89" column="25" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Date.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyze_wire_scan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyper_focus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyper_focus_recover.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Device.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="868">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WireScan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="184" column="27" lean-forward="true" selection-start-line="184" selection-end-line="185" />
+          <folding>
+            <element signature="e#43#69#0" expanded="true" />
+            <marker date="1607393535270" expanded="true" signature="4830:4837" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tune_hfmtz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

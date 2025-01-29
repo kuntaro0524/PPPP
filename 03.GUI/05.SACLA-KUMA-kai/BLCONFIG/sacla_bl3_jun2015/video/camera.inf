@@ -1,0 +1,32 @@
+SettingRz1: 0.000000
+SettingOmega1: 0.000000
+Symmetry1: r
+Zoom1: 1.000000
+ZoomOptions1: 1.000000 2.000000 4.000000 9.000000 
+ZoomLabels1: [x1.0] [x2.0] [x4.0] [x9.0] 
+TvExtender1: 2.042500
+Pin1: l
+ScreenRotationZ1: 0.000000
+OriginShiftX1: 0.124266
+OriginShiftY1: -0.052574
+OriginShiftXOptions1: 0.124266 0.045405 0.025092 0.018587 
+OriginShiftYOptions1: -0.052574 -0.028677 -0.016728 -0.011683 
+SettingRz2: 0.000000
+SettingOmega2: 0.000000
+Symmetry2: n
+Zoom2: 9.000000
+ZoomOptions2: 1.000000 3.000000 6.000000 9.000000 
+ZoomLabels2: [x1.0] [x1.0] [x1.0] [x1.0] 
+TvExtender2: 1.960800
+Pin2: l
+ScreenRotationZ2: 0.000000
+OriginShiftX2: 0.000000
+OriginShiftY2: 0.000000
+OriginShiftXOptions2: 0.000000 0.000000 0.000000 0.000000 
+OriginShiftYOptions2: 0.000000 0.000000 0.000000 0.000000 
+CenterCrossSize: 1.000000
+CaptureInterval: 50
+DefaultBrightness: 32767
+DefaultHue: 32767
+DefaultColor: 32767
+DefaultContrast: 32767

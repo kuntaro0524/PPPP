@@ -1,0 +1,5 @@
+ 1.00000[A] 10x15 um beam 1.00e+13 phs/sec Dose= 28.500 MGy/sec
+ 1.28000[A] 10x15 um beam 6.52e+12 phs/sec Dose= 31.300 MGy/sec
+ 1.35000[A] 10x15 um beam 5.53e+12 phs/sec Dose= 29.600 MGy/sec
+ 1.40000[A] 10x15 um beam 4.79e+12 phs/sec Dose= 27.900 MGy/sec
+ 1.45000[A] 10x15 um beam 3.95e+12 phs/sec Dose= 25.000 MGy/sec

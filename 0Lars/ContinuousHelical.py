@@ -1,0 +1,57 @@
+import os,sys,math
+
+class ContinuousHelical():
+
+	def init(self):
+		phis=0.0
+		phie=90.0
+		dphi=1.0
+
+phis=float(sys.argv[1])
+phie=float(sys.argv[2])
+dphi=float(sys.argv[3])
+
+frame_rate=float(sys.argv[4])
+vec_length=float(sys.argv[5])
+
+print "PROGRAM PHISTART PHIEND DPHI FRAMERATE VECTOR_LENGTH"
+
+# calculation start
+
+# Dose for 2x2 beam @ 10.05 keV
+dps=231 # MGy/s
+
+# Entire rotation range
+phi_tot=phie-phis
+
+# number of frames
+nframe=int(phi_tot/dphi)
+print "# of frames=",nframe
+
+# Total experimental time
+t_tot=float(nframe)/frame_rate
+print "Total exposure in the scan: %5.2f [sec]"%t_tot
+
+# Rotation speed
+rs=phi_tot/t_tot
+print "Rotation speed = %5.2f [deg/sec]"%rs
+
+# Goniometer translation speed
+ts=vec_length/t_tot
+print "Goniometer speed: %5.2f [um/sec]"%ts
+
+# Crystal size : exposure time and rotation width
+cry_size=2.0
+
+t_cry=cry_size/ts
+
+# Rotation/crystal
+phi_cry=rs*t_cry
+
+# dose for each crystal
+dpc=
+
+print "Exposure time %5.2f [sec]"%t_cry
+print "Dose for each crystal %5.2f [deg]"%phi_cry
+print "Rotation/crystal %5.2f [deg]"%phi_cry
+

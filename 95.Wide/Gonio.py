@@ -1,0 +1,459 @@
+#!/bin/env python 
+import sys
+import socket
+import time
+import math
+from pylab import *
+
+# My library
+from Received import *
+from Motor import *
+from AnalyzePeak import *
+from Capture import *
+from File import *
+from Enc import *
+from BSSconfig import *
+
+#
+class Gonio:
+
+	def __init__(self,server):
+		self.s=server
+    		self.goniox=Motor(self.s,"bl_32in_st2_gonio_1_x","pulse")
+    		self.gonioy=Motor(self.s,"bl_32in_st2_gonio_1_y","pulse")
+    		self.gonioz=Motor(self.s,"bl_32in_st2_gonio_1_z","pulse")
+    		self.goniozz=Motor(self.s,"bl_32in_st2_gonio_1_zz","pulse")
+    		self.phi=Motor(self.s,"bl_32in_st2_gonio_1_phi","pulse")
+		self.enc=Enc()
+		self.enc.openPort()
+
+		self.convertion=6667
+		self.base=210.0
+
+	def goMountPosition(self):
+		bssconf=BSSconfig()
+                mountx=bssconf.getValue("Cmount_Gonio_X")
+                mounty=bssconf.getValue("Cmount_Gonio_Y")
+                mountz=bssconf.getValue("Cmount_Gonio_Z")
+
+		print mountx,mounty,mountz
+
+		self.rotatePhi(0.0)
+		self.moveXYZmm(mountx,mounty,mountz)
+
+	def prepScan(self):
+	##      Preparing gonio information
+        	curr_gx=self.getX()[0]
+        	curr_gy=self.getY()[0]
+        	curr_gz=self.getZ()[0]
+        	print "Current gonio[pulse]:%5d %5d %5d\n"%(curr_gx,curr_gy,curr_gz)
+
+	##	Encoder reset
+        	self.enc.resetEnc(curr_gx,curr_gy,curr_gz)
+		return True
+
+	def getPhi(self):
+		phi_pulse=self.phi.getPosition()
+		print phi_pulse
+		phi_deg=float(phi_pulse[0])/float(self.convertion)+self.base
+
+		phi_deg=round(phi_deg,3)
+		#print phi_deg
+		return phi_deg
+
+	def movePint(self,value_um):
+		curr_phi=self.getPhi()
+		print "PHI:%12.5f" % curr_phi
+		curr_phi=math.radians(curr_phi)
+
+		# current pulse
+                curr_x=int(self.getX()[0])
+                curr_z=int(self.getZ()[0])
+
+		# unit [um]
+		move_x=value_um*math.cos(curr_phi)
+		move_z=value_um*math.sin(curr_phi)
+
+		# marume [um]
+		move_x=round(move_x,5)
+		move_z=round(move_z,5)
+
+		# marume value[pulse]
+		move_x=int(move_x*10)
+		move_z=int(move_z*10)
+
+		#print move_x,move_z
+
+		# final position
+		final_x=curr_x+move_x
+		final_z=curr_z+move_z
+
+		print final_x,final_z
+
+		self.moveXZ(final_x,final_z)
+
+		#print move_x,move_z
+		#return move_x,move_z
+
+	def moveTrans(self,trans):
+		# current pulse
+                curr_y=int(self.getY()[0])
+
+		# relative movement unit [um]
+		move_y=-trans
+
+		# marume[um]
+		move_y=round(move_y,5)
+		print "round %8.4f "%(move_y)
+
+		# [um] to [pulse]
+		move_y=int(move_y*10)
+
+		# final position
+		final_y=curr_y+move_y
+
+		print curr_y,final_y
+
+		# final position
+		print "final %8d\n"%(final_y)
+		self.moveY(final_y)
+
+	def moveUpDown(self,height):
+		curr_phi=self.getPhi()
+		print "PHI:%12.5f" % curr_phi
+		curr_phi=math.radians(curr_phi)
+
+		# current pulse
+                curr_x=int(self.getX()[0])
+                curr_z=int(self.getZ()[0])
+		print curr_x,curr_z
+
+		# unit [um]
+		move_x=-height*math.sin(curr_phi)
+		move_z=height*math.cos(curr_phi)
+
+		# marume[um]
+		move_x=round(move_x,5)
+		move_z=round(move_z,5)
+		print "rount %8.4f %8.4f\n"%(move_x,move_z)
+
+		# [um] to [pulse]
+		move_x=int(move_x*10)
+		move_z=int(move_z*10)
+
+		# final position
+		final_x=curr_x+move_x
+		final_z=curr_z+move_z
+
+		# final position
+		print "final %8d %8d\n"%(final_x,final_z)
+		self.moveXZ(final_x,final_z)
+
+	def rotatePhiRelative(self,phi):
+		rel_pulse=int(phi*self.convertion)
+		curr_pulse=self.phi.getPosition()[0]
+
+		final_pulse=rel_pulse+curr_pulse
+		print rel_pulse,final_pulse
+
+		self.phi.move(final_pulse)
+
+	def rotatePhi(self,phi):
+		convertion=6667 #deg2pulse
+		dif=phi*convertion
+
+		base=210
+		
+		orig=base*convertion
+		pos_pulse=-(orig+-dif)
+
+		self.phi.move(pos_pulse)
+		print pos_pulse
+
+	def scan2D(self,prefix,zrange,yrange,ch,time):
+		# output file
+		ofile=prefix+"_gonio2D.scn"
+		of=open(ofile,"w")
+
+		# zrange, yrange unit[um]
+		start_i=0
+		end_i=1
+		step_i=2
+
+		# loop
+		for zd in arange(zrange[start_i],zrange[end_i],zrange[step_i]):
+			zd_pulse=int(zd*10)
+			self.moveZ(zd_pulse)
+
+			for yd in arange(yrange[start_i],yrange[end_i],yrange[step_i]):
+				yd_pulse=int(yd*10)
+				self.moveY(yd_pulse)
+
+				# get Count at each position
+				cnt=self.goniox.getCount(ch,time)
+
+				of.write("%8.5f %8.5f %8d\n"%(zd,yd,cnt))
+				of.flush()
+			of.write("\n\n")
+
+	def getXmm(self):
+		tmp=float(self.goniox.getPosition()[0])
+		print "GETXMM:%8.3f"%tmp
+		return tmp/10.0/1000.0
+
+	def getYmm(self):
+		tmp=float(self.gonioy.getPosition()[0])
+		return -tmp/10.0/1000.0
+
+	def getZmm(self):
+		tmp=float(self.gonioz.getPosition()[0])
+		return tmp/10.0/1000.0
+
+	def getZZmm(self):
+		tmp=float(self.goniozz.getPosition()[0])
+		return tmp*0.25/1000.0
+
+	def moveZZrel(self,value): ## value is in [um]
+		move_pulse=value*4
+
+		# current ZZ [pulse]
+		curr_zz=self.goniozz.getPosition()[0]
+
+		# final position [pulse]
+		final=curr_zz+move_pulse
+
+		# backlush 5[um]
+		if value<0.0:
+			bl_pos=final-20
+			self.goniozz.move(bl_pos)
+
+		# move
+		self.goniozz.move(final)
+
+	def getX(self):
+		return self.goniox.getPosition()
+
+	def getY(self):
+		return self.gonioy.getPosition()
+
+	def getZ(self):
+		return self.gonioz.getPosition()
+
+	def moveZ(self,value):
+		self.gonioz.move(value)
+
+	def moveY(self,value):
+		self.gonioy.move(value)
+
+	def moveXYZ(self,movex,movey,movez):
+		# UNIT: [pulse]
+		self.goniox.move(movex)
+		self.gonioy.move(movey)
+		self.gonioz.move(movez)
+
+	def getXYZmm(self):
+		x=self.getXmm()
+		y=self.getXmm()
+		z=self.getXmm()
+
+		return x,y,z
+
+	def moveXYZmm(self,movex,movey,movez):
+		# convertion
+		xpulse=movex*10000.0
+		ypulse=-movey*10000.0
+		zpulse=movez*10000.0
+		# UNIT: [pulse]
+		self.goniox.move(xpulse)
+		self.gonioy.move(ypulse)
+		self.gonioz.move(zpulse)
+
+	def moveXZ(self,movex,movez):
+		self.goniox.move(movex)
+		self.gonioz.move(movez)
+
+	def move(self,x,y,z):
+		self.goniox.move(x)
+		self.gonioy.move(y)
+		self.gonioz.move(z)
+
+	def scanEnc(self,axis,prefix,start,end,step,cnt_ch1,cnt_ch2,time):
+		# Counter
+        	counter=Count(self.s,cnt_ch1,cnt_ch2)
+
+		# File open
+		ofile=prefix+"_gonioz.scn"
+		of=open(ofile,"w")
+
+		range=end-start
+
+		ndata=int(range/step)+1
+
+		print ndata
+
+		if ndata<0:
+			print "range trouble"
+			return -1
+
+		ax=[]
+		i1=[]
+		i2=[]
+		pylab.ion()
+
+		for idx in arange(1,ndata):
+			### [um]
+			tpos=start+idx*step
+			### [pulse]
+
+			tpos_pulse=tpos*10
+
+			axis.move(tpos_pulse)
+			enc_z=self.enc.getZ()
+			#print tpos_pulse, self.enc.getZ()
+
+			# Counter
+			value1,value2=counter.getCount(time)
+			ax.append(enc_z)
+			i1.append(value1)
+			i2.append(value2)
+			pylab.plot(ax,i1,ax,i2)
+			pylab.draw()
+			of.write("%8.5f %8d %8d\n"%(enc_z,value1,value2))
+
+		of.close()
+
+                # Analysis and Plot
+                ana=AnalyzePeak(ofile)
+		comment="TEST"
+                outfig=prefix+"_gonioz.png"
+                drvfile="%s_gonioz.drv"%prefix
+
+                fwhm,center=ana.analyzeKnife("gonio Z[pulse]","Intensity",drvfile,outfig,comment)
+                center=round(center,4)
+                return fwhm,center
+
+	def scanEncZ(self,prefix,start,end,step,cnt_ch1,cnt_ch2,time):
+		ofile=prefix+"_scanZ.scn"
+		self.scanEnc(self.gonioz,prefix,start,end,step,cnt_ch1,cnt_ch2,time)
+
+	def scanZ(self,prefix,start,end,step,cnt_ch1,cnt_ch2,time):
+		ofile=prefix+"_gonioz.scn"
+        	# Condition
+        	self.gonioz.setStart(start)
+        	self.gonioz.setEnd(end)
+        	self.gonioz.setStep(step)
+
+        	maxval=self.gonioz.axisScan(ofile,cnt_ch1,cnt_ch2,time)
+
+                # Analysis and Plot
+                ana=AnalyzePeak(ofile)
+                #comment=AxesInfo(self.s).getLeastInfo()
+                comment=""
+                outfig=prefix+"_gonioz.png"
+                drvfile="%s_gonioz.drv"%prefix
+
+                fwhm,center=ana.analyzeKnife("gonio Z[pulse]","Intensity",drvfile,outfig,comment)
+                center=round(center,4)
+                return fwhm,center
+
+	def scanY(self,prefix,start,end,step,cnt_ch1,cnt_ch2,time):
+		ofile=prefix+"_gonioy.scn"
+        	# Condition
+        	self.gonioy.setStart(start)
+        	self.gonioy.setEnd(end)
+        	self.gonioy.setStep(step)
+
+        	maxval=self.gonioy.axisScan(ofile,cnt_ch1,cnt_ch2,time)
+
+                # Analysis and Plot
+                ana=AnalyzePeak(ofile)
+                #comment=AxesInfo(self.s).getLeastInfo()
+                comment=""
+                outfig=prefix+"_gonioy.png"
+                drvfile="%s_gonioy.drv"%prefix
+
+                fwhm,center=ana.analyzeKnife("gonio Y[pulse]","Intensity",drvfile,outfig,comment)
+                center=round(center,4)
+                return fwhm,center
+
+	def findCenter(self,ofile,start,end,step,time,unit):
+		# Set step
+    		#maxvalue=self.gonioz.axisScan(ofile,start,end,step,self.cnt_ch,self.cnt_ch-1,time,unit)
+		#return(maxvalue)
+		print "find center"
+
+if __name__=="__main__":
+	host = '172.24.242.41'
+	port = 10101
+	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+	s.connect((host,port))
+
+	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+	s.connect((host,port))
+
+	gonio=Gonio(s)
+
+	#print gonio.getXmm()
+	#gonio.move(px,py,pz)
+
+	gonio.scanEncZ("test.scn",-900,-800,0.5,2,0,0.2)
+
+	#print "####"
+	#curr_x= gonio.getX()[0]/10000.0
+	#curr_y=-gonio.getY()[0]/10000.0
+	#curr_z= gonio.getZ()[0]/10000.0
+
+	#print "final %8.4f %8.4f %8.4f\n"%(curr_x,curr_y,curr_z)
+
+	#gonio.rotatePhi(90)
+	#print gonio.getXmm()
+
+	#value=float(raw_input())
+	#gonio.movePint(value)
+
+	#file=File("./")
+	#dir=file.getAbsolutePath()
+	
+	#savex=gonio.getX()[0]
+	#savey=gonio.getY()[0]
+	#savez=gonio.getZ()[0]
+
+	#print savex,savey,savez
+
+	#index=0
+        #cap=Capture()
+	#for pint in arange(-10,10,1.0): # unit[um]
+		#index+=1
+		#print "pint=%5d\n"%pint
+		#gonio.movePint(savex,savez,pint)
+		#prefix="%02d"%index
+	#	
+		#file="%s/%s.ppm"%(dir,prefix)
+		#print file
+        	##cap.capture(file)
+	#gonio.move(savex,savey,savez,"pulse")
+
+	#zrange=[-292,-1092,-100]
+	#yrange=[13329,14129,100]
+	#gonio.scan2D("TEST2",zrange,yrange,2,0.5)
+
+	#gonio.moveUpDown(5)
+
+	#cap.disconnect()
+
+	# coordinates [Y,Z]
+	#normal_position=[176400,-100]
+	#vscan_position= [176400,-100]
+	#hscan_position= [175000,-460]
+
+	# move normal position
+	#gonio.move(normal_position[0],normal_position[1],"pulse")
+
+	# vertical scan
+	#gonio.move(vscan_position[0],vscan_position[1],"pulse")
+	#gonio.scanZ("gz",300,500,10,0.2,"pulse")
+
+	#gonio.move(hscan_position[0],hscan_position[1],"pulse")
+	#gonio.scanY("gy",172640,173040,10,0.2,"pulse")
+
+	s.close()

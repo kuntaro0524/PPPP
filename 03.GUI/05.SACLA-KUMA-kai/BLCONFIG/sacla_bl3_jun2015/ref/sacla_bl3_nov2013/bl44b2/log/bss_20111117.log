@@ -1,0 +1,73 @@
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2011/11/17 [Thu] 21:42:11.
+     [  Last modified at 11:40, Apr/04/2011 (Mon)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2011/11/17 [Thu] 21:42:11
+
+--- successfully loaded attenuator configurations --- 2011/11/17 [Thu] 21:42:11
+    Load bss.config Success.
+
+   Now Loading beamsize config file. [beamsize.config] ... ... ...
+    Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/bl44b2/htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+   Now Loading ADSC-CCD config file. [adsc.config] ... ... ... 
+    Load ADSC config. Success.
+     ( bss's pid = 9870, videosrv's pid = ??? )
+ 2011/11/17 [Thu] 21:42:11  Warning : Unknown Keyword detected.
+   --->     Shift interval: 0 
+ 2011/11/17 [Thu] 21:42:11  Warning : Unknown Keyword detected.
+   --->     Shift step: 0.00000 
+
+################################################################
+####### Initializing end station equipments. 2011/11/17 [Thu] 21:42:15 #######
+###############################################################=
+
+    Making a connection to Message Server... 2011/11/17 [Thu] 21:42:15
+
+ 2011/11/17 [Thu] 21:42:15  Connecting to Message Server...
+ 2011/11/17 [Thu] 21:42:15  Successfully connect to Message Server.
+
+=================================================================
+
+   Set axis driving parameters default. 2011/11/17 [Thu] 21:42:18
+
+=================================================================
+
+--------- Insert beam stop -------- 2011/11/17 [Thu] 21:42:18
+
+--------- success -------- 2011/11/17 [Thu] 21:42:18
+
+=================================================================
+
+   Attenuator datum. 2011/11/17 [Thu] 21:42:18
+
+=================================================================
+
+=================================================================
+
+   Goniometer datum. 2011/11/17 [Thu] 21:42:18
+
+=================================================================
+
+=================================================================
+
+   Equipment stage datum. 2011/11/17 [Thu] 21:42:18
+
+=================================================================
+
+################################################################
+####### End station initialization finished. 2011/11/17 [Thu] 21:42:18 #######
+################################################################
+Disconnect Message Server.
+Cannot open Schedule file.
+Beamline Scheduling Software Exit at 2011/11/17 [Thu] 21:42:37.
+

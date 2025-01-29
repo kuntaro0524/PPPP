@@ -1,0 +1,689 @@
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2011/11/18 [Fri] 19:59:44.
+     [  Last modified at 21:15, Nov/17/2011 (Thu)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2011/11/18 [Fri] 19:59:44
+
+--- successfully loaded attenuator configurations --- 2011/11/18 [Fri] 19:59:44
+    Load bss.config Success.
+
+   Now Loading beamsize config file. [beamsize.config] ... ... ...
+    Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/bl44b2/htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+   Now Loading ADSC-CCD config file. [adsc.config] ... ... ... 
+    Load ADSC config. Success.
+     ( bss's pid = 21034, videosrv's pid = ??? )
+ 2011/11/18 [Fri] 19:59:44  Warning : Unknown Keyword detected.
+   --->     Shift interval: 0 
+ 2011/11/18 [Fri] 19:59:44  Warning : Unknown Keyword detected.
+   --->     Shift step: 0.00000 
+
+################################################################
+####### Initializing end station equipments. 2011/11/18 [Fri] 19:59:48 #######
+###############################################################=
+
+    Making a connection to Message Server... 2011/11/18 [Fri] 19:59:48
+
+ 2011/11/18 [Fri] 19:59:48  Connecting to Message Server...
+ 2011/11/18 [Fri] 19:59:48  Successfully connect to Message Server.
+
+=================================================================
+
+   Set axis driving parameters default. 2011/11/18 [Fri] 19:59:51
+
+=================================================================
+
+--------- Insert beam stop -------- 2011/11/18 [Fri] 19:59:51
+
+--------- success -------- 2011/11/18 [Fri] 19:59:51
+
+=================================================================
+
+   Attenuator datum. 2011/11/18 [Fri] 19:59:51
+
+=================================================================
+
+=================================================================
+
+   Goniometer datum. 2011/11/18 [Fri] 19:59:51
+
+=================================================================
+
+=================================================================
+
+   Equipment stage datum. 2011/11/18 [Fri] 19:59:51
+
+=================================================================
+
+################################################################
+####### End station initialization finished. 2011/11/18 [Fri] 19:59:51 #######
+################################################################
+Disconnect Message Server.
+
+Beamline Scheduling Software Exit at 2011/11/18 [Fri] 19:59:53.
+
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2011/11/18 [Fri] 20:00:01.
+     [  Last modified at 21:15, Nov/17/2011 (Thu)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2011/11/18 [Fri] 20:00:01
+
+--- successfully loaded attenuator configurations --- 2011/11/18 [Fri] 20:00:01
+    Load bss.config Success.
+
+   Now Loading beamsize config file. [beamsize.config] ... ... ...
+    Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/bl44b2/htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+   Now Loading ADSC-CCD config file. [adsc.config] ... ... ... 
+    Load ADSC config. Success.
+     ( bss's pid = 21039, videosrv's pid = ??? )
+ 2011/11/18 [Fri] 20:00:01  Warning : Unknown Keyword detected.
+   --->     Shift interval: 0 
+ 2011/11/18 [Fri] 20:00:01  Warning : Unknown Keyword detected.
+   --->     Shift step: 0.00000 
+
+################################################################
+####### Initializing end station equipments. 2011/11/18 [Fri] 20:00:02 #######
+###############################################################=
+
+    Making a connection to Message Server... 2011/11/18 [Fri] 20:00:02
+
+ 2011/11/18 [Fri] 20:00:02  Connecting to Message Server...
+ 2011/11/18 [Fri] 20:00:02  Successfully connect to Message Server.
+
+=================================================================
+
+   Set axis driving parameters default. 2011/11/18 [Fri] 20:00:05
+
+=================================================================
+
+--------- Insert beam stop -------- 2011/11/18 [Fri] 20:00:05
+
+--------- success -------- 2011/11/18 [Fri] 20:00:05
+
+=================================================================
+
+   Attenuator datum. 2011/11/18 [Fri] 20:00:05
+
+=================================================================
+
+=================================================================
+
+   Goniometer datum. 2011/11/18 [Fri] 20:00:05
+
+=================================================================
+
+=================================================================
+
+   Equipment stage datum. 2011/11/18 [Fri] 20:00:05
+
+=================================================================
+
+################################################################
+####### End station initialization finished. 2011/11/18 [Fri] 20:00:05 #######
+################################################################
+Disconnect Message Server.
+Cannot open Schedule file.
+Beamline Scheduling Software Exit at 2011/11/18 [Fri] 20:00:45.
+
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2011/11/18 [Fri] 20:04:25.
+     [  Last modified at 21:15, Nov/17/2011 (Thu)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2011/11/18 [Fri] 20:04:25
+
+--- successfully loaded attenuator configurations --- 2011/11/18 [Fri] 20:04:25
+    Load bss.config Success.
+
+   Now Loading beamsize config file. [beamsize.config] ... ... ...
+    Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/bl44b2/htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+   Now Loading ADSC-CCD config file. [adsc.config] ... ... ... 
+    Load ADSC config. Success.
+     ( bss's pid = 21445, videosrv's pid = ??? )
+ 2011/11/18 [Fri] 20:04:25  Warning : Unknown Keyword detected.
+   --->     Shift interval: 0 
+ 2011/11/18 [Fri] 20:04:25  Warning : Unknown Keyword detected.
+   --->     Shift step: 0.00000 
+Cannot open Schedule file.
+Beamline Scheduling Software Exit at 2011/11/18 [Fri] 20:05:01.
+
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2011/11/18 [Fri] 20:07:48.
+     [  Last modified at 21:15, Nov/17/2011 (Thu)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2011/11/18 [Fri] 20:07:48
+
+--- successfully loaded attenuator configurations --- 2011/11/18 [Fri] 20:07:48
+    Load bss.config Success.
+
+   Now Loading beamsize config file. [beamsize.config] ... ... ...
+    Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/bl44b2/htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+   Now Loading ADSC-CCD config file. [adsc.config] ... ... ... 
+    Load ADSC config. Success.
+     ( bss's pid = 21458, videosrv's pid = ??? )
+ 2011/11/18 [Fri] 20:07:48  Warning : Unknown Keyword detected.
+   --->     Shift interval: 0 
+ 2011/11/18 [Fri] 20:07:48  Warning : Unknown Keyword detected.
+   --->     Shift step: 0.00000 
+
+################################################################
+####### Initializing end station equipments. 2011/11/18 [Fri] 20:07:50 #######
+###############################################################=
+
+    Making a connection to Message Server... 2011/11/18 [Fri] 20:07:50
+
+ 2011/11/18 [Fri] 20:07:50  Connecting to Message Server...
+ 2011/11/18 [Fri] 20:07:50  Successfully connect to Message Server.
+
+=================================================================
+
+   Set axis driving parameters default. 2011/11/18 [Fri] 20:07:53
+
+=================================================================
+
+--------- Insert beam stop -------- 2011/11/18 [Fri] 20:07:53
+
+--------- success -------- 2011/11/18 [Fri] 20:07:53
+
+=================================================================
+
+   Attenuator datum. 2011/11/18 [Fri] 20:07:53
+
+=================================================================
+
+=================================================================
+
+   Goniometer datum. 2011/11/18 [Fri] 20:07:53
+
+=================================================================
+
+=================================================================
+
+   Equipment stage datum. 2011/11/18 [Fri] 20:07:53
+
+=================================================================
+
+################################################################
+####### End station initialization finished. 2011/11/18 [Fri] 20:07:53 #######
+################################################################
+ 2011/11/18 [Fri] 20:08:07  Error : Can not create directory. /data/
+ 2011/11/18 [Fri] 20:08:07  Error : Can not create directory. /data/
+ 2011/11/18 [Fri] 20:08:07  Error : Can not create directory. /data/
+Disconnect Message Server.
+Cannot open Schedule file.
+Beamline Scheduling Software Exit at 2011/11/18 [Fri] 20:08:31.
+
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2011/11/18 [Fri] 20:09:54.
+     [  Last modified at 21:15, Nov/17/2011 (Thu)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2011/11/18 [Fri] 20:09:54
+
+--- successfully loaded attenuator configurations --- 2011/11/18 [Fri] 20:09:54
+    Load bss.config Success.
+
+   Now Loading beamsize config file. [beamsize.config] ... ... ...
+    Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/bl44b2/htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+   Now Loading ADSC-CCD config file. [adsc.config] ... ... ... 
+    Load ADSC config. Success.
+     ( bss's pid = 21473, videosrv's pid = ??? )
+ 2011/11/18 [Fri] 20:09:54  Warning : Unknown Keyword detected.
+   --->     Shift interval: 0 
+ 2011/11/18 [Fri] 20:09:54  Warning : Unknown Keyword detected.
+   --->     Shift step: 0.00000 
+
+################################################################
+####### Initializing end station equipments. 2011/11/18 [Fri] 20:10:19 #######
+###############################################################=
+
+    Making a connection to Message Server... 2011/11/18 [Fri] 20:10:19
+
+ 2011/11/18 [Fri] 20:10:19  Connecting to Message Server...
+ 2011/11/18 [Fri] 20:10:19  Successfully connect to Message Server.
+
+=================================================================
+
+   Set axis driving parameters default. 2011/11/18 [Fri] 20:10:22
+
+=================================================================
+
+--------- Insert beam stop -------- 2011/11/18 [Fri] 20:10:22
+
+--------- success -------- 2011/11/18 [Fri] 20:10:22
+
+=================================================================
+
+   Attenuator datum. 2011/11/18 [Fri] 20:10:22
+
+=================================================================
+
+=================================================================
+
+   Goniometer datum. 2011/11/18 [Fri] 20:10:22
+
+=================================================================
+
+=================================================================
+
+   Equipment stage datum. 2011/11/18 [Fri] 20:10:22
+
+=================================================================
+
+################################################################
+####### End station initialization finished. 2011/11/18 [Fri] 20:10:22 #######
+################################################################
+Disconnect Message Server.
+Cannot open Schedule file.
+Beamline Scheduling Software Exit at 2011/11/18 [Fri] 20:10:41.
+
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2011/11/18 [Fri] 20:13:40.
+     [  Last modified at 21:15, Nov/17/2011 (Thu)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2011/11/18 [Fri] 20:13:40
+
+--- successfully loaded attenuator configurations --- 2011/11/18 [Fri] 20:13:40
+    Load bss.config Success.
+
+   Now Loading beamsize config file. [beamsize.config] ... ... ...
+    Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/bl44b2/htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+   Now Loading ADSC-CCD config file. [adsc.config] ... ... ... 
+    Load ADSC config. Success.
+     ( bss's pid = 21495, videosrv's pid = ??? )
+ 2011/11/18 [Fri] 20:13:40  Warning : Unknown Keyword detected.
+   --->     Shift interval: 0 
+ 2011/11/18 [Fri] 20:13:40  Warning : Unknown Keyword detected.
+   --->     Shift step: 0.00000 
+ 2011/11/18 [Fri] 20:14:00  Error : Can not create directory. /data/
+ 2011/11/18 [Fri] 20:14:00  Error : Can not create directory. /data/
+ 2011/11/18 [Fri] 20:14:12  Error : Can not create directory. /data/
+ 2011/11/18 [Fri] 20:14:12  Error : Can not create directory. /data/
+ 2011/11/18 [Fri] 20:14:21  Error : Can not create directory. /data/
+ 2011/11/18 [Fri] 20:14:21  Error : Can not create directory. /data/
+Cannot open Schedule file.
+Beamline Scheduling Software Exit at 2011/11/18 [Fri] 20:14:39.
+
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2011/11/18 [Fri] 20:17:45.
+     [  Last modified at 21:15, Nov/17/2011 (Thu)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2011/11/18 [Fri] 20:17:45
+
+--- successfully loaded attenuator configurations --- 2011/11/18 [Fri] 20:17:45
+    Load bss.config Success.
+
+   Now Loading beamsize config file. [beamsize.config] ... ... ...
+    Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/bl44b2/htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+   Now Loading ADSC-CCD config file. [adsc.config] ... ... ... 
+    Load ADSC config. Success.
+     ( bss's pid = 21521, videosrv's pid = ??? )
+ 2011/11/18 [Fri] 20:17:45  Warning : Unknown Keyword detected.
+   --->     Shift interval: 0 
+ 2011/11/18 [Fri] 20:17:45  Warning : Unknown Keyword detected.
+   --->     Shift step: 0.00000 
+Cannot open Schedule file.
+Beamline Scheduling Software Exit at 2011/11/18 [Fri] 20:18:01.
+
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2011/11/18 [Fri] 20:20:43.
+     [  Last modified at 21:15, Nov/17/2011 (Thu)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2011/11/18 [Fri] 20:20:43
+
+--- successfully loaded attenuator configurations --- 2011/11/18 [Fri] 20:20:43
+    Load bss.config Success.
+
+   Now Loading beamsize config file. [beamsize.config] ... ... ...
+    Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/bl44b2/htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+   Now Loading ADSC-CCD config file. [adsc.config] ... ... ... 
+    Load ADSC config. Success.
+     ( bss's pid = 21550, videosrv's pid = ??? )
+ 2011/11/18 [Fri] 20:20:43  Warning : Unknown Keyword detected.
+   --->     Shift interval: 0 
+ 2011/11/18 [Fri] 20:20:43  Warning : Unknown Keyword detected.
+   --->     Shift step: 0.00000 
+Cannot open Schedule file.
+Beamline Scheduling Software Exit at 2011/11/18 [Fri] 20:20:53.
+
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2011/11/18 [Fri] 20:24:40.
+     [  Last modified at 21:15, Nov/17/2011 (Thu)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2011/11/18 [Fri] 20:24:40
+
+--- successfully loaded attenuator configurations --- 2011/11/18 [Fri] 20:24:40
+    Load bss.config Success.
+
+   Now Loading beamsize config file. [beamsize.config] ... ... ...
+    Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/bl44b2/htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+   Now Loading ADSC-CCD config file. [adsc.config] ... ... ... 
+    Load ADSC config. Success.
+     ( bss's pid = 21567, videosrv's pid = ??? )
+ 2011/11/18 [Fri] 20:24:40  Warning : Unknown Keyword detected.
+   --->     Shift interval: 0 
+ 2011/11/18 [Fri] 20:24:40  Warning : Unknown Keyword detected.
+   --->     Shift step: 0.00000 
+
+################################################################
+####### Initializing end station equipments. 2011/11/18 [Fri] 20:24:43 #######
+###############################################################=
+
+    Making a connection to Message Server... 2011/11/18 [Fri] 20:24:43
+
+ 2011/11/18 [Fri] 20:24:43  Connecting to Message Server...
+ 2011/11/18 [Fri] 20:24:43  Successfully connect to Message Server.
+
+=================================================================
+
+   Set axis driving parameters default. 2011/11/18 [Fri] 20:24:46
+
+=================================================================
+
+--------- Insert beam stop -------- 2011/11/18 [Fri] 20:24:46
+
+--------- success -------- 2011/11/18 [Fri] 20:24:46
+
+=================================================================
+
+   Attenuator datum. 2011/11/18 [Fri] 20:24:46
+
+=================================================================
+
+=================================================================
+
+   Goniometer datum. 2011/11/18 [Fri] 20:24:46
+
+=================================================================
+
+=================================================================
+
+   Equipment stage datum. 2011/11/18 [Fri] 20:24:46
+
+=================================================================
+
+################################################################
+####### End station initialization finished. 2011/11/18 [Fri] 20:24:46 #######
+################################################################
+Disconnect Message Server.
+Cannot open Schedule file.
+Beamline Scheduling Software Exit at 2011/11/18 [Fri] 20:25:04.
+
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2011/11/18 [Fri] 20:26:20.
+     [  Last modified at 21:15, Nov/17/2011 (Thu)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2011/11/18 [Fri] 20:26:20
+
+--- successfully loaded attenuator configurations --- 2011/11/18 [Fri] 20:26:20
+    Load bss.config Success.
+
+   Now Loading beamsize config file. [beamsize.config] ... ... ...
+    Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/bl44b2/htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+   Now Loading ADSC-CCD config file. [adsc.config] ... ... ... 
+    Load ADSC config. Success.
+     ( bss's pid = 21584, videosrv's pid = ??? )
+ 2011/11/18 [Fri] 20:26:20  Warning : Unknown Keyword detected.
+   --->     Shift interval: 0 
+ 2011/11/18 [Fri] 20:26:20  Warning : Unknown Keyword detected.
+   --->     Shift step: 0.00000 
+Cannot open Schedule file.
+Beamline Scheduling Software Exit at 2011/11/18 [Fri] 20:26:32.
+
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2011/11/18 [Fri] 20:28:30.
+     [  Last modified at 21:15, Nov/17/2011 (Thu)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2011/11/18 [Fri] 20:28:30
+
+--- successfully loaded attenuator configurations --- 2011/11/18 [Fri] 20:28:30
+    Load bss.config Success.
+
+   Now Loading beamsize config file. [beamsize.config] ... ... ...
+    Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/bl44b2/htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+   Now Loading ADSC-CCD config file. [adsc.config] ... ... ... 
+    Load ADSC config. Success.
+     ( bss's pid = 21635, videosrv's pid = ??? )
+ 2011/11/18 [Fri] 20:28:30  Warning : Unknown Keyword detected.
+   --->     Shift interval: 0 
+ 2011/11/18 [Fri] 20:28:30  Warning : Unknown Keyword detected.
+   --->     Shift step: 0.00000 
+ 2011/11/18 [Fri] 20:28:38  Error : Can not create directory. /data/
+ 2011/11/18 [Fri] 20:28:38  Error : Can not create directory. /data/
+ 2011/11/18 [Fri] 20:28:38  Error : Can not create directory. /data/
+ 2011/11/18 [Fri] 20:28:47  Error : Can not create directory. /data/
+ 2011/11/18 [Fri] 20:28:47  Error : Can not create directory. /data/
+
+Beamline Scheduling Software Exit at 2011/11/18 [Fri] 20:30:12.
+
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2011/11/18 [Fri] 20:31:41.
+     [  Last modified at 21:15, Nov/17/2011 (Thu)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2011/11/18 [Fri] 20:31:41
+
+--- successfully loaded attenuator configurations --- 2011/11/18 [Fri] 20:31:41
+    Load bss.config Success.
+
+   Now Loading beamsize config file. [beamsize.config] ... ... ...
+    Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/bl44b2/htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+   Now Loading ADSC-CCD config file. [adsc.config] ... ... ... 
+    Load ADSC config. Success.
+     ( bss's pid = 22051, videosrv's pid = ??? )
+ 2011/11/18 [Fri] 20:31:41  Warning : Unknown Keyword detected.
+   --->     Shift interval: 0 
+ 2011/11/18 [Fri] 20:31:41  Warning : Unknown Keyword detected.
+   --->     Shift step: 0.00000 
+
+Beamline Scheduling Software Exit at 2011/11/18 [Fri] 20:32:13.
+
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2011/11/18 [Fri] 20:33:57.
+     [  Last modified at 21:15, Nov/17/2011 (Thu)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2011/11/18 [Fri] 20:33:57
+
+--- successfully loaded attenuator configurations --- 2011/11/18 [Fri] 20:33:57
+    Load bss.config Success.
+
+   Now Loading beamsize config file. [beamsize.config] ... ... ...
+    Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/bl44b2/htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+   Now Loading ADSC-CCD config file. [adsc.config] ... ... ... 
+    Load ADSC config. Success.
+     ( bss's pid = 22055, videosrv's pid = ??? )
+ 2011/11/18 [Fri] 20:33:57  Warning : Unknown Keyword detected.
+   --->     Shift interval: 0 
+ 2011/11/18 [Fri] 20:33:57  Warning : Unknown Keyword detected.
+   --->     Shift step: 0.00000 
+
+Beamline Scheduling Software Exit at 2011/11/18 [Fri] 20:34:02.
+
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2011/11/18 [Fri] 20:34:42.
+     [  Last modified at 21:15, Nov/17/2011 (Thu)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2011/11/18 [Fri] 20:34:42
+
+--- successfully loaded attenuator configurations --- 2011/11/18 [Fri] 20:34:42
+    Load bss.config Success.
+
+   Now Loading beamsize config file. [beamsize.config] ... ... ...
+    Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/bl44b2/htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+   Now Loading ADSC-CCD config file. [adsc.config] ... ... ... 
+    Load ADSC config. Success.
+     ( bss's pid = 22439, videosrv's pid = ??? )
+ 2011/11/18 [Fri] 20:34:42  Warning : Unknown Keyword detected.
+   --->     Shift interval: 0 
+ 2011/11/18 [Fri] 20:34:42  Warning : Unknown Keyword detected.
+   --->     Shift step: 0.00000 
+
+Beamline Scheduling Software Exit at 2011/11/18 [Fri] 20:35:02.
+
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2011/11/18 [Fri] 20:39:41.
+     [  Last modified at 21:15, Nov/17/2011 (Thu)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2011/11/18 [Fri] 20:39:41
+
+--- successfully loaded attenuator configurations --- 2011/11/18 [Fri] 20:39:41
+    Load bss.config Success.
+
+   Now Loading beamsize config file. [beamsize.config] ... ... ...
+    Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/bl44b2/htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+   Now Loading ADSC-CCD config file. [adsc.config] ... ... ... 
+    Load ADSC config. Success.
+     ( bss's pid = 22472, videosrv's pid = ??? )
+ 2011/11/18 [Fri] 20:39:41  Warning : Unknown Keyword detected.
+   --->     Shift interval: 0 
+ 2011/11/18 [Fri] 20:39:41  Warning : Unknown Keyword detected.
+   --->     Shift step: 0.00000 
+
+Beamline Scheduling Software Exit at 2011/11/18 [Fri] 20:39:59.
+

@@ -1,0 +1,85 @@
+#!/bin/env python 
+import sys
+import socket
+import time
+
+# My library
+from Received import *
+from Organizer import *
+from PeakFWHM import *
+
+host = '172.24.242.41'
+port = 10101
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect((host,port))
+
+#
+
+while True:
+    print time.clock()
+    print "Input index [example. 00, 01,...]:"
+    data_index = int(raw_input())
+    #if msg == '':
+	#s.close()
+	#break
+
+ 
+    #gap=[10.07,15.3,7.415]
+    gap=[10.07]
+    #deg=[9.17606,6.0,14.0]
+    deg=[9.17606,6]
+    #deg=[9.0, 9.1, 9.2]
+    #z2=[-1000,0,1000,2000]
+    z2=[0,1000,2000]
+
+# Constructer
+    tcs_height=Organizer(s,"bl_32in","tc1_slit_1","height")
+    tcs_width=Organizer(s,"bl_32in","tc1_slit_1","width")
+
+    st2_vert=Organizer(s,"bl_32in","st2_slit_1","upper")
+    st2_hori=Organizer(s,"bl_32in","st2_slit_1","ring")
+
+    mono_deg=Organizer(s,"bl_32in","tc1_stmono_1","")
+    mono_z2=Organizer(s,"bl_32in","tc1_stmono_1","z2")
+    id_cntrl=Organizer(s,"bl_32in","id_gap","")
+
+# TC slit size -> 1.0mm x 1.0mm
+    tcs_height.move(1.0,"mm")
+    tcs_width.move(1.0,"mm")
+
+#	Setting TCS aperture
+    for d_id in gap:
+    	for num in range(1,5):
+    		id_cntrl.move(d_id,"mm")
+		current_value=float(id_cntrl.getPosition()[0])
+	
+		if current_value==d_id:
+			break
+		print "%8.3f"%current_value
+	
+    	for d_deg in deg:
+		for d_z2 in z2:
+			prefix="%02d_mono_%sdeg_z2_%s" % (data_index,str(d_deg),str(d_z2))
+		#	Moving monochro 
+    			mono_deg.move(d_deg,"degree")
+    			mono_z2.move(d_z2,"pulse")
+			data_index+=1
+
+		# Preparation st2 vertical
+		# Setting
+    			ofile=prefix+"_st2_vertical.scn"
+    			scan_start=3610
+    			scan_end=10
+    			scan_step=-100
+    			cnt_ch=1 # channel
+    			cnt_time=0.2
+    			unit="pulse"
+
+    			st2_vert.axisScan(ofile,scan_start,scan_end,scan_step,cnt_ch,cnt_time,unit)
+
+    			drvfile=KnifeEdge(ofile)
+    			print "Outputfile= "+drvfile.writeDrvFile()
+
+    s.close()
+
+    break

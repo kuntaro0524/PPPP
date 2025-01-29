@@ -1,0 +1,102 @@
+Video Server: Cannot open Video Server. 2015/06/12 [Fri] 00:03:04:066
+Video Server: Cannot open Video Server. 2015/06/12 [Fri] 00:03:07:117
+Video Server: Cannot open Video Server. 2015/06/12 [Fri] 00:03:07:225
+Video Server: Cannot open Video Server. 2015/06/12 [Fri] 00:06:27:777
+Video Server: Cannot open Video Server. 2015/06/12 [Fri] 00:06:30:817
+Video Server: Cannot open Video Server. 2015/06/12 [Fri] 00:06:30:925
+Video Server: Cannot open Video Server. 2015/06/12 [Fri] 00:09:50:151
+Video Server: Cannot open Video Server. 2015/06/12 [Fri] 00:09:53:177
+Video Server: Cannot open Video Server. 2015/06/12 [Fri] 00:09:53:285
+Video Server: Cannot open Video Server. 2015/06/12 [Fri] 00:13:32:119
+Video Server: Cannot open Video Server. 2015/06/12 [Fri] 00:13:35:166
+Video Server: Cannot open Video Server. 2015/06/12 [Fri] 00:13:35:274
+ 2015/06/12 [Fri] 00:37:27:796  Sample changer warning (error code: -00102, Warning@Gonio: The mount arm was pushed too little at the goniometer position. There might be no sample pin on the goniometer)Sample changer warning successfully cleared. 2015/06/12 [Fri] 00:37:28:672
+ 2015/06/12 [Fri] 00:41:48:322  Error : Timeout, Can not receive message from Sample Changer Server (within 10 sec).
+ 2015/06/12 [Fri] 00:41:48:353  Error : Cannot receive message! Sample Changer Server maybe down ... 
+ 2015/06/12 [Fri] 00:41:58:368  Error : Timeout, Can not receive message from Sample Changer Server (within 10 sec).
+ 2015/06/12 [Fri] 00:41:58:399  Error : Cannot receive message! Sample Changer Server maybe down ... 
+ 2015/06/12 [Fri] 00:41:59:137  Error : Receive No message from Sample Chnager Server.
+ 2015/06/12 [Fri] 00:41:59:139  Error : Cannot receive message! Sample Changer Server maybe down ... 
+Video Server: Cannot open Video Server. 2015/06/12 [Fri] 10:25:25:478
+Video Server: Cannot open Video Server. 2015/06/12 [Fri] 10:25:28:510
+Video Server: Cannot open Video Server. 2015/06/12 [Fri] 10:25:28:626
+Video Server: Cannot open Video Server. 2015/06/12 [Fri] 10:35:38:578
+Video Server: Cannot open Video Server. 2015/06/12 [Fri] 10:35:41:671
+Video Server: Cannot open Video Server. 2015/06/12 [Fri] 10:35:41:780
+MS (put st_4_motor_49 absolute position): Error (CODE -305070019) 2015/06/12 [Fri] 10:35:50:452
+
+Error: Failed to move cryo-nozzle to the measurement position. 2015/06/12 [Fri] 10:35:50:452
+
+--------- failed -------- 2015/06/12 [Fri] 10:35:50:452
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/12 [Fri] 12:01:09:947
+ 2015/06/12 [Fri] 12:01:09:963 Failed to get  attenuator unit1 position
+MS (get shutter_1 present tag number) : Error (CODE -306000005) 2015/06/12 [Fri] 12:02:33:174
+
+-------- shutter get current tag failed  ------ 2015/06/12 [Fri] 12:02:33:180
+ 2015/06/12 [Fri] 12:13:43:636  Error : Pipe broken, Can not send message to CMOS server.
+ 2015/06/12 [Fri] 12:13:43:637  Error : failed to send start
+number_of_image 5
+number_of_dummy 0
+image_kind 1
+filename /data/cmos_rawdat/sample
+
+serial_offset 0
+ command to CMOS.
+ 2015/06/12 [Fri] 12:14:05:432  Error : Timeout, Can not send message to CMOS server (within 10 sec).
+ 2015/06/12 [Fri] 12:14:05:434  Error : failed to send stop
+
+ command to CMOS.
+ 2015/06/12 [Fri] 12:17:06:992  Error : receive No message from CMOS server.
+ 2015/06/12 [Fri] 12:17:06:995  Error : failed to receive response frorm CMOS.
+MS (get shutter_1 present tag number) : Error (CODE -306000005) 2015/06/12 [Fri] 12:17:13:262
+
+-------- shutter get current tag failed  ------ 2015/06/12 [Fri] 12:17:13:278
+MS (get shutter_1 present tag number) : Error (CODE -306000005) 2015/06/12 [Fri] 12:35:19:816
+
+-------- shutter get current tag failed  ------ 2015/06/12 [Fri] 12:35:19:832
+MS (get shutter_1 present tag number) : Error (CODE -306000005) 2015/06/12 [Fri] 12:52:55:049
+
+-------- shutter get current tag failed  ------ 2015/06/12 [Fri] 12:52:55:070
+MS (get shutter_1 present tag number) : Error (CODE -306000005) 2015/06/12 [Fri] 12:59:15:934
+
+-------- shutter get current tag failed  ------ 2015/06/12 [Fri] 12:59:15:949
+MS (get shutter_1 present tag number) : Error (CODE -306000005) 2015/06/12 [Fri] 13:02:15:695
+
+-------- shutter get current tag failed  ------ 2015/06/12 [Fri] 13:02:15:705
+ 2015/06/12 [Fri] 13:05:17:620  Connection failed to CMOS server.
+MS(put st_4_motor_57 relative position): Error(CODE -301130003) 2015/06/12 [Fri] 14:25:03:211
+ 2015/06/12 [Fri] 14:25:16:892  Error : Timeout, Can not receive message from Message Server (within 10 sec).
+ 2015/06/12 [Fri] 14:25:16:892  Error : Cannot receive message! Message Server maybe down ... 
+MS(put st_4_motor_57 relative position): Error(CODE -301130003) 2015/06/12 [Fri] 14:25:16:909
+ 2015/06/12 [Fri] 14:25:47:975  Error : Timeout, Can not receive message from Message Server (within 10 sec).
+ 2015/06/12 [Fri] 14:25:47:977  Error : Cannot receive message! Message Server maybe down ... 
+MS (get slit aperture): Error (CODE -306000005)
+MS (get slit aperture): Error (CODE -306000005)
+MS (get slit aperture): Error (CODE -306000005)
+MS (get slit aperture): Error (CODE -306000005)
+MS (get slit aperture): Error (CODE -306000005)
+MS (counter clear) : Error (CODE -306000005)
+MS (counter clear) : Error (CODE -306000005)
+MS (counter clear) : Error (CODE -306000005)
+MS (counter clear) : Error (CODE -306000005)
+MS (counter clear) : Error (CODE -306000005)
+MS (counter clear) : Error (CODE -306000005)
+MS (counter clear) : Error (CODE -306000005)
+MS (counter clear) : Error (CODE -306000005)
+MS (counter clear) : Error (CODE -306000005)
+MS (counter clear) : Error (CODE -306000005)
+MS (get wavelength) : Error (CODE -306000005)
+ 2015/06/12 [Fri] 21:47:52:909  Error : Can not get Wavelength.
+MS (get dss status) : Error (CODE -306000005)
+MS (get dss status) : Error (CODE -306000005)
+MS (get dss status) : Error (CODE -302000101)
+MS (get dss status) : Error (CODE -302000101)
+MS (put dss close) : Error (CODE -306000005)
+MS (put dss open) : Error (CODE -306000005)
+MS (put dss close) : Error (CODE -306000005)
+MS (put dss open) : Error (CODE -306000005)
+MS (put speed rate) st_4_motor_57: Error (CODE -301131005)
+MS (put speed rate) st_4_motor_57: Error (CODE -301131005)
+MS (put speed rate) st_4_motor_57: Error (CODE -301131005)
+ 2015/06/12 [Fri] 23:45:06:517  Error : Timeout, Can not receive message from Message Server (within 10 sec).
+ 2015/06/12 [Fri] 23:45:06:517  Error : Cannot receive message! Message Server maybe down ... 

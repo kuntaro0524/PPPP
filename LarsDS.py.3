@@ -1,0 +1,83 @@
+from GonioVec import *
+import socket
+import Gonio
+import ScheduleBSS_HS_SH
+
+if __name__=="__main__":
+	host = '192.168.163.1'
+	port = 10101
+	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+	s.connect((host,port))
+
+        gonio=Gonio.Gonio(s)
+
+        print gonio.getXYZmm()
+
+	t=ScheduleBSS_HS_SH.ScheduleBSS_HS_SH()
+	veclen=100 #[um]
+
+############################
+# ROTATION CONDITIONS
+	phi=gonio.getPhi()
+#	COnditions
+	startphi=phi-45.0
+	endphi=phi+46
+	stepphi=1.0
+
+	total_phi=endphi-startphi
+	nframes=int(total_phi/stepphi)
+
+############################
+# Goniometer setting (COMMON)
+############################
+	adstep=veclen/float(nframes)
+	print "Advanced step=",adstep,"[um]"
+	
+	interval=1
+
+######################
+# Starting vector "migi-ue hashi"
+######################
+        x,y,z=gonio.getXYZmm()
+	svec=(x,y,z)
+
+	veclen_mm=veclen/1000.0
+	print veclen_mm
+
+
+# LOOP
+	total_length_vertical=100.0 #[um]
+	gap_between_line=5.0 #[um]
+
+	nlines=int(total_length_vertical/gap_between_line)
+
+	end_y=svec[1]+fabs(veclen_mm)
+	evec=(svec[0],end_y,svec[2])
+
+	t.setDir(sys.argv[1])
+	t.setDir("/home/")
+	t.setCameraLength(200)
+	t.setAttThickness(0)
+
+	# Length in unit [um]
+	t.stepAdvanced(svec,evec,adstep,1,startphi,stepphi,interval)
+	t.setDataName("data")
+	t.setExpTime(0.25)
+	t.setWL(1.23367)
+	t.make("lars.sch")
+
+	# Next condition 5um up
+        dx,dz=gonio.calcUpDown(5)
+	print "%12.5f %12.5f"%(dx,dz)
+
+	svec2=(svec[0]+dx,svec[1],svec[2]+dz)
+
+	end_y=svec2[1]+fabs(veclen_mm)
+	evec2=(svec2[0],end_y,svec2[2])
+	print svec,svec2
+
+	t.stepAdvanced(svec2,evec2,adstep,1,startphi,stepphi,interval)
+	t.setDataName("data2")
+	t.make("lars2.sch")
+
+	s.close()

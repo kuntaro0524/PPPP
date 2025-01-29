@@ -1,0 +1,22 @@
+
+BL_Name:BL26B2
+DefaultGrayScale: 300
+CameraDistanceRangeCCD: 150.000000,320.000000
+CameraDistanceRangeIP: 175.000000,900.000000
+AnalysisShowGraphicResult: yes
+AnalysisVerboseReport: no
+AnalysisLocalDivision: 8
+AnalysisSigmaCutoff: 3.000000
+AnalysisLowestResolution: 50.000000
+AnalysisSuggestedMaxIntensity: 50000
+AnalysisSuggestedAverageIntensity: 1200
+AnalysisSuggestedMaxExposureCCD: 20
+AnalysisSuggestedMaxExposureIP: 60
+AnalysisScoringWeight: 50 300 300
+AnalysisBackgroundScanStep: 4
+AnalysisPeakSearchScanStep: 1
+AnalysisUseMask: no
+AnalysisMaskCenter: 2048,1024
+AnalysisMaskSize: 100,2048
+AnalysisBGThresholdCoefA: 10.000000
+AnalysisBGThresholdCoefB: 0.000000

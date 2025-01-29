@@ -1,0 +1,82 @@
+from Gonio import *
+from Enc import *
+from Shutter import *
+
+if __name__=="__main__":
+
+        host = '172.24.242.41'
+        port = 10101
+        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        s.connect((host,port))
+
+        shutter=Shutter(s)
+	gonio=Gonio(s)
+
+	# read gonio xyz
+	x=int(gonio.getX()[0])
+	y=int(gonio.getY()[0])
+	z=int(gonio.getZ()[0])
+
+	gonio.kill()
+
+	# Encoder class
+        enc=Enc()
+        enc.openPort()
+	enc.resetEnc(x,y,z)
+
+        of=open("enc.dat","w")
+        #for i in range(0,100):
+	starttime=time.time()
+
+	# Counter setting
+        com0="put/bl_32in_st2_counter_1/init"
+        com1="put/bl_32in_st2_counter_1/clear"
+        com2="put/bl_32in_st2_counter_1/60sec"
+        com3="get/bl_32in_st2_counter_1/query"
+
+        # counter initialization
+        s.sendall(com0)
+        recbuf=s.recv(8000)
+
+        # counter clear
+        s.sendall(com1)
+        recbuf=s.recv(8000)
+        #print "CLEAR: "+recbuf
+
+        # set integration time
+        s.sendall(com2)
+        s.recv(8000)
+
+	list=[]
+	save=0
+	#while(1):
+	for x in range(0,100):
+		ti=time.time()
+		diff=ti-starttime
+                openflag=shutter.isOpen()
+
+		# Counting
+                s.sendall(com1)
+        	recbuf=s.recv(8000)
+
+                s.sendall(com3)
+                recbuf=s.recv(8000)
+                cnt_buf=Received(recbuf).get(3)
+                info_list=cnt_buf.split('_')
+                value=int(info_list[2].replace("count",""))
+		div=value-save
+
+		save=value
+
+                #of.write("%8.4f %8.5f %8.5f %8.5f %5d %5d\n"%(diff,enc.getX(),enc.getY(),enc.getZ(),openflag,ch2))
+                #of.write("%8.4f %8.5f %8.5f %8.5f %5d %5d %5d\n"%(diff,enc.getX(),enc.getY(),enc.getZ(),openflag,div,save))
+                #str="%8.4f %8.5f %8.5f %8.5f %5d %5d %5d\n"%(diff,enc.getX(),enc.getY(),enc.getZ(),openflag,div,save)
+		print str,
+		#list.append(str)
+                #of.flush()
+                #time.sleep(0.05) # wait
+
+	#for x in list:
+		#print x
+
+        enc.closePort()

@@ -1,0 +1,61 @@
+#
+#  -------------------------------------------------
+#    _/_/_/ XAFS Measurement Parameter _/_/_/
+#  -------------------------------------------------
+#
+Xafs_Slope:-0.28
+Xafs_Intercept:-1.10
+Xafs_Width:0.15
+#
+#   Anomalous_Nuclei : Element Menu_Name Edge Fluorescence 
+#
+#Anomalous_Nuclei: Se  Se-K   0.9795  11.20
+#Anomalous_Nuclei: As  As-K   1.0448  10.52
+#Anomalous_Nuclei: Zn  Zn-K   1.2837  8.625
+#Anomalous_Nuclei: Cu  Cu-K   1.3808  8.037
+#Anomalous_Nuclei: Ni  Ni-K   1.4879  7.469
+#Anomalous_Nuclei: Co  Co-K   1.6050  6.923
+#Anomalous_Nuclei: Fe  Fe-K   1.7433  6.395
+#Anomalous_Nuclei: Pb  Pb-L3  0.9511  10.50
+#Anomalous_Nuclei: Hg  Hg-L3  1.0093  9.943
+#Anomalous_Nuclei: Au  Au-L3  1.0402  9.670
+#Anomalous_Nuclei: Pt  Pt-L3  1.0722  9.400
+#
+#Anomalous_Nuclei: Mn Mn-K	1.89643		5.89320
+Anomalous_Nuclei: Fe Fe-K	1.74346		6.35612
+Anomalous_Nuclei: Co Co-K	1.60815 	6.92281
+Anomalous_Nuclei: Ni Ni-K	1.48807		7.46952
+Anomalous_Nuclei: Cu Cu-K	1.38059		8.03780
+Anomalous_Nuclei: Zn Zn-K	1.28340		8.62732
+Anomalous_Nuclei: Ga Ga-K	1.19580		9.23828
+Anomalous_Nuclei: Ge Ge-K	1.11658		9.87087
+Anomalous_Nuclei: As As-K	1.04500		10.5258
+Anomalous_Nuclei: Se Se-K	0.97974		11.2019
+Anomalous_Nuclei: Br Br-K	0.92040		11.8776
+Anomalous_Nuclei: Kr Kr-K	0.86552		12.6235
+Anomalous_Nuclei: Rb Rb-K	0.81554		13.3655
+#
+#Anomalous_Nuclei: Nd Nd-L3	1.99670		5.21905
+#Anomalous_Nuclei: Pm Pm-L3	1.91910		5.42015
+#Anomalous_Nuclei: Sm Sm-L3	1.84570		5.62255
+#Anomalous_Nuclei: Eu Eu-L3	1.77610		5.83115
+#Anomalous_Nuclei: Gb Gb-L3	1.71170		6.04110
+#Anomalous_Nuclei: Tb Tb-L3	1.64970		6.25540
+Anomalous_Nuclei: Dy Dy-L3	1.59160		6.47645
+Anomalous_Nuclei: Ho Ho-L3	1.53680		6.69940
+Anomalous_Nuclei: Er Er-L3	1.48350		6.92685
+Anomalous_Nuclei: Tm Tm-L3	1.43340		7.15650
+Anomalous_Nuclei: Yb Yb-L3	1.38620		7.39160
+Anomalous_Nuclei: Lu Lu-L3	1.34050		7.63020
+Anomalous_Nuclei: Hf Hf-L3	1.29720		7.87180
+Anomalous_Nuclei: Ta Ta-L3	1.25530		8.11700
+Anomalous_Nuclei: W W-L3	1.21550		8.36640
+Anomalous_Nuclei: Re Re-L3	1.17730		8.61935
+Anomalous_Nuclei: Os Os-L3	1.14080		8.87635
+Anomalous_Nuclei: Ir Ir-L3	1.10580		9.13730
+Anomalous_Nuclei: Pt Pt-L3	1.07230		9.40205
+Anomalous_Nuclei: Au Au-L3	1.04000		9.67065
+Anomalous_Nuclei: Hg Hg-L3	1.00910		9.94320
+Anomalous_Nuclei: TL TL-L3	0.97930		10.2206
+Anomalous_Nuclei: Pb Pb-L3	0.95073		10.5005
+Anomalous_Nuclei: Bi Bi-L3	0.92340		10.7848

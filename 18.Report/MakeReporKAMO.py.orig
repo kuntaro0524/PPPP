@@ -1,0 +1,79 @@
+import sys,os
+sys.path.append("/isilon/BL32XU/BLsoft/PPPP/")
+sys.path.append("/isilon/BL32XU/BLsoft/PPPP/11.ClusterAnalysis/")
+import glob,numpy
+import DirectoryProc
+
+class MakeReportKAMO:
+    def __init__(self, root_path, out_dir):
+        self.root_path = os.path.abspath(root_path)
+        self.tgz_path = "./"
+        # STORAGE .tgz path
+        self.store_path= os.path.abspath(out_dir)
+        self.pwd=os.environ["PWD"]
+        self.isFind = False
+        self.isPrep = False
+
+    def prepOutDir(self):
+        if os.path.exists(self.store_path):
+            print "Directory is ready"
+        else:
+            os.makedirs(self.store_path)
+        self.isPrep = True
+
+    def getRunNumber(self, dirname):
+        cols = dirname.split('/')
+        #print cols
+        for col in cols:
+            if col.rfind("run_") != -1:
+                return int(col.replace("run_",""))
+
+    def findClusters(self, ncluster=3):
+        # Finding xscale.mtz
+        dp=DirectoryProc.DirectoryProc(self.root_path)
+        dirs=dp.findTargetDirs("final")
+
+        self.possible_clusters = []
+        max_cluster_no=0
+        for d in dirs:
+            # exclude ccp4/ path
+            if d.rfind("ccp4") != -1:
+                continue
+            if d.rfind("run_")!=-1:
+                cluster_no=int(d.split("cluster")[1].replace("_","").split("/")[0])
+                run_num = self.getRunNumber(d)
+                if run_num != 3:
+                    continue
+                self.possible_clusters.append((cluster_no,d))
+
+        self.possible_clusters.sort(key=lambda x:x[0], reverse=True)
+        self.final_clusters = []
+        for i in range(0,3):
+            self.final_clusters.append(self.possible_clusters[i])
+        self.isFind = True
+
+    def makeTarBall(self):
+        if self.isFind == False:
+            self.findClusters()
+        if self.isPrep == False:
+            self.prepOutDir()
+
+        arc_list = ""
+        for cluster_no, final_dir in self.final_clusters:
+            #print cluster_no, final_dir
+            rp = os.path.relpath(final_dir, self.pwd)
+            #print rp
+            arc_list += "%s/xscale.hkl %s/XSCALE.INP %s/aniso.log %s/pointless.log %s/XSCALE.LP %s/ccp4/ "%(rp, rp, rp, rp, rp, rp)
+
+        #print arc_list
+        prefix=os.environ["PWD"].split("/")[-1]
+        #print prefix
+        command1="pwd > ./file_location.txt"
+        os.system(command1)
+        command2="tar cvfz %s/%s.tgz %s ./file_location.txt cells.dat formerge.lst"%(self.store_path,prefix,arc_list)
+        #print command2
+        os.system(command2)
+
+if __name__ == "__main__":
+    kamorepo = MakeReportKAMO(sys.argv[1], sys.argv[2])
+    kamorepo.makeTarBall()

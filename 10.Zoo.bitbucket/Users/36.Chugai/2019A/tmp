@@ -1,0 +1,3 @@
+chugai_+ 25685 22.5  0.1 560112 39440 pts/1    S+   16:47  46:48 /usr/local/bss/videosrv2        
+chugai_+ 31097  0.0  0.0 113184  1232 pts/0    S+   20:14   0:00 sh -c ps aux | grep videosrv2 > ./tmp
+chugai_+ 31099  0.0  0.0 112740   976 pts/0    S+   20:14   0:00 grep videosrv2

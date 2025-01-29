@@ -1,0 +1,134 @@
+import os,sys
+import numpy as np
+import CoaxPlaneTraj
+
+class All():
+	# vectors a,b,c,d as numpy 3D array
+	def __init__(self,a,b,c,d,phic,step,phistep):
+		self.a=a
+		self.b=b
+		self.c=c
+		self.d=d
+		self.phic=phic
+		self.mode="Horizontal"
+		self.traj=CoaxPlaneTraj.CoaxPlaneTraj()
+		self.step=0.05 #[mm]
+
+	def setStep(self,step):
+		self.step=step
+
+	def setPhic(self,phic):
+		self.phic=phic
+
+	def setMode(self,mode="Vertical"):
+		self.mode=mode
+
+	# Trajected vectors on Coax-plane at phi
+	def calcTrajVecs(self):
+		self._a=self.traj.getTrajectedVector(self.a,self.phic)
+		self._b=self.traj.getTrajectedVector(self.b,self.phic)
+		self._c=self.traj.getTrajectedVector(self.c,self.phic)
+		self._d=self.traj.getTrajectedVector(self.d,self.phic)
+
+	def calcShapeVecs(self):
+		self.ab=self.b-self.a
+		self.bc=self.c-self.b
+		self.dc=self.c-self.d
+		self.ad=self.d-self.a
+		self.da=-self.ad
+		self.cb=-self.bc
+
+	def calcTrajectedShapeVecs(self):
+		# Trajected vectors onto Micro scope plane
+		self.calcTrajVecs()
+
+		self._ab=self._b-self._a
+		self._bc=self._c-self._b
+		self._dc=self._c-self._d
+		self._ad=self._d-self._a
+		self._da=-self._ad
+		self._cb=-self._bc
+
+	# only for horizontal data collection
+	def setSlowFastVectorsHori(self):
+		self.calcShapeVecs()
+		self.calcTrajectedShapeVecs()
+
+		# Slow1 & Slow2 vectors
+		# |s1| >= |s2|
+		# check distance of _ab and _dc
+		l_ab=self.calcDist(self._ab)
+		l_dc=self.calcDist(self._dc)
+		print "len(AB), len(DC)=",l_ab,l_dc
+
+		if l_ab >= l_dc:
+			self.s1=self.ab
+			self.s2=self.dc
+			self.f1=self.ad
+			self.f2=self.bc
+			self._s1=self._ab
+			self._s2=self._dc
+			self._f1=self._ad
+			self._f2=self._bc
+
+		else:
+			self.s1=self.dc
+			self.s2=self.ab
+			self.f1=self.da
+			self.f2=self.cb
+			self._s1=self._dc
+			self._s2=self._ab
+			self._f1=self._da
+			self._f2=self._cb
+
+	# Return [degs]
+	def calcAngle(self,vec1,vec2):
+		naiseki=np.dot(vec1,vec2)
+		dist1=self.calcDist(vec1)
+		dist2=self.calcDist(vec2)
+		cosang=naiseki/(dist1*dist2)
+		angle=np.arccos(cosang)
+
+		# unit is 'dgrees'
+		return np.degrees(angle)
+
+	def calcStepOnSlowVector(self):
+		# Vector
+		#-----------------------
+		# \ _| <- angle(alpha)
+		#  \
+		#   \
+		#    \
+		_alpha=self.calcAngle(self._s1,self._f1)
+		print "Angle of fast/slow vectors on Coax-plane:",_alpha
+
+		# Step length viewed in Coax-plane
+		if _alpha <= 90.0:
+			_alpha_rad=np.radians(90-_alpha)
+			slow_step_traj=self.step/np.cos(_alpha_rad)
+		elif _alpha > 90.0:
+			_alpha_rad=np.radians(_alpha-90)
+			slow_step_traj=self.step/np.cos(alpha_rad)
+
+		print "Step length in Coax-plane:",slow_step_traj," [mm]"
+		real_len=self.traj.calcStepLengthOnVector(self.s1,phi_gonio,slow_step_traj)
+		return real_len
+	
+	# Now Only for Horizontal type
+	def horizontalType(self):
+		self.setSlowFastVectorsHori()
+		self.calcStepOnSlowVector()
+
+	def calcDist(self,vector):
+		dist=np.linalg.norm(vector)
+		return dist
+
+if __name__ == '__main__':
+	a=np.array([-0.3232,  0.8799,  0.3143])
+	b=np.array([-0.6091,  0.8030,  0.8093])
+	c=np.array([-0.4532,  0.2520,  0.8173])
+	d=np.array([-0.1822,  0.3320,  0.3473])
+
+	phi=0.0
+	all=All(a,b,c,d,phi)
+	all.horizontalType()

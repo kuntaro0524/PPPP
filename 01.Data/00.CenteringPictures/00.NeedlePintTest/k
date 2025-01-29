@@ -1,0 +1,7 @@
+python ~/PPPP/Picture.py 000_-500um_x14.ppm
+python ~/PPPP/Picture.py 001_-300um_x14.ppm
+python ~/PPPP/Picture.py 002_-100um_x14.ppm
+python ~/PPPP/Picture.py 003_100um_x14.ppm
+python ~/PPPP/Picture.py 004_300um_x14.ppm
+python ~/PPPP/Picture.py 005_500um_x14.ppm
+python ~/PPPP/Picture.py 006_700um_x14.ppm

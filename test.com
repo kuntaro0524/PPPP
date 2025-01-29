@@ -1,0 +1,9 @@
+ python BSSlog.py bss_20161021.log > 21.log
+ python BSSlog.py bss_20161022.log > 22.log
+ python BSSlog.py bss_20161023.log > 23.log
+ python BSSlog.py bss_20161024.log > 24.log
+ python BSSlog.py bss_20161025.log > 25.log
+ python BSSlog.py bss_20161026.log > 26.log
+ python BSSlog.py bss_20161027.log > 27.log
+ python BSSlog.py bss_20161028.log > 28.log
+ python BSSlog.py bss_20161029.log > 29.log

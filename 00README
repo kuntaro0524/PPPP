@@ -1,0 +1,6 @@
+-rw-r--r-- target/public 119086 2012-03-05 00:49 moving_RD.dat "gauss function moving"
+-rw-r--r-- target/public    675 2012-03-05 00:52 integrate_area.dat "1um beam profile gauss" sigma=0.425(1.0/2.35)
+-rw-r--r-- target/public   1505 2012-03-05 00:55 accumulated.dat "Accumulated dose on 1um beam profile"
+
+
+

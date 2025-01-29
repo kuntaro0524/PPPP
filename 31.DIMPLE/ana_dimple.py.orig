@@ -1,0 +1,38 @@
+import sys,os,math,glob
+
+lines = open(sys.argv[1],"r").readlines()
+
+def ana_dimple_log(dimple_log):
+    save_line = ""
+    lines = open(dimple_log,"r").readlines()
+    for line in lines:
+        if line.rfind("free_r") != -1:
+            save_line = line.strip()
+
+    # Convertion
+    free_f = float(save_line.split()[1])
+
+    return free_f
+
+logfile = open("summary.txt","w")
+arccom = open("make_archive.com","w")
+
+arccom.write("tar cvfz arc.tgz ")
+
+arc_files = []
+
+for proc_path in lines:
+    cols = proc_path.split("ccp4")
+    # XSCALE related files
+    required_files = ['XSCALE.LP','aniso.log']
+    for req_file in required_files:
+        target_file = os.path.join(cols[0], req_file)
+        arccom.write("%s " % target_file)
+
+    # CCP4 directory including DIMPLE directories
+    ccp4_dir = os.path.join(cols[0], "ccp4")
+    arccom.write("%s " % ccp4_dir)
+
+    dimple_log = os.path.join(proc_path.strip(),"dimple.log")
+    #print dimple_log, os.path.exists(dimple_log)
+    print proc_path.strip(),ana_dimple_log(dimple_log)

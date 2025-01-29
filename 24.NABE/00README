@@ -1,0 +1,14 @@
+1. draw_map_all.sh -> modify path (for loop)
+ $PWD -> execute directory should include draw_map.pml
+
+2. Edit draw_map.pml
+ Mod: PDB file name, MTZ file name, view options
+
+3. run draw_map_all.sh
+
+4. Modify make_map_html.sh
+-> picture file name should be matched to 'draw_map.pml'
+
+ "print cmd.png("test.5s_%s.png"%c, ray=1)"
+
+5. run make_map_html.sh

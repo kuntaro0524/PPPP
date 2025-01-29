@@ -1,0 +1,20 @@
+Beam   1.0(v) x   1.0(v) IC=   15.1 nA PIN=    6.91 uA 1.89e+10 phs/sec Dose/sec=  1.23 sec
+Beam   1.5(v) x   1.5(v) IC=   77.3 nA PIN=   33.82 uA 9.23e+10 phs/sec Dose/sec=  0.57 sec
+Beam   5.0(v) x   1.0(v) IC=  148.6 nA PIN=   64.73 uA 1.77e+11 phs/sec Dose/sec=  0.65 sec
+Beam  10.0(v) x   1.0(v) IC=  310.4 nA PIN=  138.01 uA 3.77e+11 phs/sec Dose/sec=  0.62 sec
+Beam  18.0(v) x   1.0(v) IC=  505.5 nA PIN=  237.63 uA 6.49e+11 phs/sec Dose/sec=  0.65 sec
+Beam   2.0(v) x   2.0(v) IC=  176.3 nA PIN=   78.97 uA 2.16e+11 phs/sec Dose/sec=  0.43 sec
+Beam   3.0(v) x   3.0(v) IC=  469.4 nA PIN=  229.05 uA 6.25e+11 phs/sec Dose/sec=  0.33 sec
+Beam   4.0(v) x   4.0(v) IC=  750.1 nA PIN=  452.84 uA 1.24e+12 phs/sec Dose/sec=  0.31 sec
+Beam   5.0(v) x   2.0(v) IC=  491.6 nA PIN=  243.04 uA 6.63e+11 phs/sec Dose/sec=  0.35 sec
+Beam  10.0(v) x   2.0(v) IC=  805.0 nA PIN=  518.08 uA 1.41e+12 phs/sec Dose/sec=  0.33 sec
+Beam  18.0(v) x   2.0(v) IC= 1010.7 nA PIN=  869.43 uA 2.37e+12 phs/sec Dose/sec=  0.35 sec
+Beam   5.0(v) x   5.0(v) IC=  930.2 nA PIN=  728.70 uA 1.99e+12 phs/sec Dose/sec=  0.29 sec
+Beam  10.0(v) x   5.0(v) IC= 1218.7 nA PIN= 1492.98 uA 4.07e+12 phs/sec Dose/sec=  0.29 sec
+Beam  18.0(v) x   5.0(v) IC= 1436.8 nA PIN= 2599.78 uA 7.10e+12 phs/sec Dose/sec=  0.30 sec
+Beam  10.0(v) x   8.5(v) IC= 1388.1 nA PIN= 2261.54 uA 6.17e+12 phs/sec Dose/sec=  0.32 sec
+Beam  18.0(v) x   8.5(v) IC= 1607.7 nA PIN= 3913.64 uA 1.07e+13 phs/sec Dose/sec=  0.33 sec
+Beam  20.6(v) x   9.5(v) IC= 1650.9 nA PIN= 4253.35 uA 1.16e+13 phs/sec Dose/sec=  0.38 sec
+Beam   4.5(v) x   2.4(v) IC=  539.8 nA PIN=  272.81 uA 7.45e+11 phs/sec Dose/sec=  0.34 sec
+Beam   1.5(v) x   1.3(v) IC=   60.4 nA PIN=   26.20 uA 7.15e+10 phs/sec Dose/sec=  0.63 sec
+

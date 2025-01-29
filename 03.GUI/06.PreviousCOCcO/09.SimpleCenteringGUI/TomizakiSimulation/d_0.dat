@@ -1,0 +1,267 @@
+A:      0.00000    250.00000      0.00000
+B:      0.00000    249.00000   -200.00000
+C:      0.00000   -250.00000   -200.00000
+D:      0.00000   -250.00000      0.00000
+250.0 -250.0
+marumeta size(Y): 500
+SHOU/AMARI= 16.0 20.0
+number of Y lines= 16
+LOG: StartPhi of this vector=  0.0
+LOG: Absolute length of the initial vector:    200.0 [um]
+LOG: Absolute length of the NEW vector:              170.0 [um]
+LOG: Absolute length of the final vector(from X-ray):    170.0 [um]
+LOG: Number of irradiation points: 6
+SCHEDULE_FILE: /tmp/tmp_001.sch
+/bin/rm -f /tmp/tmp_001.sch
+START SERIAL of this vector 300
+END   SERIAL of this vector 305
+PHI=   0.0 CROSS:      0.00000    220.00000   -185.00000
+PHI=   0.2 CROSS:      0.00000    220.00000   -155.00000
+PHI=   0.4 CROSS:      0.00000    220.00000   -125.00000
+PHI=   0.6 CROSS:      0.00000    220.00000    -95.00000
+PHI=   0.8 CROSS:      0.00000    220.00000    -65.00000
+PHI=   1.0 CROSS:      0.00000    220.00000    -35.00000
+Total points: 6
+LOG: StartPhi of this vector=  1.2
+LOG: Absolute length of the initial vector:    200.0 [um]
+LOG: Absolute length of the NEW vector:              170.0 [um]
+LOG: Absolute length of the final vector(from X-ray):    170.0 [um]
+LOG: Number of irradiation points: 6
+SCHEDULE_FILE: /tmp/tmp_002.sch
+/bin/rm -f /tmp/tmp_002.sch
+START SERIAL of this vector 306
+END   SERIAL of this vector 311
+PHI=   1.2 CROSS:      0.00000    190.00000   -184.99671
+PHI=   1.4 CROSS:      0.00000    190.00000   -154.99013
+PHI=   1.6 CROSS:      0.00000    190.00000   -124.98355
+PHI=   1.8 CROSS:      0.00000    190.00000    -94.97697
+PHI=   2.0 CROSS:      0.00000    190.00000    -64.97039
+PHI=   2.2 CROSS:      0.00000    190.00000    -34.96380
+Total points: 12
+LOG: StartPhi of this vector=  2.4
+LOG: Absolute length of the initial vector:    200.0 [um]
+LOG: Absolute length of the NEW vector:              170.0 [um]
+LOG: Absolute length of the final vector(from X-ray):    169.8 [um]
+LOG: Number of irradiation points: 6
+SCHEDULE_FILE: /tmp/tmp_003.sch
+/bin/rm -f /tmp/tmp_003.sch
+START SERIAL of this vector 312
+END   SERIAL of this vector 317
+PHI=   2.4 CROSS:      0.00000    160.00000   -184.98683
+PHI=   2.6 CROSS:      0.00000    160.00000   -154.96049
+PHI=   2.8 CROSS:      0.00000    160.00000   -124.93415
+PHI=   3.0 CROSS:      0.00000    160.00000    -94.90782
+PHI=   3.2 CROSS:      0.00000    160.00000    -64.88148
+PHI=   3.4 CROSS:      0.00000    160.00000    -34.85514
+Total points: 18
+LOG: StartPhi of this vector=  3.6
+LOG: Absolute length of the initial vector:    200.0 [um]
+LOG: Absolute length of the NEW vector:              169.9 [um]
+LOG: Absolute length of the final vector(from X-ray):    169.6 [um]
+LOG: Number of irradiation points: 6
+SCHEDULE_FILE: /tmp/tmp_004.sch
+/bin/rm -f /tmp/tmp_004.sch
+START SERIAL of this vector 318
+END   SERIAL of this vector 323
+PHI=   3.6 CROSS:      0.00000    130.00000   -184.97034
+PHI=   3.8 CROSS:      0.00000    130.00000   -154.91103
+PHI=   4.0 CROSS:      0.00000    130.00000   -124.85171
+PHI=   4.2 CROSS:      0.00000    130.00000    -94.79240
+PHI=   4.4 CROSS:      0.00000    130.00000    -64.73308
+PHI=   4.6 CROSS:      0.00000    130.00000    -34.67377
+Total points: 24
+LOG: StartPhi of this vector=  4.8
+LOG: Absolute length of the initial vector:    200.0 [um]
+LOG: Absolute length of the NEW vector:              169.9 [um]
+LOG: Absolute length of the final vector(from X-ray):    169.3 [um]
+LOG: Number of irradiation points: 6
+SCHEDULE_FILE: /tmp/tmp_005.sch
+/bin/rm -f /tmp/tmp_005.sch
+START SERIAL of this vector 324
+END   SERIAL of this vector 329
+PHI=   4.8 CROSS:      0.00000    100.00000   -184.94721
+PHI=   5.0 CROSS:      0.00000    100.00000   -154.84162
+PHI=   5.2 CROSS:      0.00000    100.00000   -124.73604
+PHI=   5.4 CROSS:      0.00000    100.00000    -94.63045
+PHI=   5.6 CROSS:      0.00000    100.00000    -64.52487
+PHI=   5.8 CROSS:      0.00000    100.00000    -34.41929
+Total points: 30
+LOG: StartPhi of this vector=  6.0
+LOG: Absolute length of the initial vector:    200.0 [um]
+LOG: Absolute length of the NEW vector:              169.8 [um]
+LOG: Absolute length of the final vector(from X-ray):    168.9 [um]
+LOG: Number of irradiation points: 6
+SCHEDULE_FILE: /tmp/tmp_006.sch
+/bin/rm -f /tmp/tmp_006.sch
+START SERIAL of this vector 330
+END   SERIAL of this vector 335
+PHI=   6.0 CROSS:      0.00000     70.00000   -184.91738
+PHI=   6.2 CROSS:      0.00000     70.00000   -154.75213
+PHI=   6.4 CROSS:      0.00000     70.00000   -124.58688
+PHI=   6.6 CROSS:      0.00000     70.00000    -94.42163
+PHI=   6.8 CROSS:      0.00000     70.00000    -64.25638
+PHI=   7.0 CROSS:      0.00000     70.00000    -34.09113
+Total points: 36
+LOG: StartPhi of this vector=  7.2
+LOG: Absolute length of the initial vector:    200.0 [um]
+LOG: Absolute length of the NEW vector:              169.8 [um]
+LOG: Absolute length of the final vector(from X-ray):    168.4 [um]
+LOG: Number of irradiation points: 6
+SCHEDULE_FILE: /tmp/tmp_007.sch
+/bin/rm -f /tmp/tmp_007.sch
+START SERIAL of this vector 336
+END   SERIAL of this vector 341
+PHI=   7.2 CROSS:      0.00000     40.00000   -184.88078
+PHI=   7.4 CROSS:      0.00000     40.00000   -154.64234
+PHI=   7.6 CROSS:      0.00000     40.00000   -124.40390
+PHI=   7.8 CROSS:      0.00000     40.00000    -94.16546
+PHI=   8.0 CROSS:      0.00000     40.00000    -63.92702
+PHI=   8.2 CROSS:      0.00000     40.00000    -33.68858
+Total points: 42
+LOG: StartPhi of this vector=  8.4
+LOG: Absolute length of the initial vector:    200.0 [um]
+LOG: Absolute length of the NEW vector:              169.7 [um]
+LOG: Absolute length of the final vector(from X-ray):    167.9 [um]
+LOG: Number of irradiation points: 6
+SCHEDULE_FILE: /tmp/tmp_008.sch
+/bin/rm -f /tmp/tmp_008.sch
+START SERIAL of this vector 342
+END   SERIAL of this vector 347
+PHI=   8.4 CROSS:      0.00000     10.00000   -184.83734
+PHI=   8.6 CROSS:      0.00000     10.00000   -154.51202
+PHI=   8.8 CROSS:      0.00000     10.00000   -124.18670
+PHI=   9.0 CROSS:      0.00000     10.00000    -93.86138
+PHI=   9.2 CROSS:      0.00000     10.00000    -63.53606
+PHI=   9.4 CROSS:      0.00000     10.00000    -33.21074
+Total points: 48
+LOG: StartPhi of this vector=  9.6
+LOG: Absolute length of the initial vector:    200.0 [um]
+LOG: Absolute length of the NEW vector:              169.6 [um]
+LOG: Absolute length of the final vector(from X-ray):    167.2 [um]
+LOG: Number of irradiation points: 6
+SCHEDULE_FILE: /tmp/tmp_009.sch
+/bin/rm -f /tmp/tmp_009.sch
+START SERIAL of this vector 348
+END   SERIAL of this vector 353
+PHI=   9.6 CROSS:      0.00000    -20.00000   -184.78696
+PHI=   9.8 CROSS:      0.00000    -20.00000   -154.36087
+PHI=  10.0 CROSS:      0.00000    -20.00000   -123.93479
+PHI=  10.2 CROSS:      0.00000    -20.00000    -93.50870
+PHI=  10.4 CROSS:      0.00000    -20.00000    -63.08261
+PHI=  10.6 CROSS:      0.00000    -20.00000    -32.65653
+Total points: 54
+LOG: StartPhi of this vector= 10.8
+LOG: Absolute length of the initial vector:    200.0 [um]
+LOG: Absolute length of the NEW vector:              169.5 [um]
+LOG: Absolute length of the final vector(from X-ray):    166.5 [um]
+LOG: Number of irradiation points: 6
+SCHEDULE_FILE: /tmp/tmp_010.sch
+/bin/rm -f /tmp/tmp_010.sch
+START SERIAL of this vector 354
+END   SERIAL of this vector 359
+PHI=  10.8 CROSS:      0.00000    -50.00000   -184.72952
+PHI=  11.0 CROSS:      0.00000    -50.00000   -154.18855
+PHI=  11.2 CROSS:      0.00000    -50.00000   -123.64759
+PHI=  11.4 CROSS:      0.00000    -50.00000    -93.10662
+PHI=  11.6 CROSS:      0.00000    -50.00000    -62.56566
+PHI=  11.8 CROSS:      0.00000    -50.00000    -32.02470
+Total points: 60
+LOG: StartPhi of this vector= 12.0
+LOG: Absolute length of the initial vector:    200.0 [um]
+LOG: Absolute length of the NEW vector:              169.3 [um]
+LOG: Absolute length of the final vector(from X-ray):    165.6 [um]
+LOG: Number of irradiation points: 6
+SCHEDULE_FILE: /tmp/tmp_011.sch
+/bin/rm -f /tmp/tmp_011.sch
+START SERIAL of this vector 360
+END   SERIAL of this vector 365
+PHI=  12.0 CROSS:      0.00000    -80.00000   -184.66489
+PHI=  12.2 CROSS:      0.00000    -80.00000   -153.99467
+PHI=  12.4 CROSS:      0.00000    -80.00000   -123.32446
+PHI=  12.6 CROSS:      0.00000    -80.00000    -92.65424
+PHI=  12.8 CROSS:      0.00000    -80.00000    -61.98402
+PHI=  13.0 CROSS:      0.00000    -80.00000    -31.31380
+Total points: 66
+LOG: StartPhi of this vector= 13.2
+LOG: Absolute length of the initial vector:    200.0 [um]
+LOG: Absolute length of the NEW vector:              169.2 [um]
+LOG: Absolute length of the final vector(from X-ray):    164.7 [um]
+LOG: Number of irradiation points: 6
+SCHEDULE_FILE: /tmp/tmp_012.sch
+/bin/rm -f /tmp/tmp_012.sch
+START SERIAL of this vector 366
+END   SERIAL of this vector 371
+PHI=  13.2 CROSS:      0.00000   -110.00000   -184.59293
+PHI=  13.4 CROSS:      0.00000   -110.00000   -153.77878
+PHI=  13.6 CROSS:      0.00000   -110.00000   -122.96464
+PHI=  13.8 CROSS:      0.00000   -110.00000    -92.15050
+PHI=  14.0 CROSS:      0.00000   -110.00000    -61.33635
+PHI=  14.2 CROSS:      0.00000   -110.00000    -30.52221
+Total points: 72
+LOG: StartPhi of this vector= 14.4
+LOG: Absolute length of the initial vector:    200.0 [um]
+LOG: Absolute length of the NEW vector:              169.0 [um]
+LOG: Absolute length of the final vector(from X-ray):    163.7 [um]
+LOG: Number of irradiation points: 6
+SCHEDULE_FILE: /tmp/tmp_013.sch
+/bin/rm -f /tmp/tmp_013.sch
+START SERIAL of this vector 372
+END   SERIAL of this vector 377
+PHI=  14.4 CROSS:      0.00000   -140.00000   -184.51346
+PHI=  14.6 CROSS:      0.00000   -140.00000   -153.54039
+PHI=  14.8 CROSS:      0.00000   -140.00000   -122.56731
+PHI=  15.0 CROSS:      0.00000   -140.00000    -91.59423
+PHI=  15.2 CROSS:      0.00000   -140.00000    -60.62116
+PHI=  15.4 CROSS:      0.00000   -140.00000    -29.64808
+Total points: 78
+LOG: StartPhi of this vector= 15.6
+LOG: Absolute length of the initial vector:    200.0 [um]
+LOG: Absolute length of the NEW vector:              168.9 [um]
+LOG: Absolute length of the final vector(from X-ray):    162.6 [um]
+LOG: Number of irradiation points: 6
+SCHEDULE_FILE: /tmp/tmp_014.sch
+/bin/rm -f /tmp/tmp_014.sch
+START SERIAL of this vector 378
+END   SERIAL of this vector 383
+PHI=  15.6 CROSS:      0.00000   -170.00000   -184.42631
+PHI=  15.8 CROSS:      0.00000   -170.00000   -153.27892
+PHI=  16.0 CROSS:      0.00000   -170.00000   -122.13153
+PHI=  16.2 CROSS:      0.00000   -170.00000    -90.98414
+PHI=  16.4 CROSS:      0.00000   -170.00000    -59.83675
+PHI=  16.6 CROSS:      0.00000   -170.00000    -28.68936
+Total points: 84
+LOG: StartPhi of this vector= 16.8
+LOG: Absolute length of the initial vector:    200.0 [um]
+LOG: Absolute length of the NEW vector:              168.7 [um]
+LOG: Absolute length of the final vector(from X-ray):    161.5 [um]
+LOG: Number of irradiation points: 6
+SCHEDULE_FILE: /tmp/tmp_015.sch
+/bin/rm -f /tmp/tmp_015.sch
+START SERIAL of this vector 384
+END   SERIAL of this vector 389
+PHI=  16.8 CROSS:      0.00000   -200.00000   -184.33125
+PHI=  17.0 CROSS:      0.00000   -200.00000   -152.99375
+PHI=  17.2 CROSS:      0.00000   -200.00000   -121.65625
+PHI=  17.4 CROSS:      0.00000   -200.00000    -90.31875
+PHI=  17.6 CROSS:      0.00000   -200.00000    -58.98125
+PHI=  17.8 CROSS:      0.00000   -200.00000    -27.64375
+Total points: 90
+LOG: StartPhi of this vector= 18.0
+LOG: Absolute length of the initial vector:    200.0 [um]
+LOG: Absolute length of the NEW vector:              168.5 [um]
+LOG: Absolute length of the final vector(from X-ray):    160.2 [um]
+LOG: Number of irradiation points: 6
+SCHEDULE_FILE: /tmp/tmp_016.sch
+/bin/rm -f /tmp/tmp_016.sch
+START SERIAL of this vector 390
+END   SERIAL of this vector 395
+PHI=  18.0 CROSS:      0.00000   -230.00000   -184.22807
+PHI=  18.2 CROSS:      0.00000   -230.00000   -152.68420
+PHI=  18.4 CROSS:      0.00000   -230.00000   -121.14033
+PHI=  18.6 CROSS:      0.00000   -230.00000    -89.59647
+PHI=  18.8 CROSS:      0.00000   -230.00000    -58.05260
+PHI=  19.0 CROSS:      0.00000   -230.00000    -26.50873
+Total points: 96
+N points/crystal= 96
+Time for this crystal= 18.0 [min]
+1TIME: 0.3  2TIME: 0.6

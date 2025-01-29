@@ -1,0 +1,140 @@
+import sys
+import socket
+import time
+import math
+
+# My library
+from Motor import *
+
+#
+class Att:
+	def __init__(self,server):
+		self.s=server
+    		self.att=Motor(self.s,"bl_32in_st2_att_1_rx","pulse")
+
+		self.um1000=-2160
+		self.um1500=-2340
+		self.um2000=-2520
+		self.um3000=-2700
+		self.um600=-1440
+		self.um700=-1620
+		self.um800=-1800
+		self.um900=-1980
+		self.um200=-720
+		self.um400=-1080
+
+	def readBSSconfig(self):
+		
+		
+	def att1500um(self):
+		self.att.move(-2340)
+	def att1000um(self):
+		self.att.move(-2160)
+	def att200um(self):
+		self.att.move(self.um200)
+	def att600um(self):
+		self.att.move(self.um600)
+	def att800um(self):
+		self.att.move(self.um800)
+	def att400um(self):
+		self.att.move(self.um400)
+	def att0um(self):
+		self.att.move(0)
+
+	def move(self,pls_bss):
+		self.att.move(-pls_bss)
+
+	def getAttIndex(self,t):
+		# t:thickness[um]
+		if t==0:
+			return 0
+		elif t==50:
+			return 1
+		elif t==100:
+			return 2
+		elif t==150:
+			return 3
+		elif t==200:
+			return 4
+		elif t==300:
+			return 5
+		elif t==400:
+			return 6
+		elif t==500:
+			return 7
+		elif t==600:
+			return 8
+		elif t==700:
+			return 9
+		elif t==800:
+			return 10
+		elif t==900:
+			return 11
+		elif t==1000:
+			return 12
+		elif t==1200:
+			return 14
+		elif t==1500:
+			return 13
+		elif t==2000:
+			return 14
+		elif t==3000:
+			return 23
+		elif t==6000:
+			return 16
+		else:
+			return -1
+
+	def cnFactor(self,wl):
+		cnfac=0.028*math.pow(wl,5)-0.188*math.pow(wl,4)+0.493*math.pow(wl,3)-0.633*math.pow(wl,2)+0.416*math.pow(wl,1)+0.268
+		return cnfac
+
+	def calcMu(self,wl,cnfac):
+		mu=38.851*math.pow(wl,3)-2.166*math.pow(wl,4)+1.3*cnfac
+		return mu
+
+	def calcAttFac(self,wl,thickness,material="Al"):
+		# thickness [um]
+		if material=="Al":
+			cnfac=self.cnFactor(wl)
+			mu=self.calcMu(wl,cnfac)
+			attfac=math.exp(-mu*thickness/10000)
+			return attfac
+		else:
+			return -1
+
+	def calcThickness(self,wl,transmission,material="Al"):
+		# thickness [um]
+		if material=="Al":
+			cnfac=self.cnFactor(wl)
+			mu=self.calcMu(wl,cnfac)
+			thickness=(-1.0*math.log(transmission)/mu)*10000
+			return thickness
+		else:
+			return -1
+
+        def isMoved(self):
+                isAtt=self.att.isMoved()
+
+                if isAtt==0:
+                        return True
+                if isAtt==1:
+                        return False
+
+if __name__=="__main__":
+	host = '172.24.242.41'
+	port = 10101
+	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+	s.connect((host,port))
+
+	att=Att(s)
+	att.move(180)
+
+	# Attenuator 
+	#print att.calcAttFac(1.0,1000)
+	#print att.calcThickness(1.0,0.01)
+	#att.att1000um()
+	#att.att0um()
+	#att.att200um()
+
+	s.close()

@@ -1,0 +1,109 @@
+import sys
+import socket
+import time
+import math
+from numpy import *
+
+class AttFactor:
+	def __init__(self):
+		dummy=1
+		self.isInit=False
+		
+	def cnFactor(self,wl):
+		cnfac=0.028*math.pow(wl,5)-0.188*math.pow(wl,4)+0.493*math.pow(wl,3)-0.633*math.pow(wl,2)+0.416*math.pow(wl,1)+0.268
+		return cnfac
+
+	def calcMu(self,wl,cnfac):
+		mu=38.851*math.pow(wl,3)-2.166*math.pow(wl,4)+1.3*cnfac
+		return mu
+
+	def calcAttFac(self,wl,thickness,material="Al"):
+		# thickness [um]
+		if material=="Al":
+			cnfac=self.cnFactor(wl)
+			mu=self.calcMu(wl,cnfac)
+			attfac=math.exp(-mu*thickness/10000)
+			return attfac
+		else:
+			return -1
+
+	def calcThickness(self,wl,transmission,material="Al"):
+		# thickness [um]
+		if material=="Al":
+			cnfac=self.cnFactor(wl)
+			mu=self.calcMu(wl,cnfac)
+			thickness=(-1.0*math.log(transmission)/mu)*10000
+			return thickness
+		else:
+			return -1
+
+	def getBestAtt(self,wl,transmission):
+		if self.isInit == False:
+			self.readAttConfig()
+
+		cnfac=self.cnFactor(wl)
+		mu=self.calcMu(wl,cnfac)
+		thickness=(-1.0*math.log(transmission)/mu)*10000
+
+		print "IDEAL thickness: %8.1f[um]"%thickness
+
+		for att in self.att_thick:
+			if thickness < att:
+				return att
+
+	def readAttConfig(self):
+		self.bssconfig="/blconfig/bss/bss.config"
+		confile=open(self.bssconfig,"r")
+		lines=confile.readlines()
+		confile.close()
+
+		self.att_idx=[]
+		self.att_thick=[]
+
+		for line in lines:
+			if line.find("Attenuator_Menu_Label")!=-1:
+				line=line.replace("[","").replace("]","").replace("{","").replace("}","")
+				cols=line.split()
+				ncols=len(cols)
+				if ncols == 4:
+					if cols[2].find("um")!=-1:
+						tmp_thick=float(cols[2].replace("um",""))
+						tmp_attidx=int(cols[3])
+						# storage
+						self.att_idx.append(tmp_attidx)
+						self.att_thick.append(tmp_thick)
+
+		self.att_idx=array(self.att_idx)
+		self.att_thick=array(self.att_thick)
+
+		# DEBUG
+		#for i,thick in zip(self.att_idx,self.att_thick):
+			#print i,thick
+
+		# flag on
+		self.isInit=True
+
+	def getAttIndexConfig(self,t):
+		if self.isInit == False:
+			self.readAttConfig()
+		if t==0.0:
+			return 0
+		for i,thick in zip(self.att_idx,self.att_thick):
+			if thick==t:
+				return i
+		print "Something wrong: No attenuator at this beamline"
+		return -9999
+
+if __name__=="__main__":
+	att=AttFactor()
+
+	#att.getAttIndexConfig(100)
+
+	wave=float(sys.argv[1])
+
+	attfac=att.calcAttFac(1.0,600)
+	print attfac
+	#print att.calcAttFac(1.4,600)
+	#print att.calcAttFac(0.75,3000)
+	#print att.calcThickness(wl,0.026)
+	#print att.getBestAtt(wave,trans)

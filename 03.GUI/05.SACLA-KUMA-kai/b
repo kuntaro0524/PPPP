@@ -1,0 +1,35 @@
+(Xpix,Ypix,GX,GY,GZ)=  336   157      0.07700     -0.84859      0.17724
+GONIOPLOT  0.077 -0.84859316545 0.17724036
+PIXPLOT  233 228
+debug:: video_binning/get/23680_video_server/4/0
+Binning= 4
+debug:: bl_32in_st2_coax_1_zoom/get/1106_blrs_root_blanc4deb/inactive_-32000pulse/0
+Zoom= 29.0
+debug:: bl_32in_st2_coax_1_zoom/get/1106_blrs_root_blanc4deb/inactive_-32000pulse/0
+Zoom= 29.0
+Center:  338.000138234 232.499756734
+      0.0770      -0.8459       0.2789
+(Xpix,Ypix,GX,GY,GZ)=  233   228      0.07700     -0.98728      0.27284
+GONIOPLOT  0.077 -0.987281600366 0.27284112
+PIXPLOT  329 319
+debug:: video_binning/get/23680_video_server/4/0
+Binning= 4
+debug:: bl_32in_st2_coax_1_zoom/get/1106_blrs_root_blanc4deb/inactive_-32000pulse/0
+Zoom= 29.0
+debug:: bl_32in_st2_coax_1_zoom/get/1106_blrs_root_blanc4deb/inactive_-32000pulse/0
+Zoom= 29.0
+Center:  338.000138234 232.499756734
+      0.0770      -0.8459       0.2789
+(Xpix,Ypix,GX,GY,GZ)=  329   319      0.07700     -0.85802      0.39537
+GONIOPLOT  0.077 -0.858018593066 0.39537168
+PIXPLOT  446 259
+debug:: video_binning/get/23680_video_server/4/0
+Binning= 4
+debug:: bl_32in_st2_coax_1_zoom/get/1106_blrs_root_blanc4deb/inactive_-32000pulse/0
+Zoom= 29.0
+debug:: bl_32in_st2_coax_1_zoom/get/1106_blrs_root_blanc4deb/inactive_-32000pulse/0
+Zoom= 29.0
+Center:  338.000138234 232.499756734
+      0.0770      -0.8459       0.2789
+(Xpix,Ypix,GX,GY,GZ)=  446   259      0.07700     -0.70048      0.31458
+

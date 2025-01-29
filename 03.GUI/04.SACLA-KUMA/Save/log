@@ -1,0 +1,66 @@
+debug:: -804488pulse
+debug:: 61pulse
+debug:: 2716pulse
+debug:: 8085pulse
+89.333 0.0061 -0.2716 0.8085
+debug:: bl_32in_st_1_video_grabnocross/get/6437_video_server/ok/0
+[0] ( 182, 89 )
+[1] ( 155, 306 )
+[2] ( 497, 343 )
+[3] ( 524, 137 )
+All points have selected. Press ESC-key.
+Gravity: 339 218
+[[182  89]
+ [155 306]
+ [497 343]
+ [524 137]]
+PIXPLOT  182 89
+debug:: video_binning/get/6437_video_server/2/0
+Binning= 2
+debug:: bl_32in_st2_coax_1_zoom/get/1108_blrs_root_blanc4deb/inactive_-32000pulse/0
+Zoom= 29.0
+debug:: bl_32in_st2_coax_1_zoom/get/1108_blrs_root_blanc4deb/inactive_-32000pulse/0
+Zoom= 29.0
+Center:  356.000276469 224.999513469
+      0.0061      -0.2716       0.8085
+PIX= 182 89
+GX,GY,GZ= 0.09765477 -0.388744786497 0.80743413
+GONIOPLOT  0.09765477 -0.388744786497 0.80743413
+PIXPLOT  155 306
+debug:: video_binning/get/6437_video_server/2/0
+Binning= 2
+debug:: bl_32in_st2_coax_1_zoom/get/1108_blrs_root_blanc4deb/inactive_-32000pulse/0
+Zoom= 29.0
+debug:: bl_32in_st2_coax_1_zoom/get/1108_blrs_root_blanc4deb/inactive_-32000pulse/0
+Zoom= 29.0
+Center:  356.000276469 224.999513469
+      0.0061      -0.2716       0.8085
+PIX= 155 306
+GX,GY,GZ= -0.04842946 -0.406922396899 0.80913483
+GONIOPLOT  -0.04842946 -0.406922396899 0.80913483
+PIXPLOT  497 343
+debug:: video_binning/get/6437_video_server/2/0
+Binning= 2
+debug:: bl_32in_st2_coax_1_zoom/get/1108_blrs_root_blanc4deb/inactive_-32000pulse/0
+Zoom= 29.0
+debug:: bl_32in_st2_coax_1_zoom/get/1108_blrs_root_blanc4deb/inactive_-32000pulse/0
+Zoom= 29.0
+Center:  356.000276469 224.999513469
+      0.0061      -0.2716       0.8085
+PIX= 497 343
+GX,GY,GZ= -0.07333783 -0.176672665145 0.80942481
+GONIOPLOT  -0.07333783 -0.176672665145 0.80942481
+PIXPLOT  524 137
+debug:: video_binning/get/6437_video_server/2/0
+Binning= 2
+debug:: bl_32in_st2_coax_1_zoom/get/1108_blrs_root_blanc4deb/inactive_-32000pulse/0
+Zoom= 29.0
+debug:: bl_32in_st2_coax_1_zoom/get/1108_blrs_root_blanc4deb/inactive_-32000pulse/0
+Zoom= 29.0
+Center:  356.000276469 224.999513469
+      0.0061      -0.2716       0.8085
+PIX= 524 137
+GX,GY,GZ= 0.0653412 -0.158495054743 0.80781032
+GONIOPLOT  0.0653412 -0.158495054743 0.80781032
+[(182, 89), (155, 306), (497, 343), (524, 137)]
+[(0.097654770000000002, -0.38874478649723343, 0.80743412999999997), (-0.048429460000000001, -0.406922396898866, 0.80913482999999997), (-0.073337830000000007, -0.17667266514485286, 0.80942480999999999), (0.065341200000000002, -0.15849505474322023, 0.80781031999999997)]

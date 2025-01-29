@@ -1,0 +1,4 @@
+eisai_co 24804  0.0  0.0   5384  1424 ?        Ss   21:23   0:00 tcsh -c /isilon/Common/CentOS4/videosrv_sep26_2016 --artray 3
+eisai_co 24808 13.3  0.4 175036 35712 ?        Sl   21:23  12:00 /isilon/Common/CentOS4/videosrv_sep26_2016           
+eisai_co 29900  0.0  0.0   5384  1540 ?        Ss   22:53   0:00 tcsh -c ps aux | grep videosrv
+eisai_co 29903  0.0  0.0   4404   816 ?        S    22:53   0:00 grep videosrv

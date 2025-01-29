@@ -1,0 +1,28 @@
+SettingRz1: 0.000000
+SettingOmega1: 28.000000
+Symmetry1: u
+Zoom1: 0.800000
+ZoomOptions1: 
+ZoomLabels1: 
+TvExtender1: 2.000000
+Pin1: l
+ScreenRotationZ1: 0.000000
+OriginShiftX1: 0.170836
+OriginShiftY1: 0.109823
+OriginShiftXOptions1: 
+OriginShiftYOptions1: 
+SettingRz2: 0.000000
+SettingOmega2: 0.000000
+Symmetry2: r
+Zoom2: 5.000000
+ZoomOptions2: 
+ZoomLabels2: 
+TvExtender2: 1.500000
+Pin2: l
+ScreenRotationZ2: 0.000000
+OriginShiftX2: 0.009111
+OriginShiftY2: 0.011714
+OriginShiftXOptions2: 
+OriginShiftYOptions2: 
+CenterCrossSize: 0.400000
+CaptureInterval: 25

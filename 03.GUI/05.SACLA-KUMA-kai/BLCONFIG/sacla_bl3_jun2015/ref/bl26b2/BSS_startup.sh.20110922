@@ -1,0 +1,39 @@
+#!/bin/tcsh
+#date > ~/test.log
+#echo "**************************************" >> ~/test.log
+#echo "" >> ~/test.log
+#echo "  startup BSS  " >> ~/test.log
+#echo "" >> ~/test.log
+#echo "**************************************" >> ~/test.log
+
+xsetroot -cursor_name star
+
+#########For MX225###########
+setenv username `whoami`
+ssh -l $username 192.168.135.103 "xhost +"
+ssh -l $username 192.168.135.103 "killall -9 marccd" &
+ssh -l $username 192.168.135.103 "killall -9 marccd_server_socket" &
+ssh -l $username 192.168.135.103 "marccd -rf" -display :0.0 &
+
+xsetroot -cursor_name top_left_arrow
+
+#/usr/local/bss/bss --admin --notune
+/usr/local/bss/bss $1 $2
+#/usr/local/bss/bss --server --console
+ps auxww | grep videosrv | grep -v grep | awk '{print $2}'| xargs kill
+
+#########For Q315#############
+#ps auxww | grep det_api_workstation | grep -v grep | awk '{print $2}'| xargs kill
+#ps auxww | grep ccd_image_gather | grep -v grep | awk '{print $2}'| xargs kill
+#rm -f /dkc/*
+
+#########For MX225HE#########
+ssh -l $username 192.168.135.103 "killall -9 marccd_server_socket" &
+ssh -l $username 192.168.135.103 "killall -9 marccd" &
+
+
+#echo "**************************************" >> ~/test.log
+#echo "" >> ~/test.log
+#echo "  shutting down BSS  " >> ~/test.log
+#echo "" >> ~/test.log
+#echo "**************************************" >> ~/test.log

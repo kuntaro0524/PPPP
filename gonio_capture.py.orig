@@ -1,0 +1,52 @@
+#!/bin/env python 
+import sys
+import socket
+import time
+import datetime
+import os
+
+# My library
+from BeamCenter import *
+from Gonio import *
+from Capture import *
+from File import *
+
+if __name__=="__main__":
+        host = '172.24.242.41'
+        port = 10101
+        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        s.connect((host,port))
+
+	cap=Capture()
+	#cap.setShutterSpeed(500)
+	shutter=cap.tuneShutter(2000)
+	gain=cap.tuneGain(120,shutter)
+	gonio=Gonio(s)
+	f=File("./")
+
+	curr_dir=f.getAbsolutePath()
+
+	# Gonio position
+	x,y,z=gonio.getXYZmm()
+
+	# Gonio move step
+	dx=0.10
+	dy=0.10
+	
+	# Gonio data number half
+	ix=10
+	iy=10
+
+	iii=0
+	for xxx in range(-ix,ix):
+		for yyy in range(-iy,iy):
+			ddx=dx*xxx
+			ddy=dy*yyy
+
+			newx=x+ddx
+			newy=y+ddy
+
+			gonio.moveXYZmm(newx,newy,z)
+			capfile="%s/%03d_%f_%f.ppm"%(curr_dir,iii,ddx,ddy)
+			cap.capture(capfile,gain)
+			iii+=1

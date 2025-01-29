@@ -1,0 +1,42 @@
+ 2015/06/11 [Thu] 17:07:54:741  Error : Cannot open Message Server Port.
+MS (get slit aperture): Error (CODE -306000005)
+MS (counter clear) : Error (CODE -306000005)
+MS (counter clear) : Error (CODE -306000005)
+MS (counter clear) : Error (CODE -306000005)
+MS (counter clear) : Error (CODE -306000005)
+MS (counter clear) : Error (CODE -306000005)
+MS (counter clear) : Error (CODE -306000005)
+MS (counter clear) : Error (CODE -306000005)
+MS (counter clear) : Error (CODE -306000005)
+MS (counter clear) : Error (CODE -306000005)
+MS (counter clear) : Error (CODE -306000005)
+MS (get wavelength) : Error (CODE -306000005)
+ 2015/06/11 [Thu] 18:09:51:050  Error : Can not get Wavelength.
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/11 [Thu] 18:10:00:879
+ 2015/06/11 [Thu] 18:10:00:886 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/11 [Thu] 20:11:56:326
+ 2015/06/11 [Thu] 20:11:56:368 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/11 [Thu] 20:48:41:317
+ 2015/06/11 [Thu] 20:48:41:323 Failed to get  attenuator unit1 position
+Video Server: Cannot open Video Server. 2015/06/11 [Thu] 21:35:11:004
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/11 [Thu] 21:44:06:809
+ 2015/06/11 [Thu] 21:44:06:814 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/11 [Thu] 22:59:31:690
+ 2015/06/11 [Thu] 22:59:31:696 Failed to get  attenuator unit1 position
+MS (get this_is_not_used absolute position) : Error (CODE -306000005) 2015/06/11 [Thu] 23:01:27:754
+ 2015/06/11 [Thu] 23:01:27:761 Failed to get  attenuator unit1 position
+Video Server: Cannot open Video Server. 2015/06/11 [Thu] 23:46:42:725
+Video Server: Cannot open Video Server. 2015/06/11 [Thu] 23:46:45:759
+Video Server: Cannot open Video Server. 2015/06/11 [Thu] 23:46:45:882
+Video Server: Cannot open Video Server. 2015/06/11 [Thu] 23:46:57:215
+Video Server: Cannot open Video Server. 2015/06/11 [Thu] 23:46:57:220
+Video Server: Cannot open Video Server. 2015/06/11 [Thu] 23:47:01:239
+Video Server: Cannot open Video Server. 2015/06/11 [Thu] 23:50:33:231
+Video Server: Cannot open Video Server. 2015/06/11 [Thu] 23:50:36:283
+Video Server: Cannot open Video Server. 2015/06/11 [Thu] 23:50:36:394
+Video Server: Cannot open Video Server. 2015/06/11 [Thu] 23:55:16:548
+Video Server: Cannot open Video Server. 2015/06/11 [Thu] 23:55:19:610
+Video Server: Cannot open Video Server. 2015/06/11 [Thu] 23:55:19:719
+Video Server: Cannot open Video Server. 2015/06/11 [Thu] 23:59:23:656
+Video Server: Cannot open Video Server. 2015/06/11 [Thu] 23:59:26:705
+Video Server: Cannot open Video Server. 2015/06/11 [Thu] 23:59:26:813

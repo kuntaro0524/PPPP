@@ -1,0 +1,43 @@
+### 2010-06-15 03:22:38.441833 ####
+##### ID #####
+ID gap	:        45.0     mm
+##### Front End ####
+vert	:      0.4575     mm
+hori	:       0.284     mm
+height	:         0.3     mm
+width	:         0.3     mm
+##### Monochromator ####
+Energy	:        23.2    kev
+Angle	:     4.88881 degree
+Wavelength	:    0.534414angstrome
+Theta	:      175997  pulse
+Y1	:      -23990  pulse
+Z1	:        -548  pulse
+Dth1	:      -84922  pulse
+Ty1	:       -1675  pulse
+Z2	:        2000  pulse
+Tx2	:         913  pulse
+Ty2	:        1900  pulse
+Xt	:           0  pulse
+Zt	:       -2200  pulse
+##### TC slit ####
+height	:         3.0     mm
+width	:         3.0     mm
+vert	:       0.154     mm
+hori	:       0.122     mm
+##### Mirror ####
+VFM-y	:      -14400  pulse
+VFM-z	:      -33969  pulse
+VFM-tx	:      -80878  pulse
+VFM-ty	:      189297  pulse
+HFM-y	:      -16590  pulse
+HFM-z	:      -63700  pulse
+HFM-tz	:      375653  pulse
+##### Stage ####
+Stage-y	:     -551749  pulse
+Stage-z	:       90104  pulse
+Gonio phi	:    -1400070  pulse
+Gonio x	:        -130  pulse
+Gonio y	:      133000  pulse
+Gonio z	:        9556  pulse
+Gonio zz	:        3415  pulse

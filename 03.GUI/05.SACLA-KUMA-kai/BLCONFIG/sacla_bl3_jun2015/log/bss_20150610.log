@@ -1,0 +1,1173 @@
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2015/06/10 [Wed] 20:16:02:999.
+     [  Last modified at 12:00, Jun/09/2015 (Tue)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2015/06/10 [Wed] 20:16:03:009
+
+--- successfully loaded attenuator configurations --- 2015/06/10 [Wed] 20:16:03:022
+    Load bss.config Success.
+   Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/sacla_bl3_jun2015//htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+     ( bss's pid = 9680, videosrv's pid = ??? )
+
+    Making a connection to Message Server... 2015/06/10 [Wed] 20:16:05:214
+
+ 2015/06/10 [Wed] 20:16:05:219  Connecting to Message Server...
+ 2015/06/10 [Wed] 20:16:05:219  Successfully connect to Message Server.
+
+=================================================================
+
+   Set axis driving parameters default. 2015/06/10 [Wed] 20:16:05:219
+
+=================================================================
+
+---------- Move cryo-nozzle at measurement position ---------- 2015/06/10 [Wed] 20:16:12:870
+
+--------- success -------- 2015/06/10 [Wed] 20:16:12:877
+
+--------- Insert beam stop -------- 2015/06/10 [Wed] 20:16:12:877
+
+--------- success -------- 2015/06/10 [Wed] 20:16:12:877
+
+--------- Insert collimator -------- 2015/06/10 [Wed] 20:16:12:878
+
+--------- success -------- 2015/06/10 [Wed] 20:16:12:878
+ 2015/06/10 [Wed] 20:16:12:878  BLMASTER --> MS : CMOS camera length is being set to 180.0mm.
+ 2015/06/10 [Wed] 20:16:12:878  MS --> BLMASTER : CMOS camera length is successfully set.
+
+*****************************************************************
+    Goniometer goes to start position ... 2015/06/10 [Wed] 20:16:12:879
+*****************************************************************
+
+    Connecting to CMOS server... 2015/06/10 [Wed] 20:16:12:879
+
+    Successfully connected to 2015/06/10 [Wed] 20:16:12:879 server. CMOS
+ 2015/06/10 [Wed] 20:16:13:879  BLMASTER --> CMOS : set framerate 1.000000000000
+ 2015/06/10 [Wed] 20:16:13:880  BLMASTER --> CMOS : start nimg 5 ndum 0 kind 0
+ 2015/06/10 [Wed] 20:16:13:995  BLMASTER --> USER : cmos_scan_dark started.
+ 2015/06/10 [Wed] 20:16:20:001  BLMASTER --> USER : cmos_scan_dark  finished.
+measure_time =5.000000
+nscan_line = 5
+istart = -2 jstart = -2
+i loop ipoint = -2 (0)
+### 0th scan    job->serial_offset = 0
+x_start =      0.02000    x_end =      0.02000
+y_start =     -0.02000    y_end =      0.03000
+z_start =     -0.00000    z_end =     -0.00000
+st_4_motor_57 5.000000 0.020000 0.020000
+st_4_motor_57 step_pulse =      0.00000    speed =            2
+st_4_motor_57 delay =    100.00000    acc =  50000.00000
+st_4_motor_58 5.000000 -0.020000 0.030000
+st_4_motor_58 step_pulse =    249.99998    speed =           50
+st_4_motor_58 delay =    100.00000    acc =   2000.00000
+st_4_motor_59 5.000000 -0.000000 -0.000000
+st_4_motor_59 step_pulse =      0.00000    speed =            2
+st_4_motor_59 delay =    100.00000    acc =  50000.00000
+x_real_start =      0.02000    x_real_end =      0.02000
+y_real_start =     -0.02060    y_real_end =      0.03060
+z_real_start =     -0.00000    z_real_end =     -0.00000
+Diffscan_CMOS_Start_Offset=0.000000,  goffset = 0.000000
+LV1 time = 1433934980.018619
+LV2 time = 1433934980.018835
+ 2015/06/10 [Wed] 20:16:20:019  BLMASTER --> CMOS : start nimg 5 ndum 0 kind 1
+LV3 time = 1433934980.019318
+ 2015/06/10 [Wed] 20:16:20:019  BLMASTER --> USER : X-ray shutter opened.
+LV4 time = 1433934980.019734
+LV6 time = 1433934980.019933
+LV7 time = 1433934980.020774
+LV8 time = 1433934980.020991
+Continuos predicted end time= 1433934985.020991
+j loop jpoint = -2 (0)
+LV9 time = 1433934980.021634
+j loop jpoint = -1 (1)
+LV10 time = 1433934980.022208
+j loop jpoint = 0 (2)
+LV11 time = 1433934980.022681
+j loop jpoint = 1 (3)
+LV12 time = 1433934980.023158
+j loop jpoint = 2 (4)
+LV13 time = 1433934980.023655
+j loop jpoint = 3 (5)
+LV14 time = 1433934980.024129
+LVV1 time = 1433934980.024360
+LVV2 time = 1433934980.024577
+ 2015/06/10 [Wed] 20:16:20:024  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/10 [Wed] 20:16:20:025  BLMASTER --> USER : restore gonio x, y, z parematers.
+i loop ipoint = -1 (1)
+### 1th scan    job->serial_offset = 5
+x_start =      0.01000    x_end =      0.01000
+y_start =     -0.02000    y_end =      0.03000
+z_start =     -0.00000    z_end =     -0.00000
+st_4_motor_57 5.000000 0.010000 0.010000
+st_4_motor_57 step_pulse =      0.00000    speed =            2
+st_4_motor_57 delay =    100.00000    acc =  50000.00000
+st_4_motor_58 5.000000 -0.020000 0.030000
+st_4_motor_58 step_pulse =    249.99998    speed =           50
+st_4_motor_58 delay =    100.00000    acc =   2000.00000
+st_4_motor_59 5.000000 -0.000000 -0.000000
+st_4_motor_59 step_pulse =      0.00000    speed =            2
+st_4_motor_59 delay =    100.00000    acc =  50000.00000
+x_real_start =      0.01000    x_real_end =      0.01000
+y_real_start =     -0.02060    y_real_end =      0.03060
+z_real_start =     -0.00000    z_real_end =     -0.00000
+Diffscan_CMOS_Start_Offset=0.000000,  goffset = 0.000000
+LV1 time = 1433934980.027963
+LV2 time = 1433934980.028107
+ 2015/06/10 [Wed] 20:16:20:028  BLMASTER --> CMOS : start nimg 5 ndum 0 kind 1
+LV3 time = 1433934980.028461
+ 2015/06/10 [Wed] 20:16:20:028  BLMASTER --> USER : X-ray shutter opened.
+LV4 time = 1433934980.028740
+LV6 time = 1433934980.028873
+LV7 time = 1433934980.029531
+LV8 time = 1433934980.029704
+Continuos predicted end time= 1433934985.029704
+j loop jpoint = -2 (0)
+LV9 time = 1433934980.030131
+j loop jpoint = -1 (1)
+LV10 time = 1433934980.030468
+j loop jpoint = 0 (2)
+LV11 time = 1433934980.030781
+j loop jpoint = 1 (3)
+LV12 time = 1433934980.031092
+j loop jpoint = 2 (4)
+LV13 time = 1433934980.031422
+j loop jpoint = 3 (5)
+LV14 time = 1433934980.031733
+LVV1 time = 1433934980.031868
+LVV2 time = 1433934980.032005
+ 2015/06/10 [Wed] 20:16:20:032  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/10 [Wed] 20:16:20:032  BLMASTER --> USER : restore gonio x, y, z parematers.
+i loop ipoint = 0 (2)
+### 2th scan    job->serial_offset = 10
+x_start =      0.00000    x_end =      0.00000
+y_start =     -0.02000    y_end =      0.03000
+z_start =      0.00000    z_end =      0.00000
+st_4_motor_57 5.000000 0.000000 0.000000
+st_4_motor_57 step_pulse =      0.00000    speed =            2
+st_4_motor_57 delay =    100.00000    acc =  50000.00000
+st_4_motor_58 5.000000 -0.020000 0.030000
+st_4_motor_58 step_pulse =    249.99998    speed =           50
+st_4_motor_58 delay =    100.00000    acc =   2000.00000
+st_4_motor_59 5.000000 0.000000 0.000000
+st_4_motor_59 step_pulse =      0.00000    speed =            2
+st_4_motor_59 delay =    100.00000    acc =  50000.00000
+x_real_start =      0.00000    x_real_end =      0.00000
+y_real_start =     -0.02060    y_real_end =      0.03060
+z_real_start =      0.00000    z_real_end =      0.00000
+Diffscan_CMOS_Start_Offset=0.000000,  goffset = 0.000000
+LV1 time = 1433934980.035158
+LV2 time = 1433934980.035340
+ 2015/06/10 [Wed] 20:16:20:035  BLMASTER --> CMOS : start nimg 5 ndum 0 kind 1
+LV3 time = 1433934980.035662
+ 2015/06/10 [Wed] 20:16:20:035  BLMASTER --> USER : X-ray shutter opened.
+LV4 time = 1433934980.035936
+LV6 time = 1433934980.036069
+LV7 time = 1433934980.036642
+LV8 time = 1433934980.036815
+Continuos predicted end time= 1433934985.036814
+j loop jpoint = -2 (0)
+LV9 time = 1433934980.037264
+j loop jpoint = -1 (1)
+LV10 time = 1433934980.037587
+j loop jpoint = 0 (2)
+LV11 time = 1433934980.037899
+j loop jpoint = 1 (3)
+LV12 time = 1433934980.038223
+j loop jpoint = 2 (4)
+LV13 time = 1433934980.038537
+j loop jpoint = 3 (5)
+LV14 time = 1433934980.038845
+LVV1 time = 1433934980.038979
+LVV2 time = 1433934980.039117
+ 2015/06/10 [Wed] 20:16:20:039  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/10 [Wed] 20:16:20:039  BLMASTER --> USER : restore gonio x, y, z parematers.
+i loop ipoint = 1 (3)
+### 3th scan    job->serial_offset = 15
+x_start =     -0.01000    x_end =     -0.01000
+y_start =     -0.02000    y_end =      0.03000
+z_start =      0.00000    z_end =      0.00000
+st_4_motor_57 5.000000 -0.010000 -0.010000
+st_4_motor_57 step_pulse =      0.00000    speed =            2
+st_4_motor_57 delay =    100.00000    acc =  50000.00000
+st_4_motor_58 5.000000 -0.020000 0.030000
+st_4_motor_58 step_pulse =    249.99998    speed =           50
+st_4_motor_58 delay =    100.00000    acc =   2000.00000
+st_4_motor_59 5.000000 0.000000 0.000000
+st_4_motor_59 step_pulse =      0.00000    speed =            2
+st_4_motor_59 delay =    100.00000    acc =  50000.00000
+x_real_start =     -0.01000    x_real_end =     -0.01000
+y_real_start =     -0.02060    y_real_end =      0.03060
+z_real_start =      0.00000    z_real_end =      0.00000
+Diffscan_CMOS_Start_Offset=0.000000,  goffset = 0.000000
+LV1 time = 1433934980.042288
+LV2 time = 1433934980.042437
+ 2015/06/10 [Wed] 20:16:20:042  BLMASTER --> CMOS : start nimg 5 ndum 0 kind 1
+LV3 time = 1433934980.042760
+ 2015/06/10 [Wed] 20:16:20:042  BLMASTER --> USER : X-ray shutter opened.
+LV4 time = 1433934980.043037
+LV6 time = 1433934980.043170
+LV7 time = 1433934980.043789
+LV8 time = 1433934980.043959
+Continuos predicted end time= 1433934985.043959
+j loop jpoint = -2 (0)
+LV9 time = 1433934980.044401
+j loop jpoint = -1 (1)
+LV10 time = 1433934980.044715
+j loop jpoint = 0 (2)
+LV11 time = 1433934980.045025
+j loop jpoint = 1 (3)
+LV12 time = 1433934980.045366
+j loop jpoint = 2 (4)
+LV13 time = 1433934980.045676
+j loop jpoint = 3 (5)
+LV14 time = 1433934980.045991
+LVV1 time = 1433934980.046125
+LVV2 time = 1433934980.046280
+ 2015/06/10 [Wed] 20:16:20:046  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/10 [Wed] 20:16:20:046  BLMASTER --> USER : restore gonio x, y, z parematers.
+i loop ipoint = 2 (4)
+### 4th scan    job->serial_offset = 20
+x_start =     -0.02000    x_end =     -0.02000
+y_start =     -0.02000    y_end =      0.03000
+z_start =      0.00000    z_end =      0.00000
+st_4_motor_57 5.000000 -0.020000 -0.020000
+st_4_motor_57 step_pulse =      0.00000    speed =            2
+st_4_motor_57 delay =    100.00000    acc =  50000.00000
+st_4_motor_58 5.000000 -0.020000 0.030000
+st_4_motor_58 step_pulse =    249.99998    speed =           50
+st_4_motor_58 delay =    100.00000    acc =   2000.00000
+st_4_motor_59 5.000000 0.000000 0.000000
+st_4_motor_59 step_pulse =      0.00000    speed =            2
+st_4_motor_59 delay =    100.00000    acc =  50000.00000
+x_real_start =     -0.02000    x_real_end =     -0.02000
+y_real_start =     -0.02060    y_real_end =      0.03060
+z_real_start =      0.00000    z_real_end =      0.00000
+Diffscan_CMOS_Start_Offset=0.000000,  goffset = 0.000000
+LV1 time = 1433934980.067591
+LV2 time = 1433934980.067810
+ 2015/06/10 [Wed] 20:16:20:068  BLMASTER --> CMOS : start nimg 5 ndum 0 kind 1
+LV3 time = 1433934980.068276
+ 2015/06/10 [Wed] 20:16:20:068  BLMASTER --> USER : X-ray shutter opened.
+LV4 time = 1433934980.068693
+LV6 time = 1433934980.068894
+LV7 time = 1433934980.086663
+LV8 time = 1433934980.086810
+Continuos predicted end time= 1433934985.086810
+j loop jpoint = -2 (0)
+LV9 time = 1433934980.087295
+j loop jpoint = -1 (1)
+LV10 time = 1433934980.087616
+j loop jpoint = 0 (2)
+LV11 time = 1433934980.087933
+j loop jpoint = 1 (3)
+LV12 time = 1433934980.088262
+j loop jpoint = 2 (4)
+LV13 time = 1433934980.088576
+j loop jpoint = 3 (5)
+LV14 time = 1433934980.088901
+LVV1 time = 1433934980.089037
+LVV2 time = 1433934980.089174
+ 2015/06/10 [Wed] 20:16:20:089  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/10 [Wed] 20:16:20:089  BLMASTER --> USER : restore gonio x, y, z parematers.
+
+--------- Remove collimator -------- 2015/06/10 [Wed] 20:16:20:089
+
+--------- success -------- 2015/06/10 [Wed] 20:16:20:093
+
+--------- Move beam stop to sample mount position -------- 2015/06/10 [Wed] 20:16:20:093
+
+--------- success -------- 2015/06/10 [Wed] 20:16:20:093
+
+---------- Move cryo-nozzle at measurement position ---------- 2015/06/10 [Wed] 20:17:36:856
+
+--------- success -------- 2015/06/10 [Wed] 20:17:36:860
+
+--------- Insert beam stop -------- 2015/06/10 [Wed] 20:17:36:860
+
+--------- success -------- 2015/06/10 [Wed] 20:17:36:860
+
+--------- Insert collimator -------- 2015/06/10 [Wed] 20:17:36:860
+
+--------- success -------- 2015/06/10 [Wed] 20:17:36:861
+ 2015/06/10 [Wed] 20:17:36:861  BLMASTER --> MS : CMOS camera length is being set to 180.0mm.
+ 2015/06/10 [Wed] 20:17:36:861  MS --> BLMASTER : CMOS camera length is successfully set.
+
+*****************************************************************
+    Goniometer goes to start position ... 2015/06/10 [Wed] 20:17:36:861
+*****************************************************************
+ 2015/06/10 [Wed] 20:17:36:862  BLMASTER --> CMOS : set framerate 3.000000000000
+ 2015/06/10 [Wed] 20:17:36:862  BLMASTER --> CMOS : start nimg 5 ndum 0 kind 0
+ 2015/06/10 [Wed] 20:17:36:962  BLMASTER --> USER : cmos_scan_dark started.
+ 2015/06/10 [Wed] 20:17:38:964  BLMASTER --> USER : cmos_scan_dark  finished.
+measure_time =1.666667
+nscan_line = 5
+istart = -2 jstart = -2
+i loop ipoint = -2 (0)
+### 0th scan    job->serial_offset = 0
+x_start =      0.02000    x_end =      0.02000
+y_start =     -0.02000    y_end =      0.03000
+z_start =     -0.00000    z_end =     -0.00000
+st_4_motor_57 1.666667 0.020000 0.020000
+st_4_motor_57 step_pulse =      0.00000    speed =            2
+st_4_motor_57 delay =    100.00000    acc =  50000.00000
+st_4_motor_58 1.666667 -0.020000 0.030000
+st_4_motor_58 step_pulse =    249.99998    speed =          150
+st_4_motor_58 delay =    100.00000    acc =    666.66669
+st_4_motor_59 1.666667 -0.000000 -0.000000
+st_4_motor_59 step_pulse =      0.00000    speed =            2
+st_4_motor_59 delay =    100.00000    acc =  50000.00000
+x_real_start =      0.02000    x_real_end =      0.02000
+y_real_start =     -0.02160    y_real_end =      0.03160
+z_real_start =     -0.00000    z_real_end =     -0.00000
+Diffscan_CMOS_Start_Offset=0.000000,  goffset = 0.000000
+LV1 time = 1433935058.970595
+LV2 time = 1433935058.970814
+ 2015/06/10 [Wed] 20:17:38:971  BLMASTER --> CMOS : start nimg 5 ndum 0 kind 1
+LV3 time = 1433935058.971290
+ 2015/06/10 [Wed] 20:17:38:971  BLMASTER --> USER : X-ray shutter opened.
+LV4 time = 1433935058.971718
+LV6 time = 1433935058.971920
+LV7 time = 1433935058.972401
+LV8 time = 1433935058.972616
+Continuos predicted end time= 1433935060.639283
+j loop jpoint = -2 (0)
+LV9 time = 1433935058.973221
+j loop jpoint = -1 (1)
+LV10 time = 1433935058.973748
+j loop jpoint = 0 (2)
+LV11 time = 1433935058.974216
+j loop jpoint = 1 (3)
+LV12 time = 1433935058.974711
+j loop jpoint = 2 (4)
+LV13 time = 1433935058.975175
+j loop jpoint = 3 (5)
+LV14 time = 1433935058.975577
+LVV1 time = 1433935058.975714
+LVV2 time = 1433935058.975852
+ 2015/06/10 [Wed] 20:17:38:975  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/10 [Wed] 20:17:38:976  BLMASTER --> USER : restore gonio x, y, z parematers.
+i loop ipoint = -1 (1)
+### 1th scan    job->serial_offset = 5
+x_start =      0.01000    x_end =      0.01000
+y_start =     -0.02000    y_end =      0.03000
+z_start =     -0.00000    z_end =     -0.00000
+st_4_motor_57 1.666667 0.010000 0.010000
+st_4_motor_57 step_pulse =      0.00000    speed =            2
+st_4_motor_57 delay =    100.00000    acc =  50000.00000
+st_4_motor_58 1.666667 -0.020000 0.030000
+st_4_motor_58 step_pulse =    249.99998    speed =          150
+st_4_motor_58 delay =    100.00000    acc =    666.66669
+st_4_motor_59 1.666667 -0.000000 -0.000000
+st_4_motor_59 step_pulse =      0.00000    speed =            2
+st_4_motor_59 delay =    100.00000    acc =  50000.00000
+x_real_start =      0.01000    x_real_end =      0.01000
+y_real_start =     -0.02160    y_real_end =      0.03160
+z_real_start =     -0.00000    z_real_end =     -0.00000
+Diffscan_CMOS_Start_Offset=0.000000,  goffset = 0.000000
+LV1 time = 1433935058.979007
+LV2 time = 1433935058.979151
+ 2015/06/10 [Wed] 20:17:38:979  BLMASTER --> CMOS : start nimg 5 ndum 0 kind 1
+LV3 time = 1433935058.979483
+ 2015/06/10 [Wed] 20:17:38:979  BLMASTER --> USER : X-ray shutter opened.
+LV4 time = 1433935058.979760
+LV6 time = 1433935058.979894
+LV7 time = 1433935058.980190
+LV8 time = 1433935058.980352
+Continuos predicted end time= 1433935060.647019
+j loop jpoint = -2 (0)
+LV9 time = 1433935058.980764
+j loop jpoint = -1 (1)
+LV10 time = 1433935058.981080
+j loop jpoint = 0 (2)
+LV11 time = 1433935058.981418
+j loop jpoint = 1 (3)
+LV12 time = 1433935058.981730
+j loop jpoint = 2 (4)
+LV13 time = 1433935058.982040
+j loop jpoint = 3 (5)
+LV14 time = 1433935058.982381
+LVV1 time = 1433935058.982517
+LVV2 time = 1433935058.982654
+ 2015/06/10 [Wed] 20:17:38:982  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/10 [Wed] 20:17:38:982  BLMASTER --> USER : restore gonio x, y, z parematers.
+i loop ipoint = 0 (2)
+### 2th scan    job->serial_offset = 10
+x_start =      0.00000    x_end =      0.00000
+y_start =     -0.02000    y_end =      0.03000
+z_start =      0.00000    z_end =      0.00000
+st_4_motor_57 1.666667 0.000000 0.000000
+st_4_motor_57 step_pulse =      0.00000    speed =            2
+st_4_motor_57 delay =    100.00000    acc =  50000.00000
+st_4_motor_58 1.666667 -0.020000 0.030000
+st_4_motor_58 step_pulse =    249.99998    speed =          150
+st_4_motor_58 delay =    100.00000    acc =    666.66669
+st_4_motor_59 1.666667 0.000000 0.000000
+st_4_motor_59 step_pulse =      0.00000    speed =            2
+st_4_motor_59 delay =    100.00000    acc =  50000.00000
+x_real_start =      0.00000    x_real_end =      0.00000
+y_real_start =     -0.02160    y_real_end =      0.03160
+z_real_start =      0.00000    z_real_end =      0.00000
+Diffscan_CMOS_Start_Offset=0.000000,  goffset = 0.000000
+LV1 time = 1433935058.985817
+LV2 time = 1433935058.985962
+ 2015/06/10 [Wed] 20:17:38:986  BLMASTER --> CMOS : start nimg 5 ndum 0 kind 1
+LV3 time = 1433935058.986286
+ 2015/06/10 [Wed] 20:17:38:986  BLMASTER --> USER : X-ray shutter opened.
+LV4 time = 1433935058.986568
+LV6 time = 1433935058.986705
+LV7 time = 1433935058.986997
+LV8 time = 1433935058.987139
+Continuos predicted end time= 1433935060.653806
+j loop jpoint = -2 (0)
+LV9 time = 1433935058.987560
+j loop jpoint = -1 (1)
+LV10 time = 1433935058.987879
+j loop jpoint = 0 (2)
+LV11 time = 1433935058.988192
+j loop jpoint = 1 (3)
+LV12 time = 1433935058.988522
+j loop jpoint = 2 (4)
+LV13 time = 1433935058.988837
+j loop jpoint = 3 (5)
+LV14 time = 1433935058.989148
+LVV1 time = 1433935058.989318
+LVV2 time = 1433935058.989459
+ 2015/06/10 [Wed] 20:17:38:989  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/10 [Wed] 20:17:38:989  BLMASTER --> USER : restore gonio x, y, z parematers.
+i loop ipoint = 1 (3)
+### 3th scan    job->serial_offset = 15
+x_start =     -0.01000    x_end =     -0.01000
+y_start =     -0.02000    y_end =      0.03000
+z_start =      0.00000    z_end =      0.00000
+st_4_motor_57 1.666667 -0.010000 -0.010000
+st_4_motor_57 step_pulse =      0.00000    speed =            2
+st_4_motor_57 delay =    100.00000    acc =  50000.00000
+st_4_motor_58 1.666667 -0.020000 0.030000
+st_4_motor_58 step_pulse =    249.99998    speed =          150
+st_4_motor_58 delay =    100.00000    acc =    666.66669
+st_4_motor_59 1.666667 0.000000 0.000000
+st_4_motor_59 step_pulse =      0.00000    speed =            2
+st_4_motor_59 delay =    100.00000    acc =  50000.00000
+x_real_start =     -0.01000    x_real_end =     -0.01000
+y_real_start =     -0.02160    y_real_end =      0.03160
+z_real_start =      0.00000    z_real_end =      0.00000
+Diffscan_CMOS_Start_Offset=0.000000,  goffset = 0.000000
+LV1 time = 1433935058.992620
+LV2 time = 1433935058.992766
+ 2015/06/10 [Wed] 20:17:38:992  BLMASTER --> CMOS : start nimg 5 ndum 0 kind 1
+LV3 time = 1433935058.993064
+ 2015/06/10 [Wed] 20:17:38:993  BLMASTER --> USER : X-ray shutter opened.
+LV4 time = 1433935058.993354
+LV6 time = 1433935058.993490
+LV7 time = 1433935058.993783
+LV8 time = 1433935058.993925
+Continuos predicted end time= 1433935060.660592
+j loop jpoint = -2 (0)
+LV9 time = 1433935058.994341
+j loop jpoint = -1 (1)
+LV10 time = 1433935058.994657
+j loop jpoint = 0 (2)
+LV11 time = 1433935058.994970
+j loop jpoint = 1 (3)
+LV12 time = 1433935058.995307
+j loop jpoint = 2 (4)
+LV13 time = 1433935058.995623
+j loop jpoint = 3 (5)
+LV14 time = 1433935058.995937
+LVV1 time = 1433935058.996075
+LVV2 time = 1433935058.996219
+ 2015/06/10 [Wed] 20:17:38:996  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/10 [Wed] 20:17:38:996  BLMASTER --> USER : restore gonio x, y, z parematers.
+i loop ipoint = 2 (4)
+### 4th scan    job->serial_offset = 20
+x_start =     -0.02000    x_end =     -0.02000
+y_start =     -0.02000    y_end =      0.03000
+z_start =      0.00000    z_end =      0.00000
+st_4_motor_57 1.666667 -0.020000 -0.020000
+st_4_motor_57 step_pulse =      0.00000    speed =            2
+st_4_motor_57 delay =    100.00000    acc =  50000.00000
+st_4_motor_58 1.666667 -0.020000 0.030000
+st_4_motor_58 step_pulse =    249.99998    speed =          150
+st_4_motor_58 delay =    100.00000    acc =    666.66669
+st_4_motor_59 1.666667 0.000000 0.000000
+st_4_motor_59 step_pulse =      0.00000    speed =            2
+st_4_motor_59 delay =    100.00000    acc =  50000.00000
+x_real_start =     -0.02000    x_real_end =     -0.02000
+y_real_start =     -0.02160    y_real_end =      0.03160
+z_real_start =      0.00000    z_real_end =      0.00000
+Diffscan_CMOS_Start_Offset=0.000000,  goffset = 0.000000
+LV1 time = 1433935058.999446
+LV2 time = 1433935058.999592
+ 2015/06/10 [Wed] 20:17:38:999  BLMASTER --> CMOS : start nimg 5 ndum 0 kind 1
+LV3 time = 1433935058.999894
+ 2015/06/10 [Wed] 20:17:39:000  BLMASTER --> USER : X-ray shutter opened.
+LV4 time = 1433935059.000170
+LV6 time = 1433935059.000326
+LV7 time = 1433935059.000621
+LV8 time = 1433935059.000766
+Continuos predicted end time= 1433935060.667432
+j loop jpoint = -2 (0)
+LV9 time = 1433935059.001171
+j loop jpoint = -1 (1)
+LV10 time = 1433935059.001516
+j loop jpoint = 0 (2)
+LV11 time = 1433935059.001833
+j loop jpoint = 1 (3)
+LV12 time = 1433935059.002148
+j loop jpoint = 2 (4)
+LV13 time = 1433935059.002479
+j loop jpoint = 3 (5)
+LV14 time = 1433935059.002796
+LVV1 time = 1433935059.002931
+LVV2 time = 1433935059.003070
+ 2015/06/10 [Wed] 20:17:39:003  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/10 [Wed] 20:17:39:003  BLMASTER --> USER : restore gonio x, y, z parematers.
+
+--------- Remove collimator -------- 2015/06/10 [Wed] 20:17:39:003
+
+--------- success -------- 2015/06/10 [Wed] 20:17:39:008
+
+--------- Move beam stop to sample mount position -------- 2015/06/10 [Wed] 20:17:39:008
+
+--------- success -------- 2015/06/10 [Wed] 20:17:39:008
+Disconnect Message Server.
+Disconnect CMOS server.
+ 2015/06/10 [Wed] 20:18:26:548  Successfully closed CMOS server.
+
+Beamline Scheduling Software Exit at 2015/06/10 [Wed] 20:18:26:549.
+
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2015/06/10 [Wed] 20:25:57:780.
+     [  Last modified at 12:00, Jun/09/2015 (Tue)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2015/06/10 [Wed] 20:25:57:781
+
+--- successfully loaded attenuator configurations --- 2015/06/10 [Wed] 20:25:57:782
+    Load bss.config Success.
+   Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/sacla_bl3_jun2015//htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+     ( bss's pid = 10148, videosrv's pid = ??? )
+
+    Making a connection to Message Server... 2015/06/10 [Wed] 20:26:00:063
+
+ 2015/06/10 [Wed] 20:26:00:077  Connecting to Message Server...
+ 2015/06/10 [Wed] 20:26:00:078  Successfully connect to Message Server.
+
+=================================================================
+
+   Set axis driving parameters default. 2015/06/10 [Wed] 20:26:00:078
+
+=================================================================
+
+=================================================================
+
+    Check ring current ... 2015/06/10 [Wed] 20:26:18:656
+
+=================================================================
+
+=================================================================
+
+    Check ring current ... 2015/06/10 [Wed] 20:26:18:656
+
+=================================================================
+
+>>>>>>>> Start BSS main routine ... 2015/06/10 [Wed] 20:26:18:682 <<<<<<<<
+
+
+---------- Move cryo-nozzle at measurement position ---------- 2015/06/10 [Wed] 20:26:18:687
+
+--------- success -------- 2015/06/10 [Wed] 20:26:18:687
+
+--------- Insert beam stop -------- 2015/06/10 [Wed] 20:26:18:687
+
+--------- success -------- 2015/06/10 [Wed] 20:26:18:687
+
+--------- Insert collimator -------- 2015/06/10 [Wed] 20:26:18:688
+
+--------- success -------- 2015/06/10 [Wed] 20:26:18:688
+
+    Connecting to MX225HE server... 2015/06/10 [Wed] 20:26:18:688
+
+    Successfully connected to 2015/06/10 [Wed] 20:26:18:688 server. MX225HE
+
+=================================================================
+    Job ID 1 start ... 2015/06/10 [Wed] 20:26:19:789
+
+        Crystal ID:  Unknown
+        Job mode:  Crystal Check
+        Wavelength [A]:  1.24040
+        Expose time [sec]:  1.0
+        Scan range (step) [deg]:  0.00 -> 3.00 (1.00)
+        Detector:  MX225HE      Camera distance [mm]:  150.00
+        Data file:  /data/test_xxxxx.img
+
+=================================================================
+
+*****************************************************************
+    Preparation for Job #1.  2015/06/10 [Wed] 20:26:19:796
+*****************************************************************
+
+*****************************************************************
+    Crystal centering skipped ... 2015/06/10 [Wed] 20:26:19:796
+*****************************************************************
+ 2015/06/10 [Wed] 20:26:19:797  BLMASTER --> MS : CMOS camera length is being set to 150.0mm.
+ 2015/06/10 [Wed] 20:26:19:798  MS --> BLMASTER : CMOS camera length is successfully set.
+
+--------- Insert collimator -------- 2015/06/10 [Wed] 20:26:19:798
+
+--------- success -------- 2015/06/10 [Wed] 20:26:19:798
+
+---------- Move cryo-nozzle at measurement position ---------- 2015/06/10 [Wed] 20:26:19:798
+
+--------- success -------- 2015/06/10 [Wed] 20:26:19:799
+
+--------- Insert beam stop -------- 2015/06/10 [Wed] 20:26:19:799
+
+--------- success -------- 2015/06/10 [Wed] 20:26:19:799
+
+*****************************************************************
+    Goniometer goes to start position ... 2015/06/10 [Wed] 20:26:19:800
+*****************************************************************
+
+*****************************************************************
+    MX225HE initialization ... 2015/06/10 [Wed] 20:26:19:800
+*****************************************************************
+ 2015/06/10 [Wed] 20:26:19:801  MAR CCD is found detector integrating - readout to clear it.
+set_readout_mode,0
+
+*****************************************************************
+    Scan MX225HE dark current image ... 2015/06/10 [Wed] 20:26:19:801
+*****************************************************************
+ JOB_ID#   = 1
+ Beamline  = SACLABL3
+ Sample  = Tray:Not-Mounted, Well:1
+ FILE_NAME = /data/test_??????.img
+ JOB_MODE  = Crystal Check
+ DETECTOR  = CCD (MX225HE) :
+  2theta = 0.0, binning = 2, fastadc = 1, dezinger = 0, transform = 1
+ DATA COLLECTION_PARAMETERS :
+  scan_from = 0.000[deg], scan_to = 3.000[deg], scan_step = 1.000[deg]
+  sampling_interval = 1, number_of_images = 3 x 1
+  delay_time = 100.0[msec], cameralength = 150.0[mm], attenuator = None
+  ver. offset = 0.0[mm], hor. offset = 0.0[mm]
+  wavelength = 1.24040, expose_time = 1.000[sec]
+
+
+*****************************************************************
+
+    Go to next oscillation point ... 2015/06/10 [Wed] 20:26:19:903
+
+*****************************************************************
+
+#################################################################
+
+  /data/test_000001.img [1/3]
+  0.000 [deg] <=====> 1.000 [deg] (1.000deg, 0.500sec * 2times)
+  2015/06/10 [Wed] 20:26:19:907
+
+#################################################################
+Lap time is 00:00:03:461 [h:m:s:ms].
+
+*****************************************************************
+
+    Go to next oscillation point ... 2015/06/10 [Wed] 20:26:23:370
+
+*****************************************************************
+
+#################################################################
+
+  /data/test_000002.img [2/3]
+  1.000 [deg] <=====> 2.000 [deg] (1.000deg, 0.500sec * 2times)
+  2015/06/10 [Wed] 20:26:23:370
+
+#################################################################
+Lap time is 00:00:03:815 [h:m:s:ms].
+
+*****************************************************************
+
+    Go to next oscillation point ... 2015/06/10 [Wed] 20:26:27:188
+
+*****************************************************************
+
+#################################################################
+
+  /data/test_000003.img [3/3]
+  2.000 [deg] <=====> 3.000 [deg] (1.000deg, 0.500sec * 2times)
+  2015/06/10 [Wed] 20:26:27:188
+
+#################################################################
+Lap time is 00:00:03:541 [h:m:s:ms].
+
+=================================================================
+    Job ID 1 Success ... 2015/06/10 [Wed] 20:26:30:739
+       Job's lap time is 00:00:10:950 [h:m:s:ms].
+       Image's average lap time is 3.61sec
+
+=================================================================
+
+--------- Remove collimator -------- 2015/06/10 [Wed] 20:26:30:740
+
+--------- success -------- 2015/06/10 [Wed] 20:26:30:740
+
+--------- Move beam stop to sample mount position -------- 2015/06/10 [Wed] 20:26:30:740
+
+--------- success -------- 2015/06/10 [Wed] 20:26:30:741
+
+2015/06/10 [Wed] 20:26:30:741  restoring spindle axis parameters....
+
+<<<<<<<< Finish BSS main routine ... 2015/06/10 [Wed] 20:26:30:756 >>>>>>>>
+Total time is 00:00:12:073 [h:m:s:ms].
+Disconnect Message Server.
+Disconnect MX225HE server.
+ 2015/06/10 [Wed] 20:27:22:463  Waiting for all tasks to finish before closing MAR CCD connection.
+ 2015/06/10 [Wed] 20:27:22:468  Successfully closed MAR CCD server.
+
+Beamline Scheduling Software Exit at 2015/06/10 [Wed] 20:27:22:468.
+
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2015/06/10 [Wed] 20:38:20:951.
+     [  Last modified at 12:00, Jun/09/2015 (Tue)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2015/06/10 [Wed] 20:38:20:952
+
+--- successfully loaded attenuator configurations --- 2015/06/10 [Wed] 20:38:20:952
+    Load bss.config Success.
+   Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/sacla_bl3_jun2015//htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+     ( bss's pid = 11105, videosrv's pid = ??? )
+
+    Making a connection to Message Server... 2015/06/10 [Wed] 20:38:22:988
+
+ 2015/06/10 [Wed] 20:38:22:999  Connecting to Message Server...
+ 2015/06/10 [Wed] 20:38:22:999  Successfully connect to Message Server.
+
+=================================================================
+
+   Set axis driving parameters default. 2015/06/10 [Wed] 20:38:22:999
+
+=================================================================
+
+=================================================================
+
+    Check ring current ... 2015/06/10 [Wed] 20:38:32:176
+
+=================================================================
+
+=================================================================
+
+    Check ring current ... 2015/06/10 [Wed] 20:38:32:176
+
+=================================================================
+
+>>>>>>>> Start BSS main routine ... 2015/06/10 [Wed] 20:38:32:203 <<<<<<<<
+
+
+---------- Move cryo-nozzle at measurement position ---------- 2015/06/10 [Wed] 20:38:32:208
+
+--------- success -------- 2015/06/10 [Wed] 20:38:32:208
+
+--------- Insert beam stop -------- 2015/06/10 [Wed] 20:38:32:208
+
+--------- success -------- 2015/06/10 [Wed] 20:38:32:208
+
+--------- Insert collimator -------- 2015/06/10 [Wed] 20:38:32:209
+
+--------- success -------- 2015/06/10 [Wed] 20:38:32:209
+
+    Connecting to MX225HE server... 2015/06/10 [Wed] 20:38:32:209
+
+    Successfully connected to 2015/06/10 [Wed] 20:38:32:209 server. MX225HE
+
+=================================================================
+    Job ID 1 start ... 2015/06/10 [Wed] 20:38:33:309
+
+        Crystal ID:  Unknown
+        Job mode:  Crystal Check
+        Wavelength [A]:  1.24040
+        Expose time [sec]:  1.0
+        Scan range (step) [deg]:  0.00 -> 3.00 (1.00)
+        Detector:  MX225HE      Camera distance [mm]:  150.00
+        Data file:  /data/test_xxxxx.img
+
+=================================================================
+
+*****************************************************************
+    Preparation for Job #1.  2015/06/10 [Wed] 20:38:33:317
+*****************************************************************
+
+*****************************************************************
+    Crystal centering skipped ... 2015/06/10 [Wed] 20:38:33:317
+*****************************************************************
+ 2015/06/10 [Wed] 20:38:33:318  BLMASTER --> MS : CMOS camera length is being set to 150.0mm.
+ 2015/06/10 [Wed] 20:38:33:319  MS --> BLMASTER : CMOS camera length is successfully set.
+
+--------- Insert collimator -------- 2015/06/10 [Wed] 20:38:33:319
+
+--------- success -------- 2015/06/10 [Wed] 20:38:33:319
+
+---------- Move cryo-nozzle at measurement position ---------- 2015/06/10 [Wed] 20:38:33:319
+
+--------- success -------- 2015/06/10 [Wed] 20:38:33:320
+
+--------- Insert beam stop -------- 2015/06/10 [Wed] 20:38:33:320
+
+--------- success -------- 2015/06/10 [Wed] 20:38:33:320
+
+*****************************************************************
+    Goniometer goes to start position ... 2015/06/10 [Wed] 20:38:33:321
+*****************************************************************
+
+*****************************************************************
+    MX225HE initialization ... 2015/06/10 [Wed] 20:38:33:321
+*****************************************************************
+ 2015/06/10 [Wed] 20:38:33:322  MAR CCD is found detector integrating - readout to clear it.
+set_readout_mode,0
+
+*****************************************************************
+    Scan MX225HE dark current image ... 2015/06/10 [Wed] 20:38:33:322
+*****************************************************************
+ JOB_ID#   = 1
+ Beamline  = SACLABL3
+ Sample  = Tray:Not-Mounted, Well:1
+ FILE_NAME = /data/test_??????.img
+ JOB_MODE  = Crystal Check
+ DETECTOR  = CCD (MX225HE) :
+  2theta = 0.0, binning = 2, fastadc = 1, dezinger = 0, transform = 1
+ DATA COLLECTION_PARAMETERS :
+  scan_from = 0.000[deg], scan_to = 3.000[deg], scan_step = 1.000[deg]
+  sampling_interval = 1, number_of_images = 3 x 1
+  delay_time = 100.0[msec], cameralength = 150.0[mm], attenuator = None
+  ver. offset = 0.0[mm], hor. offset = 0.0[mm]
+  wavelength = 1.24040, expose_time = 1.000[sec]
+
+
+*****************************************************************
+
+    Go to next oscillation point ... 2015/06/10 [Wed] 20:38:33:424
+
+*****************************************************************
+
+#################################################################
+
+  /data/test_000001.img [1/3]
+  0.000 [deg] <=====> 1.000 [deg] (1.000deg, 0.500sec * 2times)
+  2015/06/10 [Wed] 20:38:33:429
+
+#################################################################
+Lap time is 00:00:03:462 [h:m:s:ms].
+
+*****************************************************************
+
+    Go to next oscillation point ... 2015/06/10 [Wed] 20:38:36:892
+
+*****************************************************************
+
+#################################################################
+
+  /data/test_000002.img [2/3]
+  1.000 [deg] <=====> 2.000 [deg] (1.000deg, 0.500sec * 2times)
+  2015/06/10 [Wed] 20:38:36:892
+
+#################################################################
+Lap time is 00:00:03:457 [h:m:s:ms].
+
+*****************************************************************
+
+    Go to next oscillation point ... 2015/06/10 [Wed] 20:38:40:355
+
+*****************************************************************
+
+#################################################################
+
+  /data/test_000003.img [3/3]
+  2.000 [deg] <=====> 3.000 [deg] (1.000deg, 0.500sec * 2times)
+  2015/06/10 [Wed] 20:38:40:355
+
+#################################################################
+Lap time is 00:00:03:457 [h:m:s:ms].
+
+=================================================================
+    Job ID 1 Success ... 2015/06/10 [Wed] 20:38:43:820
+       Job's lap time is 00:00:10:510 [h:m:s:ms].
+       Image's average lap time is 3.46sec
+
+=================================================================
+
+--------- Remove collimator -------- 2015/06/10 [Wed] 20:38:43:821
+
+--------- success -------- 2015/06/10 [Wed] 20:38:43:821
+
+--------- Move beam stop to sample mount position -------- 2015/06/10 [Wed] 20:38:43:821
+
+--------- success -------- 2015/06/10 [Wed] 20:38:43:821
+
+2015/06/10 [Wed] 20:38:43:821  restoring spindle axis parameters....
+
+<<<<<<<< Finish BSS main routine ... 2015/06/10 [Wed] 20:38:43:834 >>>>>>>>
+Total time is 00:00:11:630 [h:m:s:ms].
+Disconnect Message Server.
+Disconnect MX225HE server.
+ 2015/06/10 [Wed] 20:39:03:487  Waiting for all tasks to finish before closing MAR CCD connection.
+ 2015/06/10 [Wed] 20:39:03:492  Successfully closed MAR CCD server.
+
+Beamline Scheduling Software Exit at 2015/06/10 [Wed] 20:39:03:492.
+
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2015/06/10 [Wed] 20:40:20:872.
+     [  Last modified at 12:00, Jun/09/2015 (Tue)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2015/06/10 [Wed] 20:40:20:873
+
+--- successfully loaded attenuator configurations --- 2015/06/10 [Wed] 20:40:20:874
+    Load bss.config Success.
+   Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/sacla_bl3_jun2015//htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+     ( bss's pid = 11238, videosrv's pid = ??? )
+
+    Making a connection to Message Server... 2015/06/10 [Wed] 20:40:22:870
+
+ 2015/06/10 [Wed] 20:40:22:884  Connecting to Message Server...
+ 2015/06/10 [Wed] 20:40:22:884  Successfully connect to Message Server.
+
+=================================================================
+
+   Set axis driving parameters default. 2015/06/10 [Wed] 20:40:22:884
+
+=================================================================
+Disconnect Message Server.
+
+Beamline Scheduling Software Exit at 2015/06/10 [Wed] 20:40:28:434.
+
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2015/06/10 [Wed] 20:44:12:771.
+     [  Last modified at 21:00, Jun/10/2015 (Wed)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2015/06/10 [Wed] 20:44:12:771
+
+--- successfully loaded attenuator configurations --- 2015/06/10 [Wed] 20:44:12:772
+    Load bss.config Success.
+   Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/sacla_bl3_jun2015//htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+     ( bss's pid = 11435, videosrv's pid = ??? )
+
+    Making a connection to Message Server... 2015/06/10 [Wed] 20:44:15:788
+
+ 2015/06/10 [Wed] 20:44:15:795  Connecting to Message Server...
+ 2015/06/10 [Wed] 20:44:15:795  Successfully connect to Message Server.
+
+=================================================================
+
+   Set axis driving parameters default. 2015/06/10 [Wed] 20:44:15:795
+
+=================================================================
+
+=================================================================
+
+    Check ring current ... 2015/06/10 [Wed] 20:44:22:561
+
+=================================================================
+
+=================================================================
+
+    Check ring current ... 2015/06/10 [Wed] 20:44:22:561
+
+=================================================================
+
+>>>>>>>> Start BSS main routine ... 2015/06/10 [Wed] 20:44:22:589 <<<<<<<<
+
+
+---------- Move cryo-nozzle at measurement position ---------- 2015/06/10 [Wed] 20:44:22:593
+
+--------- success -------- 2015/06/10 [Wed] 20:44:22:594
+
+--------- Insert beam stop -------- 2015/06/10 [Wed] 20:44:22:594
+
+--------- success -------- 2015/06/10 [Wed] 20:44:22:594
+
+--------- Insert collimator -------- 2015/06/10 [Wed] 20:44:22:594
+
+--------- success -------- 2015/06/10 [Wed] 20:44:22:594
+
+    Connecting to MX225HE server... 2015/06/10 [Wed] 20:44:22:595
+
+    Successfully connected to 2015/06/10 [Wed] 20:44:22:595 server. MX225HE
+
+=================================================================
+    Job ID 1 start ... 2015/06/10 [Wed] 20:44:23:695
+
+        Crystal ID:  Unknown
+        Job mode:  Crystal Check
+        Wavelength [A]:  1.24040
+        Expose time [sec]:  1.0
+        Scan range (step) [deg]:  0.00 -> 3.00 (1.00)
+        Detector:  MX225HE      Camera distance [mm]:  150.00
+        Data file:  /data/test_xxxxx.img
+
+=================================================================
+
+*****************************************************************
+    Preparation for Job #1.  2015/06/10 [Wed] 20:44:23:703
+*****************************************************************
+
+*****************************************************************
+    Crystal centering skipped ... 2015/06/10 [Wed] 20:44:23:703
+*****************************************************************
+ 2015/06/10 [Wed] 20:44:23:704  BLMASTER --> MS : CMOS camera length is being set to 150.0mm.
+ 2015/06/10 [Wed] 20:44:23:704  MS --> BLMASTER : CMOS camera length is successfully set.
+
+--------- Insert collimator -------- 2015/06/10 [Wed] 20:44:23:704
+
+--------- success -------- 2015/06/10 [Wed] 20:44:23:705
+
+---------- Move cryo-nozzle at measurement position ---------- 2015/06/10 [Wed] 20:44:23:705
+
+--------- success -------- 2015/06/10 [Wed] 20:44:23:705
+
+--------- Insert beam stop -------- 2015/06/10 [Wed] 20:44:23:705
+
+--------- success -------- 2015/06/10 [Wed] 20:44:23:706
+
+*****************************************************************
+    Goniometer goes to start position ... 2015/06/10 [Wed] 20:44:23:707
+*****************************************************************
+
+*****************************************************************
+    MX225HE initialization ... 2015/06/10 [Wed] 20:44:23:707
+*****************************************************************
+ 2015/06/10 [Wed] 20:44:23:707  MAR CCD is found detector integrating - readout to clear it.
+set_readout_mode,0
+
+*****************************************************************
+    Scan MX225HE dark current image ... 2015/06/10 [Wed] 20:44:23:708
+*****************************************************************
+ JOB_ID#   = 1
+ Beamline  = SACLABL3
+ Sample  = Tray:Not-Mounted, Well:1
+ FILE_NAME = /data/test_??????.img
+ JOB_MODE  = Crystal Check
+ DETECTOR  = CCD (MX225HE) :
+  2theta = 0.0, binning = 2, fastadc = 1, dezinger = 0, transform = 1
+ DATA COLLECTION_PARAMETERS :
+  scan_from = 0.000[deg], scan_to = 3.000[deg], scan_step = 1.000[deg]
+  sampling_interval = 1, number_of_images = 3 x 1
+  delay_time = 100.0[msec], cameralength = 150.0[mm], attenuator = None
+  ver. offset = 0.0[mm], hor. offset = 0.0[mm]
+  wavelength = 1.24040, expose_time = 1.000[sec]
+
+
+*****************************************************************
+
+    Go to next oscillation point ... 2015/06/10 [Wed] 20:44:23:809
+
+*****************************************************************
+
+#################################################################
+
+  /data/test_000001.img [1/3]
+  0.000 [deg] <=====> 1.000 [deg] (1.000deg, 0.500sec * 2times)
+  2015/06/10 [Wed] 20:44:23:814
+
+#################################################################
+Lap time is 00:00:03:462 [h:m:s:ms].
+
+*****************************************************************
+
+    Go to next oscillation point ... 2015/06/10 [Wed] 20:44:27:277
+
+*****************************************************************
+
+#################################################################
+
+  /data/test_000002.img [2/3]
+  1.000 [deg] <=====> 2.000 [deg] (1.000deg, 0.500sec * 2times)
+  2015/06/10 [Wed] 20:44:27:277
+
+#################################################################
+Lap time is 00:00:03:457 [h:m:s:ms].
+
+*****************************************************************
+
+    Go to next oscillation point ... 2015/06/10 [Wed] 20:44:30:740
+
+*****************************************************************
+
+#################################################################
+
+  /data/test_000003.img [3/3]
+  2.000 [deg] <=====> 3.000 [deg] (1.000deg, 0.500sec * 2times)
+  2015/06/10 [Wed] 20:44:30:741
+
+#################################################################
+Lap time is 00:00:03:458 [h:m:s:ms].
+
+=================================================================
+    Job ID 1 Success ... 2015/06/10 [Wed] 20:44:34:207
+       Job's lap time is 00:00:10:512 [h:m:s:ms].
+       Image's average lap time is 3.46sec
+
+=================================================================
+
+--------- Remove collimator -------- 2015/06/10 [Wed] 20:44:34:208
+
+--------- success -------- 2015/06/10 [Wed] 20:44:34:208
+
+--------- Move beam stop to sample mount position -------- 2015/06/10 [Wed] 20:44:34:208
+
+--------- success -------- 2015/06/10 [Wed] 20:44:34:209
+
+2015/06/10 [Wed] 20:44:34:209  restoring spindle axis parameters....
+
+<<<<<<<< Finish BSS main routine ... 2015/06/10 [Wed] 20:44:34:224 >>>>>>>>
+Total time is 00:00:11:634 [h:m:s:ms].
+Disconnect Message Server.
+Disconnect MX225HE server.
+ 2015/06/10 [Wed] 20:45:16:125  Waiting for all tasks to finish before closing MAR CCD connection.
+ 2015/06/10 [Wed] 20:45:16:129  Successfully closed MAR CCD server.
+
+Beamline Scheduling Software Exit at 2015/06/10 [Wed] 20:45:16:130.
+

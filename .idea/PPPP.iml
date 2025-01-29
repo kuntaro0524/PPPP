@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/00.Usefull" />
+      <excludeFolder url="file://$MODULE_DIR$/01.Data" />
+      <excludeFolder url="file://$MODULE_DIR$/02.Plot" />
+      <excludeFolder url="file://$MODULE_DIR$/02.Scalepack" />
+      <excludeFolder url="file://$MODULE_DIR$/09.SACLA" />
+      <excludeFolder url="file://$MODULE_DIR$/10.Zoo" />
+      <excludeFolder url="file://$MODULE_DIR$/140510-NewKUMA" />
+      <excludeFolder url="file://$MODULE_DIR$/24.NABE" />
+      <excludeFolder url="file://$MODULE_DIR$/888.GitTest" />
+      <excludeFolder url="file://$MODULE_DIR$/96.ZoomData" />
+      <excludeFolder url="file://$MODULE_DIR$/99.Test" />
+      <excludeFolder url="file://$MODULE_DIR$/AlarmClock" />
+      <excludeFolder url="file://$MODULE_DIR$/CryPic" />
+      <excludeFolder url="file://$MODULE_DIR$/Logs" />
+      <excludeFolder url="file://$MODULE_DIR$/MakePDF" />
+      <excludeFolder url="file://$MODULE_DIR$/MusicSource" />
+      <excludeFolder url="file://$MODULE_DIR$/P" />
+      <excludeFolder url="file://$MODULE_DIR$/Saved" />
+      <excludeFolder url="file://$MODULE_DIR$/T" />
+      <excludeFolder url="file://$MODULE_DIR$/TEST" />
+      <excludeFolder url="file://$MODULE_DIR$/TEST2" />
+      <excludeFolder url="file://$MODULE_DIR$/User" />
+      <excludeFolder url="file://$MODULE_DIR$/WireScan" />
+      <excludeFolder url="file://$MODULE_DIR$/Yamc" />
+      <excludeFolder url="file://$MODULE_DIR$/anaaxes" />
+      <excludeFolder url="file://$MODULE_DIR$/xds" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 2.6" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+  </component>
+</module>

@@ -1,0 +1,300 @@
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2015/06/04 [Thu] 16:47:48:176.
+     [  Last modified at 15:40, Jun/04/2015 (Thu)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2015/06/04 [Thu] 16:47:48:177
+
+--- successfully loaded attenuator configurations --- 2015/06/04 [Thu] 16:47:48:178
+    Load bss.config Success.
+   Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/sacla_bl3_jun2015//htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+     ( bss's pid = 10720, videosrv's pid = ??? )
+
+    Making a connection to Message Server... 2015/06/04 [Thu] 16:47:50:761
+
+ 2015/06/04 [Thu] 16:47:50:772  Connecting to Message Server...
+ 2015/06/04 [Thu] 16:47:50:772  Successfully connect to Message Server.
+
+=================================================================
+
+   Set axis driving parameters default. 2015/06/04 [Thu] 16:47:50:772
+
+=================================================================
+
+---------- Move cryo-nozzle at measurement position ---------- 2015/06/04 [Thu] 16:49:27:768
+
+--------- success -------- 2015/06/04 [Thu] 16:49:27:774
+
+--------- Insert beam stop -------- 2015/06/04 [Thu] 16:49:27:774
+
+--------- success -------- 2015/06/04 [Thu] 16:49:27:775
+
+--------- Insert collimator -------- 2015/06/04 [Thu] 16:49:27:775
+
+--------- success -------- 2015/06/04 [Thu] 16:49:27:775
+ 2015/06/04 [Thu] 16:49:27:775  BLMASTER --> MS : CMOS camera length is being set to 180.0mm.
+ 2015/06/04 [Thu] 16:49:27:775  MS --> BLMASTER : CMOS camera length is successfully set.
+
+*****************************************************************
+    Goniometer goes to start position ... 2015/06/04 [Thu] 16:49:27:776
+*****************************************************************
+
+    Connecting to CMOS server... 2015/06/04 [Thu] 16:49:27:776
+
+    Successfully connected to 2015/06/04 [Thu] 16:49:27:776 server. CMOS
+ 2015/06/04 [Thu] 16:49:28:777  BLMASTER --> CMOS : set framerate 3.000000000000
+ 2015/06/04 [Thu] 16:49:28:777  BLMASTER --> CMOS : start nimg 5 ndum 0 kind 0
+ 2015/06/04 [Thu] 16:49:28:890  BLMASTER --> USER : cmos_scan_dark started.
+ 2015/06/04 [Thu] 16:49:30:893  BLMASTER --> USER : cmos_scan_dark  finished.
+ 2015/06/04 [Thu] 16:49:30:924  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 16:49:30:924  BLMASTER --> USER : X-ray shutter opened.
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2015/06/04 [Thu] 16:54:00:713.
+     [  Last modified at 15:40, Jun/04/2015 (Thu)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2015/06/04 [Thu] 16:54:00:714
+
+--- successfully loaded attenuator configurations --- 2015/06/04 [Thu] 16:54:00:715
+    Load bss.config Success.
+   Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/sacla_bl3_jun2015//htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+     ( bss's pid = 11368, videosrv's pid = ??? )
+
+    Making a connection to Message Server... 2015/06/04 [Thu] 16:54:03:901
+
+ 2015/06/04 [Thu] 16:54:03:911  Connecting to Message Server...
+ 2015/06/04 [Thu] 16:54:03:911  Successfully connect to Message Server.
+
+=================================================================
+
+   Set axis driving parameters default. 2015/06/04 [Thu] 16:54:03:911
+
+=================================================================
+
+---------- Move cryo-nozzle at measurement position ---------- 2015/06/04 [Thu] 16:54:43:835
+
+--------- success -------- 2015/06/04 [Thu] 16:54:43:846
+
+--------- Insert beam stop -------- 2015/06/04 [Thu] 16:54:43:846
+
+--------- success -------- 2015/06/04 [Thu] 16:54:43:846
+
+--------- Insert collimator -------- 2015/06/04 [Thu] 16:54:43:846
+
+--------- success -------- 2015/06/04 [Thu] 16:54:43:847
+ 2015/06/04 [Thu] 16:54:43:847  BLMASTER --> MS : CMOS camera length is being set to 180.0mm.
+ 2015/06/04 [Thu] 16:54:43:847  MS --> BLMASTER : CMOS camera length is successfully set.
+
+*****************************************************************
+    Goniometer goes to start position ... 2015/06/04 [Thu] 16:54:43:847
+*****************************************************************
+
+    Connecting to CMOS server... 2015/06/04 [Thu] 16:54:43:848
+
+    Successfully connected to 2015/06/04 [Thu] 16:54:43:848 server. CMOS
+ 2015/06/04 [Thu] 16:54:44:848  BLMASTER --> CMOS : set framerate 3.000000000000
+ 2015/06/04 [Thu] 16:54:44:849  BLMASTER --> CMOS : start nimg 5 ndum 0 kind 0
+ 2015/06/04 [Thu] 16:54:44:949  BLMASTER --> USER : cmos_scan_dark started.
+ 2015/06/04 [Thu] 16:54:46:951  BLMASTER --> USER : cmos_scan_dark  finished.
+ 2015/06/04 [Thu] 16:54:46:952  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 16:54:46:953  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 16:55:20:639  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 16:55:20:639  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 16:55:20:640  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 16:55:20:640  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 16:55:54:346  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 16:55:54:347  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 16:55:54:348  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 16:55:54:348  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 16:56:28:114  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 16:56:28:115  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 16:56:28:116  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 16:56:28:116  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 16:57:01:823  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 16:57:01:823  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 16:57:01:824  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 16:57:01:824  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 16:57:35:528  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 16:57:35:528  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 16:57:35:529  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 16:57:35:529  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 16:58:09:252  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 16:58:09:253  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 16:58:09:253  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 16:58:09:254  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 16:58:42:942  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 16:58:42:943  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 16:58:42:944  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 16:58:42:944  BLMASTER --> USER : X-ray shutter opened.
+
+ 2015/06/04 [Thu] 16:58:57:740: Terminate signal detected.
+    Sorry, you can't terminate BSS by Ctrl+C!!!!
+
+-----------------------------------------------------------------------
+
+
+   Beamline Scheduling Software Start at 2015/06/04 [Thu] 17:01:12:860.
+     [  Last modified at 15:40, Jun/04/2015 (Thu)  ] running by ueno@Linux
+
+   Now Loading System config file. [bss.config] ... ... ...
+ 
+------------ Reading attenuator config -------- 2015/06/04 [Thu] 17:01:12:861
+
+--- successfully loaded attenuator configurations --- 2015/06/04 [Thu] 17:01:12:862
+    Load bss.config Success.
+   Now Loading XAFS config file. [xafs.config] ... ... ... 
+    Load xafs.config Success.
+   Now Loading HTPF config file. [htpf.config] ... ... ... 
+    No config file  (/home/ueno/blconfig/sacla_bl3_jun2015//htpf/htpf.config).
+    HTPFDB is not used...
+    Load HTPF config. Success.
+     ( bss's pid = 11745, videosrv's pid = ??? )
+
+    Making a connection to Message Server... 2015/06/04 [Thu] 17:01:16:058
+
+ 2015/06/04 [Thu] 17:01:16:064  Connecting to Message Server...
+ 2015/06/04 [Thu] 17:01:16:064  Successfully connect to Message Server.
+
+=================================================================
+
+   Set axis driving parameters default. 2015/06/04 [Thu] 17:01:16:064
+
+=================================================================
+
+---------- Move cryo-nozzle at measurement position ---------- 2015/06/04 [Thu] 17:01:36:211
+
+--------- success -------- 2015/06/04 [Thu] 17:01:36:216
+
+--------- Insert beam stop -------- 2015/06/04 [Thu] 17:01:36:216
+
+--------- success -------- 2015/06/04 [Thu] 17:01:36:216
+
+--------- Insert collimator -------- 2015/06/04 [Thu] 17:01:36:217
+
+--------- success -------- 2015/06/04 [Thu] 17:01:36:217
+ 2015/06/04 [Thu] 17:01:36:217  BLMASTER --> MS : CMOS camera length is being set to 180.0mm.
+ 2015/06/04 [Thu] 17:01:36:217  MS --> BLMASTER : CMOS camera length is successfully set.
+
+*****************************************************************
+    Goniometer goes to start position ... 2015/06/04 [Thu] 17:01:36:218
+*****************************************************************
+
+    Connecting to CMOS server... 2015/06/04 [Thu] 17:01:36:218
+
+    Successfully connected to 2015/06/04 [Thu] 17:01:36:218 server. CMOS
+ 2015/06/04 [Thu] 17:01:37:218  BLMASTER --> CMOS : set framerate 3.000000000000
+ 2015/06/04 [Thu] 17:01:37:219  BLMASTER --> CMOS : start nimg 5 ndum 0 kind 0
+ 2015/06/04 [Thu] 17:01:37:319  BLMASTER --> USER : cmos_scan_dark started.
+ 2015/06/04 [Thu] 17:01:39:321  BLMASTER --> USER : cmos_scan_dark  finished.
+ 2015/06/04 [Thu] 17:01:39:322  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 17:01:39:323  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 17:01:39:327  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 17:01:39:327  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 17:01:39:328  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 17:01:39:328  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 17:01:39:332  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 17:01:39:332  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 17:01:39:333  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 17:01:39:333  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 17:01:39:337  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 17:01:39:337  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 17:01:39:338  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 17:01:39:338  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 17:01:39:342  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 17:01:39:342  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 17:01:39:343  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 17:01:39:343  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 17:01:39:348  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 17:01:39:348  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 17:01:39:348  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 17:01:39:348  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 17:01:39:353  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 17:01:39:353  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 17:01:39:354  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 17:01:39:354  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 17:01:39:359  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 17:01:39:359  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 17:01:39:360  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 17:01:39:360  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 17:01:39:366  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 17:01:39:366  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 17:01:39:366  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 17:01:39:366  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 17:01:39:372  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 17:01:39:373  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 17:01:39:373  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 17:01:39:387  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 17:01:39:396  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 17:01:39:396  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 17:01:39:397  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 17:01:39:397  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 17:01:39:406  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 17:01:39:407  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 17:01:39:407  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 17:01:39:407  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 17:01:39:414  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 17:01:39:414  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 17:01:39:415  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 17:01:39:415  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 17:01:39:422  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 17:01:39:422  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 17:01:39:423  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 17:01:39:423  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 17:01:39:431  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 17:01:39:431  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 17:01:39:431  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 17:01:39:431  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 17:01:39:439  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 17:01:39:439  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 17:01:39:440  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 17:01:39:440  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 17:01:39:448  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 17:01:39:448  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 17:01:39:449  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 17:01:39:449  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 17:01:39:457  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 17:01:39:458  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 17:01:39:458  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 17:01:39:458  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 17:01:39:467  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 17:01:39:467  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 17:01:39:467  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 17:01:39:468  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 17:01:39:477  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 17:01:39:477  BLMASTER --> USER : restore gonio x, y, z parematers.
+ 2015/06/04 [Thu] 17:01:39:477  BLMASTER --> CMOS : start nimg 100 ndum 0 kind 1
+ 2015/06/04 [Thu] 17:01:39:478  BLMASTER --> USER : X-ray shutter opened.
+ 2015/06/04 [Thu] 17:01:39:487  BLMASTER --> USER : X-ray shutter closed.
+ 2015/06/04 [Thu] 17:01:39:487  BLMASTER --> USER : restore gonio x, y, z parematers.
+
+--------- Remove collimator -------- 2015/06/04 [Thu] 17:01:39:487
+
+--------- success -------- 2015/06/04 [Thu] 17:01:39:500
+
+--------- Move beam stop to sample mount position -------- 2015/06/04 [Thu] 17:01:39:500
+
+--------- success -------- 2015/06/04 [Thu] 17:01:39:500
+Disconnect Message Server.
+Disconnect CMOS server.
+ 2015/06/04 [Thu] 17:03:03:709  Successfully closed CMOS server.
+
+Beamline Scheduling Software Exit at 2015/06/04 [Thu] 17:03:03:710.
+
